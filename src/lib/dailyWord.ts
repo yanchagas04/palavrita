@@ -21,8 +21,8 @@ export function getDailyWord(
   dateStr: string = getTodayDateString(),
   forceRandom: boolean = false
 ): DailyWordInfo {
-  // Se estiver em Dev Mode e solicitar palavra nova/aleatória
-  if (forceRandom || process.env.NEXT_PUBLIC_DEV_MODE === "true") {
+  // Sorteia palavra aleatória APENAS quando solicitado explicitamente
+  if (forceRandom) {
     const randomIndex = Math.floor(Math.random() * DAILY_SECRET_WORDS.length);
     return {
       wordEntry: DAILY_SECRET_WORDS[randomIndex],

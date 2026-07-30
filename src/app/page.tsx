@@ -22,7 +22,7 @@ import {
 export default function Home() {
   const { user } = useDiscord();
   
-  // Inicialização determinística para evitar React Hydration Mismatch no SSR
+  // Palavra determinística inicial para a sessão
   const [dailyInfo, setDailyInfo] = useState<DailyWordInfo>(() =>
     getDailyWord(getTodayDateString(), false)
   );
@@ -42,14 +42,10 @@ export default function Home() {
     setTimeout(() => setToastMessage(null), 2000);
   };
 
-  // Inicializa o estado do jogo apenas no Client (montagem)
+  // Carrega estado salvo se NÃO estiver no modo Dev
   useEffect(() => {
     const isDev = process.env.NEXT_PUBLIC_DEV_MODE === "true";
-    if (isDev) {
-      // No Dev Mode, sorteia a palavra aleatória após a montagem do componente
-      const randomWordInfo = getDailyWord(undefined, true);
-      setDailyInfo(randomWordInfo);
-    } else {
+    if (!isDev) {
       const todayStr = dailyInfo.dateString;
       const savedState = loadGameState(todayStr);
 
@@ -63,15 +59,15 @@ export default function Home() {
     }
   }, []);
 
-  // Função para sortear nova palavra no Modo Dev
+  // Botão 🔄 do Dev Mode para sortear uma nova palavra voluntariamente
   const handleResetDevWord = () => {
-    const newWordInfo = getDailyWord(undefined, true);
+    const newWordInfo = getDailyWord(undefined, true); // forceRandom = true
     setDailyInfo(newWordInfo);
     setGuesses([]);
     setCurrentGuess("");
     setGameStatus("IN_PROGRESS");
     setIsStatsOpen(false);
-    showToast(`Nova palavra: ${newWordInfo.wordEntry.display}`);
+    showToast("Nova palavra sorteada!");
   };
 
   const letterStatuses = getLetterStatuses(guesses, dailyInfo.wordEntry.normalized);

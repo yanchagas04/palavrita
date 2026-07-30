@@ -1,5 +1,41 @@
 [
   {
+    "n": "ABACO",
+    "d": "ÁBACO"
+  },
+  {
+    "n": "ABADA",
+    "d": "ABADÁ"
+  },
+  {
+    "n": "ABADE",
+    "d": "ABADE"
+  },
+  {
+    "n": "ABAFA",
+    "d": "ABAFA"
+  },
+  {
+    "n": "ABALA",
+    "d": "ABALA"
+  },
+  {
+    "n": "ABALO",
+    "d": "ABALO"
+  },
+  {
+    "n": "ABANA",
+    "d": "ABANA"
+  },
+  {
+    "n": "ABANO",
+    "d": "ABANO"
+  },
+  {
+    "n": "ABARE",
+    "d": "ABARÉ"
+  },
+  {
     "n": "ABATE",
     "d": "ABATE"
   },
@@ -10,6 +46,10 @@
   {
     "n": "ABRAM",
     "d": "ABRAM"
+  },
+  {
+    "n": "ABRAS",
+    "d": "ABRAS"
   },
   {
     "n": "ABREM",
@@ -36,6 +76,10 @@
     "d": "ABRIU"
   },
   {
+    "n": "ABUSA",
+    "d": "ABUSA"
+  },
+  {
     "n": "ABUSE",
     "d": "ABUSE"
   },
@@ -56,12 +100,52 @@
     "d": "ACABO"
   },
   {
+    "n": "ACAJU",
+    "d": "ACAJU"
+  },
+  {
+    "n": "ACARA",
+    "d": "ACARÁ"
+  },
+  {
+    "n": "ACARI",
+    "d": "ACARI"
+  },
+  {
+    "n": "ACARO",
+    "d": "ÁCARO"
+  },
+  {
     "n": "ACASO",
     "d": "ACASO"
   },
   {
+    "n": "ACATA",
+    "d": "ACATA"
+  },
+  {
+    "n": "ACAUA",
+    "d": "ACAUÃ"
+  },
+  {
+    "n": "ACEDA",
+    "d": "ACEDA"
+  },
+  {
+    "n": "ACENA",
+    "d": "ACENA"
+  },
+  {
+    "n": "ACENO",
+    "d": "ACENO"
+  },
+  {
     "n": "ACESA",
     "d": "ACESA"
+  },
+  {
+    "n": "ACESO",
+    "d": "ACESO"
   },
   {
     "n": "ACHAM",
@@ -80,6 +164,10 @@
     "d": "ACHEI"
   },
   {
+    "n": "ACHEM",
+    "d": "ACHEM"
+  },
+  {
     "n": "ACHOU",
     "d": "ACHOU"
   },
@@ -96,12 +184,48 @@
     "d": "AÇÕES"
   },
   {
+    "n": "ACOLA",
+    "d": "ACOLÁ"
+  },
+  {
+    "n": "ACUDA",
+    "d": "ACUDA"
+  },
+  {
+    "n": "ACUDE",
+    "d": "AÇUDE"
+  },
+  {
     "n": "ACUSA",
     "d": "ACUSA"
   },
   {
+    "n": "ACUSE",
+    "d": "ACUSE"
+  },
+  {
+    "n": "ADAGA",
+    "d": "ADAGA"
+  },
+  {
+    "n": "ADAIL",
+    "d": "ADAIL"
+  },
+  {
+    "n": "ADAMO",
+    "d": "ADAMO"
+  },
+  {
     "n": "ADEGA",
     "d": "ADEGA"
+  },
+  {
+    "n": "ADERE",
+    "d": "ADERE"
+  },
+  {
+    "n": "ADERI",
+    "d": "ADERI"
   },
   {
     "n": "ADEUS",
@@ -112,12 +236,28 @@
     "d": "ADIAR"
   },
   {
+    "n": "ADIDO",
+    "d": "ADIDO"
+  },
+  {
+    "n": "ADIOU",
+    "d": "ADIOU"
+  },
+  {
+    "n": "ADIRA",
+    "d": "ADIRA"
+  },
+  {
     "n": "ADOBE",
     "d": "ADOBE"
   },
   {
     "n": "ADORA",
     "d": "ADORA"
+  },
+  {
+    "n": "ADORE",
+    "d": "ADORE"
   },
   {
     "n": "ADORO",
@@ -132,8 +272,20 @@
     "d": "ADOTE"
   },
   {
+    "n": "ADOTO",
+    "d": "ADOTO"
+  },
+  {
     "n": "ADUBO",
     "d": "ADUBO"
+  },
+  {
+    "n": "ADVEM",
+    "d": "ADVÉM"
+  },
+  {
+    "n": "ADVIR",
+    "d": "ADVIR"
   },
   {
     "n": "AEDES",
@@ -144,32 +296,108 @@
     "d": "AÉREO"
   },
   {
+    "n": "AFAGA",
+    "d": "AFAGA"
+  },
+  {
+    "n": "AFAGO",
+    "d": "AFAGO"
+  },
+  {
+    "n": "AFEGA",
+    "d": "AFEGÃ"
+  },
+  {
     "n": "AFETA",
     "d": "AFETA"
+  },
+  {
+    "n": "AFETE",
+    "d": "AFETE"
   },
   {
     "n": "AFETO",
     "d": "AFETO"
   },
   {
+    "n": "AFIAR",
+    "d": "AFIAR"
+  },
+  {
+    "n": "AFINA",
+    "d": "AFINA"
+  },
+  {
     "n": "AFINS",
     "d": "AFINS"
+  },
+  {
+    "n": "AFOGA",
+    "d": "AFOGA"
   },
   {
     "n": "AFORA",
     "d": "AFORA"
   },
   {
+    "n": "AFOXE",
+    "d": "AFOXÉ"
+  },
+  {
+    "n": "AGAPE",
+    "d": "ÁGAPE"
+  },
+  {
+    "n": "AGATA",
+    "d": "ÁGATA"
+  },
+  {
+    "n": "AGAVE",
+    "d": "AGAVE"
+  },
+  {
     "n": "AGEIS",
     "d": "ÁGEIS"
+  },
+  {
+    "n": "AGIAM",
+    "d": "AGIAM"
+  },
+  {
+    "n": "AGIDO",
+    "d": "AGIDO"
+  },
+  {
+    "n": "AGIRA",
+    "d": "AGIRÁ"
+  },
+  {
+    "n": "AGITA",
+    "d": "AGITA"
+  },
+  {
+    "n": "AGITE",
+    "d": "AGITE"
+  },
+  {
+    "n": "AGITO",
+    "d": "AGITO"
   },
   {
     "n": "AGORA",
     "d": "AGORA"
   },
   {
+    "n": "AGUAI",
+    "d": "AGUAÍ"
+  },
+  {
     "n": "AGUAS",
     "d": "ÁGUAS"
+  },
+  {
+    "n": "AGUCA",
+    "d": "AGUÇA"
   },
   {
     "n": "AGUDO",
@@ -184,6 +412,10 @@
     "d": "AINDA"
   },
   {
+    "n": "AIPIM",
+    "d": "AIPIM"
+  },
+  {
     "n": "AJUDA",
     "d": "AJUDA"
   },
@@ -196,24 +428,72 @@
     "d": "AJUDO"
   },
   {
+    "n": "AKITA",
+    "d": "AKITA"
+  },
+  {
+    "n": "ALADA",
+    "d": "ALADA"
+  },
+  {
+    "n": "ALADO",
+    "d": "ALADO"
+  },
+  {
+    "n": "ALAMO",
+    "d": "ÁLAMO"
+  },
+  {
+    "n": "ALANA",
+    "d": "ALANA"
+  },
+  {
     "n": "ALBUM",
     "d": "ÁLBUM"
+  },
+  {
+    "n": "ALCAR",
+    "d": "ALÇAR"
   },
   {
     "n": "ALCAS",
     "d": "ALÇAS"
   },
   {
+    "n": "ALCOU",
+    "d": "ALÇOU"
+  },
+  {
     "n": "ALEGA",
     "d": "ALEGA"
+  },
+  {
+    "n": "ALELO",
+    "d": "ALELO"
   },
   {
     "n": "ALEMA",
     "d": "ALEMÃ"
   },
   {
+    "n": "ALGAR",
+    "d": "ALGAR"
+  },
+  {
+    "n": "ALGOZ",
+    "d": "ALGOZ"
+  },
+  {
     "n": "ALGUM",
     "d": "ALGUM"
+  },
+  {
+    "n": "ALHOS",
+    "d": "ALHOS"
+  },
+  {
+    "n": "ALIAM",
+    "d": "ALIAM"
   },
   {
     "n": "ALIAR",
@@ -224,8 +504,24 @@
     "d": "ALIÁS"
   },
   {
+    "n": "ALIBI",
+    "d": "ÁLIBI"
+  },
+  {
     "n": "ALICE",
     "d": "ALICE"
+  },
+  {
+    "n": "ALIOU",
+    "d": "ALIOU"
+  },
+  {
+    "n": "ALISA",
+    "d": "ALISA"
+  },
+  {
+    "n": "ALISE",
+    "d": "ALISE"
   },
   {
     "n": "ALIVE",
@@ -256,6 +552,10 @@
     "d": "ALTOS"
   },
   {
+    "n": "ALUDE",
+    "d": "ALUDE"
+  },
+  {
     "n": "ALUGA",
     "d": "ALUGA"
   },
@@ -272,6 +572,10 @@
     "d": "ALUNO"
   },
   {
+    "n": "ALVOR",
+    "d": "ALVOR"
+  },
+  {
     "n": "AMADA",
     "d": "AMADA"
   },
@@ -280,16 +584,36 @@
     "d": "AMADO"
   },
   {
+    "n": "AMAGO",
+    "d": "ÂMAGO"
+  },
+  {
+    "n": "AMAIS",
+    "d": "AMAIS"
+  },
+  {
     "n": "AMAPA",
     "d": "AMAPÁ"
+  },
+  {
+    "n": "AMARA",
+    "d": "AMARA"
   },
   {
     "n": "AMARO",
     "d": "AMARO"
   },
   {
+    "n": "AMATO",
+    "d": "AMATO"
+  },
+  {
     "n": "AMAVA",
     "d": "AMAVA"
+  },
+  {
+    "n": "AMBAR",
+    "d": "ÂMBAR"
   },
   {
     "n": "AMBAS",
@@ -298,6 +622,18 @@
   {
     "n": "AMBOS",
     "d": "AMBOS"
+  },
+  {
+    "n": "AMEBA",
+    "d": "AMEBA"
+  },
+  {
+    "n": "AMENA",
+    "d": "AMENA"
+  },
+  {
+    "n": "AMENO",
+    "d": "AMENO"
   },
   {
     "n": "AMIDO",
@@ -310,6 +646,14 @@
   {
     "n": "AMIGO",
     "d": "AMIGO"
+  },
+  {
+    "n": "AMINA",
+    "d": "AMINA"
+  },
+  {
+    "n": "AMINO",
+    "d": "AMINO"
   },
   {
     "n": "AMORA",
@@ -332,6 +676,10 @@
     "d": "ANAIS"
   },
   {
+    "n": "ANCIA",
+    "d": "ANCIÃ"
+  },
+  {
     "n": "ANDAM",
     "d": "ANDAM"
   },
@@ -340,12 +688,24 @@
     "d": "ANDAR"
   },
   {
+    "n": "ANDAS",
+    "d": "ANDAS"
+  },
+  {
     "n": "ANDEI",
     "d": "ANDEI"
   },
   {
+    "n": "ANDEM",
+    "d": "ANDEM"
+  },
+  {
     "n": "ANDES",
     "d": "ANDES"
+  },
+  {
+    "n": "ANDOR",
+    "d": "ANDOR"
   },
   {
     "n": "ANDOU",
@@ -358,6 +718,18 @@
   {
     "n": "ANEIS",
     "d": "ANÉIS"
+  },
+  {
+    "n": "ANETE",
+    "d": "ANETE"
+  },
+  {
+    "n": "ANEXA",
+    "d": "ANEXA"
+  },
+  {
+    "n": "ANEXE",
+    "d": "ANEXE"
   },
   {
     "n": "ANEXO",
@@ -392,32 +764,76 @@
     "d": "ANJOS"
   },
   {
+    "n": "ANOTA",
+    "d": "ANOTA"
+  },
+  {
     "n": "ANOTE",
     "d": "ANOTE"
+  },
+  {
+    "n": "ANOTO",
+    "d": "ANOTO"
   },
   {
     "n": "ANSIA",
     "d": "ÂNSIA"
   },
   {
+    "n": "ANTAO",
+    "d": "ANTÃO"
+  },
+  {
+    "n": "ANTAS",
+    "d": "ANTAS"
+  },
+  {
     "n": "ANTES",
     "d": "ANTES"
+  },
+  {
+    "n": "ANTRO",
+    "d": "ANTRO"
   },
   {
     "n": "ANUAL",
     "d": "ANUAL"
   },
   {
+    "n": "ANULA",
+    "d": "ANULA"
+  },
+  {
+    "n": "ANZOL",
+    "d": "ANZOL"
+  },
+  {
     "n": "AONDE",
     "d": "AONDE"
+  },
+  {
+    "n": "AORTA",
+    "d": "AORTA"
   },
   {
     "n": "APAGA",
     "d": "APAGA"
   },
   {
+    "n": "APAGO",
+    "d": "APAGO"
+  },
+  {
+    "n": "APARA",
+    "d": "APARA"
+  },
+  {
     "n": "APART",
     "d": "APART"
+  },
+  {
+    "n": "APEGA",
+    "d": "APEGA"
   },
   {
     "n": "APEGO",
@@ -440,6 +856,10 @@
     "d": "ÁPICE"
   },
   {
+    "n": "APITA",
+    "d": "APITA"
+  },
+  {
     "n": "APITO",
     "d": "APITO"
   },
@@ -452,12 +872,32 @@
     "d": "APOIA"
   },
   {
+    "n": "APOIE",
+    "d": "APOIE"
+  },
+  {
     "n": "APOIO",
     "d": "APOIO"
   },
   {
     "n": "APOLO",
     "d": "APOLO"
+  },
+  {
+    "n": "APRAZ",
+    "d": "APRAZ"
+  },
+  {
+    "n": "APURA",
+    "d": "APURA"
+  },
+  {
+    "n": "APURE",
+    "d": "APURE"
+  },
+  {
+    "n": "APURO",
+    "d": "APURO"
   },
   {
     "n": "AQUEM",
@@ -468,12 +908,32 @@
     "d": "ÁRABE"
   },
   {
+    "n": "ARACA",
+    "d": "ARAÇÁ"
+  },
+  {
+    "n": "ARACI",
+    "d": "ARACI"
+  },
+  {
+    "n": "ARADO",
+    "d": "ARADO"
+  },
+  {
     "n": "ARAME",
     "d": "ARAME"
   },
   {
     "n": "ARARA",
     "d": "ARARA"
+  },
+  {
+    "n": "ARARI",
+    "d": "ARARI"
+  },
+  {
+    "n": "ARATU",
+    "d": "ARATU"
   },
   {
     "n": "ARAXA",
@@ -484,8 +944,32 @@
     "d": "ARCAR"
   },
   {
+    "n": "ARCAS",
+    "d": "ARCAS"
+  },
+  {
     "n": "ARCOS",
     "d": "ARCOS"
+  },
+  {
+    "n": "ARDEM",
+    "d": "ARDEM"
+  },
+  {
+    "n": "ARDER",
+    "d": "ARDER"
+  },
+  {
+    "n": "ARDEU",
+    "d": "ARDEU"
+  },
+  {
+    "n": "ARDIA",
+    "d": "ARDIA"
+  },
+  {
+    "n": "ARDIL",
+    "d": "ARDIL"
   },
   {
     "n": "ARDOR",
@@ -500,6 +984,10 @@
     "d": "ÁRDUO"
   },
   {
+    "n": "AREAL",
+    "d": "AREAL"
+  },
+  {
     "n": "AREAS",
     "d": "ÁREAS"
   },
@@ -512,8 +1000,28 @@
     "d": "ARENA"
   },
   {
+    "n": "ARGEL",
+    "d": "ARGEL"
+  },
+  {
+    "n": "ARGOS",
+    "d": "ARGOS"
+  },
+  {
+    "n": "ARIAS",
+    "d": "ÁRIAS"
+  },
+  {
     "n": "ARIDO",
     "d": "ÁRIDO"
+  },
+  {
+    "n": "ARIES",
+    "d": "ÁRIES"
+  },
+  {
+    "n": "ARMAM",
+    "d": "ARMAM"
   },
   {
     "n": "ARMAR",
@@ -524,8 +1032,20 @@
     "d": "ARMAS"
   },
   {
+    "n": "ARMOU",
+    "d": "ARMOU"
+  },
+  {
     "n": "AROMA",
     "d": "AROMA"
+  },
+  {
+    "n": "ARQUI",
+    "d": "ARQUI"
+  },
+  {
+    "n": "ARRAS",
+    "d": "ARRAS"
   },
   {
     "n": "ARROZ",
@@ -540,6 +1060,14 @@
     "d": "ARTUR"
   },
   {
+    "n": "ARUBA",
+    "d": "ARUBA"
+  },
+  {
+    "n": "ARUJA",
+    "d": "ARUJÁ"
+  },
+  {
     "n": "ASILO",
     "d": "ASILO"
   },
@@ -548,8 +1076,16 @@
     "d": "ASPAS"
   },
   {
+    "n": "ASSAI",
+    "d": "ASSAÍ"
+  },
+  {
     "n": "ASSAR",
     "d": "ASSAR"
+  },
+  {
+    "n": "ASSAZ",
+    "d": "ASSAZ"
   },
   {
     "n": "ASSIM",
@@ -572,12 +1108,36 @@
     "d": "ATACA"
   },
   {
+    "n": "ATADO",
+    "d": "ATADO"
+  },
+  {
+    "n": "ATEAR",
+    "d": "ATEAR"
+  },
+  {
+    "n": "ATEIA",
+    "d": "ATEIA"
+  },
+  {
+    "n": "ATEOU",
+    "d": "ATEOU"
+  },
+  {
+    "n": "ATICA",
+    "d": "ATIÇA"
+  },
+  {
     "n": "ATIRA",
     "d": "ATIRA"
   },
   {
     "n": "ATIRE",
     "d": "ATIRE"
+  },
+  {
+    "n": "ATIRO",
+    "d": "ATIRO"
   },
   {
     "n": "ATIVA",
@@ -608,8 +1168,16 @@
     "d": "ATRÁS"
   },
   {
+    "n": "ATRIO",
+    "d": "ÁTRIO"
+  },
+  {
     "n": "ATRIZ",
     "d": "ATRIZ"
+  },
+  {
+    "n": "ATROZ",
+    "d": "ATROZ"
   },
   {
     "n": "ATUAL",
@@ -624,8 +1192,24 @@
     "d": "ATUAR"
   },
   {
+    "n": "ATUEI",
+    "d": "ATUEI"
+  },
+  {
+    "n": "ATUEM",
+    "d": "ATUEM"
+  },
+  {
     "n": "ATUOU",
     "d": "ATUOU"
+  },
+  {
+    "n": "ATURA",
+    "d": "ATURA"
+  },
+  {
+    "n": "AUDAZ",
+    "d": "AUDAZ"
   },
   {
     "n": "AUDIO",
@@ -636,6 +1220,10 @@
     "d": "ÁUREA"
   },
   {
+    "n": "AUREO",
+    "d": "ÁUREO"
+  },
+  {
     "n": "AUTOR",
     "d": "AUTOR"
   },
@@ -644,12 +1232,28 @@
     "d": "AUTOS"
   },
   {
+    "n": "AVARE",
+    "d": "AVARÉ"
+  },
+  {
     "n": "AVEIA",
     "d": "AVEIA"
   },
   {
+    "n": "AVELA",
+    "d": "AVELÃ"
+  },
+  {
     "n": "AVIAO",
     "d": "AVIÃO"
+  },
+  {
+    "n": "AVIDA",
+    "d": "ÁVIDA"
+  },
+  {
+    "n": "AVIDO",
+    "d": "ÁVIDO"
   },
   {
     "n": "AVILA",
@@ -668,16 +1272,68 @@
     "d": "AVISO"
   },
   {
+    "n": "AVIVA",
+    "d": "AVIVA"
+  },
+  {
+    "n": "AXIAL",
+    "d": "AXIAL"
+  },
+  {
+    "n": "AXILA",
+    "d": "AXILA"
+  },
+  {
+    "n": "AZEDA",
+    "d": "AZEDA"
+  },
+  {
+    "n": "AZEDO",
+    "d": "AZEDO"
+  },
+  {
+    "n": "AZOTO",
+    "d": "AZOTO"
+  },
+  {
+    "n": "BABAO",
+    "d": "BABÃO"
+  },
+  {
+    "n": "BABAR",
+    "d": "BABAR"
+  },
+  {
+    "n": "BABEI",
+    "d": "BABEI"
+  },
+  {
     "n": "BABEL",
     "d": "BABEL"
+  },
+  {
+    "n": "BABES",
+    "d": "BABES"
   },
   {
     "n": "BACIA",
     "d": "BACIA"
   },
   {
+    "n": "BACIO",
+    "d": "BACIO"
+  },
+  {
     "n": "BACON",
     "d": "BACON"
+  },
+  {
+    "n": "BAETA",
+    "d": "BAETA"
+  },
+  {
+    "n": "BAGRE",
+    "d": "BAGRE"
   },
   {
     "n": "BAHIA",
@@ -686,6 +1342,10 @@
   {
     "n": "BAIAO",
     "d": "BAIÃO"
+  },
+  {
+    "n": "BAILA",
+    "d": "BAILA"
   },
   {
     "n": "BAILE",
@@ -724,6 +1384,10 @@
     "d": "BALSA"
   },
   {
+    "n": "BAMBA",
+    "d": "BAMBA"
+  },
+  {
     "n": "BAMBU",
     "d": "BAMBU"
   },
@@ -756,8 +1420,32 @@
     "d": "BANHA"
   },
   {
+    "n": "BANHE",
+    "d": "BANHE"
+  },
+  {
     "n": "BANHO",
     "d": "BANHO"
+  },
+  {
+    "n": "BANIR",
+    "d": "BANIR"
+  },
+  {
+    "n": "BANIU",
+    "d": "BANIU"
+  },
+  {
+    "n": "BANJO",
+    "d": "BANJO"
+  },
+  {
+    "n": "BANTU",
+    "d": "BANTU"
+  },
+  {
+    "n": "BAQUE",
+    "d": "BAQUE"
   },
   {
     "n": "BARAO",
@@ -776,12 +1464,32 @@
     "d": "BARCO"
   },
   {
+    "n": "BARDO",
+    "d": "BARDO"
+  },
+  {
+    "n": "BARIO",
+    "d": "BÁRIO"
+  },
+  {
     "n": "BARRA",
     "d": "BARRA"
   },
   {
+    "n": "BARRE",
+    "d": "BARRE"
+  },
+  {
     "n": "BARRO",
     "d": "BARRO"
+  },
+  {
+    "n": "BASAL",
+    "d": "BASAL"
+  },
+  {
+    "n": "BASCO",
+    "d": "BASCO"
   },
   {
     "n": "BASIC",
@@ -792,12 +1500,40 @@
     "d": "BASTA"
   },
   {
+    "n": "BASTE",
+    "d": "BASTE"
+  },
+  {
+    "n": "BASTO",
+    "d": "BASTO"
+  },
+  {
+    "n": "BATAM",
+    "d": "BATAM"
+  },
+  {
+    "n": "BATAS",
+    "d": "BATAS"
+  },
+  {
+    "n": "BATCH",
+    "d": "BATCH"
+  },
+  {
+    "n": "BATEL",
+    "d": "BATEL"
+  },
+  {
     "n": "BATEM",
     "d": "BATEM"
   },
   {
     "n": "BATER",
     "d": "BATER"
+  },
+  {
+    "n": "BATES",
+    "d": "BATES"
   },
   {
     "n": "BATEU",
@@ -820,6 +1556,22 @@
     "d": "BAZAR"
   },
   {
+    "n": "BEATA",
+    "d": "BEATA"
+  },
+  {
+    "n": "BEATO",
+    "d": "BEATO"
+  },
+  {
+    "n": "BEBAM",
+    "d": "BEBAM"
+  },
+  {
+    "n": "BEBEM",
+    "d": "BEBEM"
+  },
+  {
     "n": "BEBER",
     "d": "BEBER"
   },
@@ -832,8 +1584,24 @@
     "d": "BEBEU"
   },
   {
+    "n": "BEBIA",
+    "d": "BEBIA"
+  },
+  {
+    "n": "BEBOP",
+    "d": "BEBOP"
+  },
+  {
+    "n": "BEBUM",
+    "d": "BEBUM"
+  },
+  {
     "n": "BEIJA",
     "d": "BEIJA"
+  },
+  {
+    "n": "BEIJE",
+    "d": "BEIJE"
   },
   {
     "n": "BEIJO",
@@ -856,12 +1624,48 @@
     "d": "BELGA"
   },
   {
+    "n": "BEMOL",
+    "d": "BEMOL"
+  },
+  {
+    "n": "BENGA",
+    "d": "BENGA"
+  },
+  {
+    "n": "BENGO",
+    "d": "BENGO"
+  },
+  {
+    "n": "BENTA",
+    "d": "BENTA"
+  },
+  {
     "n": "BENTO",
     "d": "BENTO"
   },
   {
     "n": "BERCO",
     "d": "BERÇO"
+  },
+  {
+    "n": "BERMA",
+    "d": "BERMA"
+  },
+  {
+    "n": "BERNA",
+    "d": "BERNA"
+  },
+  {
+    "n": "BERRA",
+    "d": "BERRA"
+  },
+  {
+    "n": "BERRO",
+    "d": "BERRO"
+  },
+  {
+    "n": "BERTA",
+    "d": "BERTA"
   },
   {
     "n": "BESSA",
@@ -876,8 +1680,16 @@
     "d": "BETÃO"
   },
   {
+    "n": "BETEL",
+    "d": "BETEL"
+  },
+  {
     "n": "BETIM",
     "d": "BETIM"
+  },
+  {
+    "n": "BICAS",
+    "d": "BICAS"
   },
   {
     "n": "BICHA",
@@ -892,12 +1704,36 @@
     "d": "BICOS"
   },
   {
+    "n": "BIELA",
+    "d": "BIELA"
+  },
+  {
+    "n": "BILAC",
+    "d": "BILAC"
+  },
+  {
+    "n": "BIMBA",
+    "d": "BIMBA"
+  },
+  {
     "n": "BINGO",
     "d": "BINGO"
   },
   {
     "n": "BIOMA",
     "d": "BIOMA"
+  },
+  {
+    "n": "BIOTA",
+    "d": "BIOTA"
+  },
+  {
+    "n": "BIRRA",
+    "d": "BIRRA"
+  },
+  {
+    "n": "BISPA",
+    "d": "BISPA"
   },
   {
     "n": "BISPO",
@@ -908,6 +1744,26 @@
     "d": "BLACK"
   },
   {
+    "n": "BLASE",
+    "d": "BLASÉ"
+  },
+  {
+    "n": "BLAST",
+    "d": "BLAST"
+  },
+  {
+    "n": "BLEFE",
+    "d": "BLEFE"
+  },
+  {
+    "n": "BLEND",
+    "d": "BLEND"
+  },
+  {
+    "n": "BLICA",
+    "d": "BLICA"
+  },
+  {
     "n": "BLITZ",
     "d": "BLITZ"
   },
@@ -916,8 +1772,16 @@
     "d": "BLOCO"
   },
   {
+    "n": "BLOCS",
+    "d": "BLOCS"
+  },
+  {
     "n": "BLUES",
     "d": "BLUES"
+  },
+  {
+    "n": "BLUFF",
+    "d": "BLUFF"
   },
   {
     "n": "BLUSA",
@@ -936,24 +1800,56 @@
     "d": "BOATO"
   },
   {
+    "n": "BOCAL",
+    "d": "BOCAL"
+  },
+  {
     "n": "BOCAS",
     "d": "BOCAS"
+  },
+  {
+    "n": "BOCHA",
+    "d": "BOCHA"
   },
   {
     "n": "BODAS",
     "d": "BODAS"
   },
   {
+    "n": "BOIAR",
+    "d": "BOIAR"
+  },
+  {
+    "n": "BOIAS",
+    "d": "BOIAS"
+  },
+  {
+    "n": "BOINA",
+    "d": "BOINA"
+  },
+  {
     "n": "BOLAO",
     "d": "BOLÃO"
+  },
+  {
+    "n": "BOLAR",
+    "d": "BOLAR"
   },
   {
     "n": "BOLAS",
     "d": "BOLAS"
   },
   {
+    "n": "BOLDO",
+    "d": "BOLDO"
+  },
+  {
     "n": "BOLHA",
     "d": "BOLHA"
+  },
+  {
+    "n": "BOLOR",
+    "d": "BOLOR"
   },
   {
     "n": "BOLSA",
@@ -968,8 +1864,16 @@
     "d": "BOMBA"
   },
   {
+    "n": "BOMBO",
+    "d": "BOMBO"
+  },
+  {
     "n": "BONDE",
     "d": "BONDE"
+  },
+  {
+    "n": "BONGO",
+    "d": "BONGO"
   },
   {
     "n": "BONUS",
@@ -992,12 +1896,36 @@
     "d": "BORDO"
   },
   {
+    "n": "BORGO",
+    "d": "BORGO"
+  },
+  {
+    "n": "BORLA",
+    "d": "BORLA"
+  },
+  {
+    "n": "BORNE",
+    "d": "BORNE"
+  },
+  {
+    "n": "BORRA",
+    "d": "BORRA"
+  },
+  {
+    "n": "BOSON",
+    "d": "BÓSON"
+  },
+  {
     "n": "BOSSA",
     "d": "BOSSA"
   },
   {
     "n": "BOSTA",
     "d": "BOSTA"
+  },
+  {
+    "n": "BOTAM",
+    "d": "BOTAM"
   },
   {
     "n": "BOTAO",
@@ -1012,8 +1940,36 @@
     "d": "BOTAS"
   },
   {
+    "n": "BOTEI",
+    "d": "BOTEI"
+  },
+  {
+    "n": "BOTES",
+    "d": "BOTES"
+  },
+  {
+    "n": "BOTOU",
+    "d": "BOTOU"
+  },
+  {
+    "n": "BOTOX",
+    "d": "BOTOX"
+  },
+  {
+    "n": "BRABA",
+    "d": "BRABA"
+  },
+  {
+    "n": "BRABO",
+    "d": "BRABO"
+  },
+  {
     "n": "BRACO",
     "d": "BRAÇO"
+  },
+  {
+    "n": "BRADO",
+    "d": "BRADO"
   },
   {
     "n": "BRAGA",
@@ -1040,6 +1996,10 @@
     "d": "BREGA"
   },
   {
+    "n": "BREJA",
+    "d": "BREJA"
+  },
+  {
     "n": "BREJO",
     "d": "BREJO"
   },
@@ -1052,8 +2012,32 @@
     "d": "BRIGA"
   },
   {
+    "n": "BRIGO",
+    "d": "BRIGO"
+  },
+  {
     "n": "BRISA",
     "d": "BRISA"
+  },
+  {
+    "n": "BRITA",
+    "d": "BRITA"
+  },
+  {
+    "n": "BROCA",
+    "d": "BROCA"
+  },
+  {
+    "n": "BROTA",
+    "d": "BROTA"
+  },
+  {
+    "n": "BROTO",
+    "d": "BROTO"
+  },
+  {
+    "n": "BRUMA",
+    "d": "BRUMA"
   },
   {
     "n": "BRUNO",
@@ -1084,8 +2068,40 @@
     "d": "BUCHA"
   },
   {
+    "n": "BUCHO",
+    "d": "BUCHO"
+  },
+  {
     "n": "BUENO",
     "d": "BUENO"
+  },
+  {
+    "n": "BUGGY",
+    "d": "BUGGY"
+  },
+  {
+    "n": "BUGIO",
+    "d": "BUGIO"
+  },
+  {
+    "n": "BUGRE",
+    "d": "BUGRE"
+  },
+  {
+    "n": "BULAS",
+    "d": "BULAS"
+  },
+  {
+    "n": "BULBO",
+    "d": "BULBO"
+  },
+  {
+    "n": "BUMBA",
+    "d": "BUMBA"
+  },
+  {
+    "n": "BUMBO",
+    "d": "BUMBO"
   },
   {
     "n": "BUNDA",
@@ -1096,12 +2112,32 @@
     "d": "BUQUÊ"
   },
   {
+    "n": "BURCA",
+    "d": "BURCA"
+  },
+  {
+    "n": "BURGO",
+    "d": "BURGO"
+  },
+  {
+    "n": "BURLA",
+    "d": "BURLA"
+  },
+  {
+    "n": "BURLE",
+    "d": "BURLE"
+  },
+  {
     "n": "BURRA",
     "d": "BURRA"
   },
   {
     "n": "BURRO",
     "d": "BURRO"
+  },
+  {
+    "n": "BUSAO",
+    "d": "BUSÃO"
   },
   {
     "n": "BUSCA",
@@ -1114,6 +2150,22 @@
   {
     "n": "BUSTO",
     "d": "BUSTO"
+  },
+  {
+    "n": "BUTAO",
+    "d": "BUTÃO"
+  },
+  {
+    "n": "BUTIA",
+    "d": "BUTIÁ"
+  },
+  {
+    "n": "CABAL",
+    "d": "CABAL"
+  },
+  {
+    "n": "CABAZ",
+    "d": "CABAZ"
   },
   {
     "n": "CABEM",
@@ -1136,6 +2188,18 @@
     "d": "CABRA"
   },
   {
+    "n": "CABUL",
+    "d": "CABUL"
+  },
+  {
+    "n": "CACAM",
+    "d": "CAÇAM"
+  },
+  {
+    "n": "CACAO",
+    "d": "CAÇÃO"
+  },
+  {
     "n": "CACAR",
     "d": "CAÇAR"
   },
@@ -1152,24 +2216,84 @@
     "d": "CACHE"
   },
   {
+    "n": "CACHO",
+    "d": "CACHO"
+  },
+  {
+    "n": "CACOS",
+    "d": "CACOS"
+  },
+  {
+    "n": "CACTO",
+    "d": "CACTO"
+  },
+  {
+    "n": "CAETE",
+    "d": "CAETÉ"
+  },
+  {
     "n": "CAFES",
     "d": "CAFÉS"
+  },
+  {
+    "n": "CAGAO",
+    "d": "CAGÃO"
+  },
+  {
+    "n": "CAGAR",
+    "d": "CAGAR"
+  },
+  {
+    "n": "CAGOU",
+    "d": "CAGOU"
+  },
+  {
+    "n": "CAIAM",
+    "d": "CAIAM"
+  },
+  {
+    "n": "CAIBA",
+    "d": "CAIBA"
   },
   {
     "n": "CAICO",
     "d": "CAICÓ"
   },
   {
+    "n": "CAIDA",
+    "d": "CAÍDA"
+  },
+  {
     "n": "CAIDO",
     "d": "CAÍDO"
+  },
+  {
+    "n": "CAIRA",
+    "d": "CAIRÁ"
   },
   {
     "n": "CAIRO",
     "d": "CAIRO"
   },
   {
+    "n": "CAIRU",
+    "d": "CAIRU"
+  },
+  {
+    "n": "CAIUA",
+    "d": "CAIUÁ"
+  },
+  {
     "n": "CAIXA",
     "d": "CAIXA"
+  },
+  {
+    "n": "CALAM",
+    "d": "CALAM"
+  },
+  {
+    "n": "CALAO",
+    "d": "CALÃO"
   },
   {
     "n": "CALAR",
@@ -1180,12 +2304,28 @@
     "d": "CALÇA"
   },
   {
+    "n": "CALCE",
+    "d": "CALCE"
+  },
+  {
+    "n": "CALCO",
+    "d": "CALÇO"
+  },
+  {
     "n": "CALDA",
     "d": "CALDA"
   },
   {
     "n": "CALDO",
     "d": "CALDO"
+  },
+  {
+    "n": "CALEI",
+    "d": "CALEI"
+  },
+  {
+    "n": "CALEM",
+    "d": "CALEM"
   },
   {
     "n": "CALHA",
@@ -1204,6 +2344,22 @@
     "d": "CALOR"
   },
   {
+    "n": "CALOU",
+    "d": "CALOU"
+  },
+  {
+    "n": "CALVO",
+    "d": "CALVO"
+  },
+  {
+    "n": "CAMBE",
+    "d": "CAMBÉ"
+  },
+  {
+    "n": "CAMPA",
+    "d": "CAMPA"
+  },
+  {
     "n": "CAMPI",
     "d": "CAMPI"
   },
@@ -1220,16 +2376,44 @@
     "d": "CANAL"
   },
   {
+    "n": "CANAS",
+    "d": "CANAS"
+  },
+  {
+    "n": "CANDO",
+    "d": "CANDO"
+  },
+  {
+    "n": "CANGA",
+    "d": "CANGA"
+  },
+  {
     "n": "CANIL",
     "d": "CANIL"
+  },
+  {
+    "n": "CANIS",
+    "d": "CANIS"
+  },
+  {
+    "n": "CANJA",
+    "d": "CANJA"
   },
   {
     "n": "CANOA",
     "d": "CANOA"
   },
   {
+    "n": "CANON",
+    "d": "CÂNON"
+  },
+  {
     "n": "CANSA",
     "d": "CANSA"
+  },
+  {
+    "n": "CANSE",
+    "d": "CANSE"
   },
   {
     "n": "CANSO",
@@ -1268,6 +2452,14 @@
     "d": "CAPIM"
   },
   {
+    "n": "CAPRA",
+    "d": "CAPRA"
+  },
+  {
+    "n": "CAPTA",
+    "d": "CAPTA"
+  },
+  {
     "n": "CAPUT",
     "d": "CAPUT"
   },
@@ -1276,8 +2468,28 @@
     "d": "CAPUZ"
   },
   {
+    "n": "CAQUI",
+    "d": "CAQUI"
+  },
+  {
+    "n": "CARAI",
+    "d": "CARAI"
+  },
+  {
+    "n": "CARAO",
+    "d": "CARÃO"
+  },
+  {
     "n": "CARAS",
     "d": "CARAS"
+  },
+  {
+    "n": "CARBO",
+    "d": "CARBO"
+  },
+  {
+    "n": "CARDO",
+    "d": "CARDO"
   },
   {
     "n": "CARGA",
@@ -1288,12 +2500,48 @@
     "d": "CARGO"
   },
   {
+    "n": "CARIE",
+    "d": "CÁRIE"
+  },
+  {
+    "n": "CARIL",
+    "d": "CARIL"
+  },
+  {
+    "n": "CARIZ",
+    "d": "CARIZ"
+  },
+  {
+    "n": "CARLA",
+    "d": "CARLA"
+  },
+  {
+    "n": "CARMA",
+    "d": "CARMA"
+  },
+  {
     "n": "CARMO",
     "d": "CARMO"
   },
   {
     "n": "CARNE",
     "d": "CARNE"
+  },
+  {
+    "n": "CARPA",
+    "d": "CARPA"
+  },
+  {
+    "n": "CARPE",
+    "d": "CARPE"
+  },
+  {
+    "n": "CARPO",
+    "d": "CARPO"
+  },
+  {
+    "n": "CARRE",
+    "d": "CARRÉ"
   },
   {
     "n": "CARRO",
@@ -1304,8 +2552,16 @@
     "d": "CARTA"
   },
   {
+    "n": "CARTE",
+    "d": "CARTE"
+  },
+  {
     "n": "CASAL",
     "d": "CASAL"
+  },
+  {
+    "n": "CASAM",
+    "d": "CASAM"
   },
   {
     "n": "CASAR",
@@ -1340,12 +2596,40 @@
     "d": "CASOU"
   },
   {
+    "n": "CASPA",
+    "d": "CASPA"
+  },
+  {
+    "n": "CASSA",
+    "d": "CASSA"
+  },
+  {
     "n": "CASTA",
     "d": "CASTA"
   },
   {
+    "n": "CASTO",
+    "d": "CASTO"
+  },
+  {
+    "n": "CATAO",
+    "d": "CATÃO"
+  },
+  {
+    "n": "CATAR",
+    "d": "CATAR"
+  },
+  {
+    "n": "CATCH",
+    "d": "CATCH"
+  },
+  {
     "n": "CAUDA",
     "d": "CAUDA"
+  },
+  {
+    "n": "CAULE",
+    "d": "CAULE"
   },
   {
     "n": "CAUSA",
@@ -1356,8 +2640,32 @@
     "d": "CAUSE"
   },
   {
+    "n": "CAUSO",
+    "d": "CAUSO"
+  },
+  {
+    "n": "CAVAR",
+    "d": "CAVAR"
+  },
+  {
+    "n": "CAVAS",
+    "d": "CAVAS"
+  },
+  {
+    "n": "CAVES",
+    "d": "CAVES"
+  },
+  {
+    "n": "CAVOU",
+    "d": "CAVOU"
+  },
+  {
     "n": "CEARA",
     "d": "CEARÁ"
+  },
+  {
+    "n": "CEDEM",
+    "d": "CEDEM"
   },
   {
     "n": "CEDER",
@@ -1368,12 +2676,44 @@
     "d": "CEDEU"
   },
   {
+    "n": "CEDIA",
+    "d": "CEDIA"
+  },
+  {
     "n": "CEDRO",
     "d": "CEDRO"
   },
   {
+    "n": "CEGAR",
+    "d": "CEGAR"
+  },
+  {
+    "n": "CEGAS",
+    "d": "CEGAS"
+  },
+  {
+    "n": "CEGOU",
+    "d": "CEGOU"
+  },
+  {
+    "n": "CEIAS",
+    "d": "CEIAS"
+  },
+  {
+    "n": "CEIFA",
+    "d": "CEIFA"
+  },
+  {
     "n": "CELIA",
     "d": "CÉLIA"
+  },
+  {
+    "n": "CELIO",
+    "d": "CÉLIO"
+  },
+  {
+    "n": "CELLO",
+    "d": "CELLO"
   },
   {
     "n": "CELSO",
@@ -1382,6 +2722,10 @@
   {
     "n": "CELTA",
     "d": "CELTA"
+  },
+  {
+    "n": "CENHO",
+    "d": "CENHO"
   },
   {
     "n": "CENSO",
@@ -1400,8 +2744,20 @@
     "d": "CERCO"
   },
   {
+    "n": "CERES",
+    "d": "CERES"
+  },
+  {
     "n": "CERNE",
     "d": "CERNE"
+  },
+  {
+    "n": "CEROL",
+    "d": "CEROL"
+  },
+  {
+    "n": "CERRA",
+    "d": "CERRA"
   },
   {
     "n": "CERRO",
@@ -1416,8 +2772,28 @@
     "d": "CERTO"
   },
   {
+    "n": "CERVA",
+    "d": "CERVA"
+  },
+  {
+    "n": "CERVO",
+    "d": "CERVO"
+  },
+  {
     "n": "CESAR",
     "d": "CÉSAR"
+  },
+  {
+    "n": "CESIO",
+    "d": "CÉSIO"
+  },
+  {
+    "n": "CESSA",
+    "d": "CESSA"
+  },
+  {
+    "n": "CESSE",
+    "d": "CESSE"
   },
   {
     "n": "CESTA",
@@ -1430,6 +2806,22 @@
   {
     "n": "CETIM",
     "d": "CETIM"
+  },
+  {
+    "n": "CETRO",
+    "d": "CETRO"
+  },
+  {
+    "n": "CHACO",
+    "d": "CHACO"
+  },
+  {
+    "n": "CHADE",
+    "d": "CHADE"
+  },
+  {
+    "n": "CHAGA",
+    "d": "CHAGA"
   },
   {
     "n": "CHALE",
@@ -1448,8 +2840,20 @@
     "d": "CHAMO"
   },
   {
+    "n": "CHANA",
+    "d": "CHANA"
+  },
+  {
     "n": "CHAPA",
     "d": "CHAPA"
+  },
+  {
+    "n": "CHAPE",
+    "d": "CHAPE"
+  },
+  {
+    "n": "CHARA",
+    "d": "CHARA"
   },
   {
     "n": "CHATA",
@@ -1470,6 +2874,10 @@
   {
     "n": "CHECK",
     "d": "CHECK"
+  },
+  {
+    "n": "CHECO",
+    "d": "CHECO"
   },
   {
     "n": "CHEFE",
@@ -1496,6 +2904,18 @@
     "d": "CHEIO"
   },
   {
+    "n": "CHIAR",
+    "d": "CHIAR"
+  },
+  {
+    "n": "CHIBA",
+    "d": "CHIBA"
+  },
+  {
+    "n": "CHIBI",
+    "d": "CHIBI"
+  },
+  {
     "n": "CHICA",
     "d": "CHICA"
   },
@@ -1508,28 +2928,80 @@
     "d": "CHILE"
   },
   {
+    "n": "CHILI",
+    "d": "CHILI"
+  },
+  {
     "n": "CHINA",
     "d": "CHINA"
+  },
+  {
+    "n": "CHINO",
+    "d": "CHINO"
   },
   {
     "n": "CHIPS",
     "d": "CHIPS"
   },
   {
+    "n": "CHITA",
+    "d": "CHITA"
+  },
+  {
+    "n": "CHOCA",
+    "d": "CHOCA"
+  },
+  {
+    "n": "CHOCO",
+    "d": "CHOCO"
+  },
+  {
+    "n": "CHOPE",
+    "d": "CHOPE"
+  },
+  {
     "n": "CHORA",
     "d": "CHORA"
+  },
+  {
+    "n": "CHORE",
+    "d": "CHORE"
   },
   {
     "n": "CHORO",
     "d": "CHORO"
   },
   {
+    "n": "CHOVA",
+    "d": "CHOVA"
+  },
+  {
     "n": "CHOVE",
     "d": "CHOVE"
   },
   {
+    "n": "CHUAN",
+    "d": "CHUAN"
+  },
+  {
+    "n": "CHULA",
+    "d": "CHULA"
+  },
+  {
+    "n": "CHULE",
+    "d": "CHULÉ"
+  },
+  {
+    "n": "CHULO",
+    "d": "CHULO"
+  },
+  {
     "n": "CHUPA",
     "d": "CHUPA"
+  },
+  {
+    "n": "CHUPO",
+    "d": "CHUPO"
   },
   {
     "n": "CHUTA",
@@ -1548,8 +3020,16 @@
     "d": "CHUVA"
   },
   {
+    "n": "CIANO",
+    "d": "CIANO"
+  },
+  {
     "n": "CICLO",
     "d": "CICLO"
+  },
+  {
+    "n": "CIDRA",
+    "d": "CIDRA"
   },
   {
     "n": "CIFRA",
@@ -1558,6 +3038,10 @@
   {
     "n": "CINCO",
     "d": "CINCO"
+  },
+  {
+    "n": "CINGE",
+    "d": "CINGE"
   },
   {
     "n": "CINTA",
@@ -1576,12 +3060,36 @@
     "d": "CIRCO"
   },
   {
+    "n": "CIRIO",
+    "d": "CÍRIO"
+  },
+  {
+    "n": "CIRNE",
+    "d": "CIRNE"
+  },
+  {
+    "n": "CISAO",
+    "d": "CISÃO"
+  },
+  {
     "n": "CISCO",
     "d": "CISCO"
   },
   {
+    "n": "CISMA",
+    "d": "CISMA"
+  },
+  {
     "n": "CISNE",
     "d": "CISNE"
+  },
+  {
+    "n": "CISTO",
+    "d": "CISTO"
+  },
+  {
+    "n": "CITAM",
+    "d": "CITAM"
   },
   {
     "n": "CITAR",
@@ -1608,12 +3116,28 @@
     "d": "CIVIL"
   },
   {
+    "n": "CLAMA",
+    "d": "CLAMA"
+  },
+  {
+    "n": "CLAME",
+    "d": "CLAME"
+  },
+  {
+    "n": "CLAMO",
+    "d": "CLAMO"
+  },
+  {
     "n": "CLARA",
     "d": "CLARA"
   },
   {
     "n": "CLARO",
     "d": "CLARO"
+  },
+  {
+    "n": "CLAVE",
+    "d": "CLAVE"
   },
   {
     "n": "CLEAN",
@@ -1648,12 +3172,32 @@
     "d": "CLOSE"
   },
   {
+    "n": "CLOWN",
+    "d": "CLOWN"
+  },
+  {
     "n": "CLUBE",
     "d": "CLUBE"
   },
   {
     "n": "COACH",
     "d": "COACH"
+  },
+  {
+    "n": "COADO",
+    "d": "COADO"
+  },
+  {
+    "n": "COALA",
+    "d": "COALA"
+  },
+  {
+    "n": "COARI",
+    "d": "COARI"
+  },
+  {
+    "n": "COBOL",
+    "d": "COBOL"
   },
   {
     "n": "COBRA",
@@ -1664,24 +3208,140 @@
     "d": "COBRE"
   },
   {
+    "n": "COBRI",
+    "d": "COBRI"
+  },
+  {
+    "n": "COBRO",
+    "d": "COBRO"
+  },
+  {
+    "n": "COCAL",
+    "d": "COCAL"
+  },
+  {
+    "n": "COCAR",
+    "d": "COÇAR"
+  },
+  {
+    "n": "COCHE",
+    "d": "COCHE"
+  },
+  {
+    "n": "COCHO",
+    "d": "COCHO"
+  },
+  {
+    "n": "COCOA",
+    "d": "COCOA"
+  },
+  {
+    "n": "COCOS",
+    "d": "COCOS"
+  },
+  {
+    "n": "COESA",
+    "d": "COESA"
+  },
+  {
+    "n": "COESO",
+    "d": "COESO"
+  },
+  {
     "n": "COFRE",
     "d": "COFRE"
+  },
+  {
+    "n": "COICE",
+    "d": "COICE"
+  },
+  {
+    "n": "COIFA",
+    "d": "COIFA"
+  },
+  {
+    "n": "COIMA",
+    "d": "COIMA"
   },
   {
     "n": "COISA",
     "d": "COISA"
   },
   {
+    "n": "COISO",
+    "d": "COISO"
+  },
+  {
+    "n": "COITE",
+    "d": "COITÉ"
+  },
+  {
+    "n": "COITO",
+    "d": "COITO"
+  },
+  {
+    "n": "COLAM",
+    "d": "COLAM"
+  },
+  {
     "n": "COLAR",
     "d": "COLAR"
+  },
+  {
+    "n": "COLAS",
+    "d": "COLAS"
+  },
+  {
+    "n": "COLEI",
+    "d": "COLEI"
+  },
+  {
+    "n": "COLHA",
+    "d": "COLHA"
   },
   {
     "n": "COLHE",
     "d": "COLHE"
   },
   {
+    "n": "COLHI",
+    "d": "COLHI"
+  },
+  {
+    "n": "COLHO",
+    "d": "COLHO"
+  },
+  {
+    "n": "COLMO",
+    "d": "COLMO"
+  },
+  {
+    "n": "COLON",
+    "d": "CÓLON"
+  },
+  {
     "n": "COLOR",
     "d": "COLOR"
+  },
+  {
+    "n": "COLOU",
+    "d": "COLOU"
+  },
+  {
+    "n": "COMAM",
+    "d": "COMAM"
+  },
+  {
+    "n": "COMAS",
+    "d": "COMAS"
+  },
+  {
+    "n": "COMBA",
+    "d": "COMBA"
+  },
+  {
+    "n": "COMBI",
+    "d": "COMBI"
   },
   {
     "n": "COMBO",
@@ -1696,6 +3356,10 @@
     "d": "COMER"
   },
   {
+    "n": "COMES",
+    "d": "COMES"
+  },
+  {
     "n": "COMEU",
     "d": "COMEU"
   },
@@ -1708,8 +3372,20 @@
     "d": "COMUM"
   },
   {
+    "n": "CONCA",
+    "d": "CONCA"
+  },
+  {
     "n": "CONDE",
     "d": "CONDE"
+  },
+  {
+    "n": "CONDI",
+    "d": "CONDI"
+  },
+  {
+    "n": "CONGA",
+    "d": "CONGA"
   },
   {
     "n": "CONGO",
@@ -1728,8 +3404,16 @@
     "d": "CONTO"
   },
   {
+    "n": "CONTR",
+    "d": "CONTR"
+  },
+  {
     "n": "COPAS",
     "d": "COPAS"
+  },
+  {
+    "n": "COPEL",
+    "d": "COPEL"
   },
   {
     "n": "COPIA",
@@ -1740,8 +3424,16 @@
     "d": "COPIE"
   },
   {
+    "n": "COPIO",
+    "d": "COPIO"
+  },
+  {
     "n": "COPOS",
     "d": "COPOS"
+  },
+  {
+    "n": "COPTA",
+    "d": "COPTA"
   },
   {
     "n": "COQUE",
@@ -1752,12 +3444,24 @@
     "d": "CORAL"
   },
   {
+    "n": "CORAO",
+    "d": "CORÃO"
+  },
+  {
+    "n": "CORAR",
+    "d": "CORAR"
+  },
+  {
     "n": "CORDA",
     "d": "CORDA"
   },
   {
     "n": "CORES",
     "d": "CORES"
+  },
+  {
+    "n": "CORJA",
+    "d": "CORJA"
   },
   {
     "n": "CORNO",
@@ -1792,6 +3496,10 @@
     "d": "CORSA"
   },
   {
+    "n": "CORSO",
+    "d": "CORSO"
+  },
+  {
     "n": "CORTA",
     "d": "CORTA"
   },
@@ -1800,16 +3508,36 @@
     "d": "CORTE"
   },
   {
+    "n": "CORTO",
+    "d": "CORTO"
+  },
+  {
     "n": "CORVO",
     "d": "CORVO"
+  },
+  {
+    "n": "COSAS",
+    "d": "COSAS"
+  },
+  {
+    "n": "COSER",
+    "d": "COSER"
   },
   {
     "n": "COSMO",
     "d": "COSMO"
   },
   {
+    "n": "COSPE",
+    "d": "COSPE"
+  },
+  {
     "n": "COSTA",
     "d": "COSTA"
+  },
+  {
+    "n": "COTAR",
+    "d": "COTAR"
   },
   {
     "n": "COTAS",
@@ -1824,12 +3552,24 @@
     "d": "COUBE"
   },
   {
+    "n": "COUPE",
+    "d": "COUPÉ"
+  },
+  {
+    "n": "COURA",
+    "d": "COURA"
+  },
+  {
     "n": "COURO",
     "d": "COURO"
   },
   {
     "n": "COURT",
     "d": "COURT"
+  },
+  {
+    "n": "COUSA",
+    "d": "COUSA"
   },
   {
     "n": "COUTO",
@@ -1844,12 +3584,24 @@
     "d": "COVER"
   },
   {
+    "n": "COVIL",
+    "d": "COVIL"
+  },
+  {
+    "n": "COXIM",
+    "d": "COXIM"
+  },
+  {
     "n": "COZER",
     "d": "COZER"
   },
   {
     "n": "CRACK",
     "d": "CRACK"
+  },
+  {
+    "n": "CRASE",
+    "d": "CRASE"
   },
   {
     "n": "CRASH",
@@ -1860,8 +3612,20 @@
     "d": "CRATO"
   },
   {
+    "n": "CRAVA",
+    "d": "CRAVA"
+  },
+  {
     "n": "CRAVO",
     "d": "CRAVO"
+  },
+  {
+    "n": "CRAWL",
+    "d": "CRAWL"
+  },
+  {
+    "n": "CREDE",
+    "d": "CREDE"
   },
   {
     "n": "CREDO",
@@ -1884,12 +3648,20 @@
     "d": "CREIO"
   },
   {
+    "n": "CREMA",
+    "d": "CREMA"
+  },
+  {
     "n": "CREME",
     "d": "CREME"
   },
   {
     "n": "CREPE",
     "d": "CREPE"
+  },
+  {
+    "n": "CRETA",
+    "d": "CRETA"
   },
   {
     "n": "CRIAM",
@@ -1900,12 +3672,28 @@
     "d": "CRIAR"
   },
   {
+    "n": "CRIAS",
+    "d": "CRIAS"
+  },
+  {
+    "n": "CRIDO",
+    "d": "CRIDO"
+  },
+  {
     "n": "CRIEI",
     "d": "CRIEI"
   },
   {
+    "n": "CRIEM",
+    "d": "CRIEM"
+  },
+  {
     "n": "CRIME",
     "d": "CRIME"
+  },
+  {
+    "n": "CRINA",
+    "d": "CRINA"
   },
   {
     "n": "CRIOU",
@@ -1916,28 +3704,60 @@
     "d": "CRISE"
   },
   {
+    "n": "CRIVO",
+    "d": "CRIVO"
+  },
+  {
     "n": "CROMO",
     "d": "CROMO"
+  },
+  {
+    "n": "CRONO",
+    "d": "CRONO"
   },
   {
     "n": "CROSS",
     "d": "CROSS"
   },
   {
+    "n": "CRUDE",
+    "d": "CRUDE"
+  },
+  {
     "n": "CRUEL",
     "d": "CRUEL"
+  },
+  {
+    "n": "CRUSH",
+    "d": "CRUSH"
   },
   {
     "n": "CRUZA",
     "d": "CRUZA"
   },
   {
+    "n": "CRUZE",
+    "d": "CRUZE"
+  },
+  {
+    "n": "CRUZO",
+    "d": "CRUZO"
+  },
+  {
     "n": "CUBRA",
     "d": "CUBRA"
   },
   {
+    "n": "CUBRO",
+    "d": "CUBRO"
+  },
+  {
     "n": "CUECA",
     "d": "CUECA"
+  },
+  {
+    "n": "CUICA",
+    "d": "CUÍCA"
   },
   {
     "n": "CUIDA",
@@ -1948,8 +3768,24 @@
     "d": "CUIDE"
   },
   {
+    "n": "CUIDO",
+    "d": "CUIDO"
+  },
+  {
+    "n": "CUITE",
+    "d": "CUITÉ"
+  },
+  {
     "n": "CULPA",
     "d": "CULPA"
+  },
+  {
+    "n": "CULPE",
+    "d": "CULPE"
+  },
+  {
+    "n": "CULPO",
+    "d": "CULPO"
   },
   {
     "n": "CULTO",
@@ -1964,8 +3800,20 @@
     "d": "CUNHO"
   },
   {
+    "n": "CUPAO",
+    "d": "CUPÃO"
+  },
+  {
+    "n": "CUPIM",
+    "d": "CUPIM"
+  },
+  {
     "n": "CUPOM",
     "d": "CUPOM"
+  },
+  {
+    "n": "CURAM",
+    "d": "CURAM"
   },
   {
     "n": "CURAR",
@@ -1974,6 +3822,34 @@
   {
     "n": "CURAS",
     "d": "CURAS"
+  },
+  {
+    "n": "CURIA",
+    "d": "CÚRIA"
+  },
+  {
+    "n": "CURIE",
+    "d": "CURIE"
+  },
+  {
+    "n": "CURIO",
+    "d": "CURIÓ"
+  },
+  {
+    "n": "CUROU",
+    "d": "CUROU"
+  },
+  {
+    "n": "CURRY",
+    "d": "CURRY"
+  },
+  {
+    "n": "CURSA",
+    "d": "CURSA"
+  },
+  {
+    "n": "CURSE",
+    "d": "CURSE"
   },
   {
     "n": "CURSO",
@@ -2000,16 +3876,68 @@
     "d": "CURVA"
   },
   {
+    "n": "CURVE",
+    "d": "CURVE"
+  },
+  {
+    "n": "CURVO",
+    "d": "CURVO"
+  },
+  {
+    "n": "CUSCO",
+    "d": "CUSCO"
+  },
+  {
+    "n": "CUSPE",
+    "d": "CUSPE"
+  },
+  {
     "n": "CUSTA",
     "d": "CUSTA"
+  },
+  {
+    "n": "CUSTE",
+    "d": "CUSTE"
   },
   {
     "n": "CUSTO",
     "d": "CUSTO"
   },
   {
+    "n": "CUZAO",
+    "d": "CUZAO"
+  },
+  {
+    "n": "DACAO",
+    "d": "DAÇÃO"
+  },
+  {
+    "n": "DACAR",
+    "d": "DACAR"
+  },
+  {
+    "n": "DADOR",
+    "d": "DADOR"
+  },
+  {
     "n": "DADOS",
     "d": "DADOS"
+  },
+  {
+    "n": "DAFNE",
+    "d": "DAFNE"
+  },
+  {
+    "n": "DAIME",
+    "d": "DAIME"
+  },
+  {
+    "n": "DALAI",
+    "d": "DALAI"
+  },
+  {
+    "n": "DALIA",
+    "d": "DÁLIA"
   },
   {
     "n": "DAMAS",
@@ -2028,8 +3956,16 @@
     "d": "DANCE"
   },
   {
+    "n": "DANCO",
+    "d": "DANÇO"
+  },
+  {
     "n": "DANDO",
     "d": "DANDO"
+  },
+  {
+    "n": "DANEM",
+    "d": "DANEM"
   },
   {
     "n": "DANTE",
@@ -2044,6 +3980,14 @@
     "d": "DARÃO"
   },
   {
+    "n": "DARAS",
+    "d": "DARÁS"
+  },
+  {
+    "n": "DARDO",
+    "d": "DARDO"
+  },
+  {
     "n": "DAREI",
     "d": "DAREI"
   },
@@ -2052,24 +3996,60 @@
     "d": "DAREM"
   },
   {
+    "n": "DARES",
+    "d": "DARES"
+  },
+  {
     "n": "DARIA",
     "d": "DARIA"
+  },
+  {
+    "n": "DATAM",
+    "d": "DATAM"
+  },
+  {
+    "n": "DATAR",
+    "d": "DATAR"
   },
   {
     "n": "DATAS",
     "d": "DATAS"
   },
   {
+    "n": "DATES",
+    "d": "DATES"
+  },
+  {
     "n": "DAVAM",
     "d": "DAVAM"
+  },
+  {
+    "n": "DEBIL",
+    "d": "DÉBIL"
+  },
+  {
+    "n": "DECKS",
+    "d": "DECKS"
   },
   {
     "n": "DECOR",
     "d": "DECOR"
   },
   {
+    "n": "DEDAO",
+    "d": "DEDÃO"
+  },
+  {
     "n": "DEDOS",
     "d": "DEDOS"
+  },
+  {
+    "n": "DEDUZ",
+    "d": "DEDUZ"
+  },
+  {
+    "n": "DEGAS",
+    "d": "DEGAS"
   },
   {
     "n": "DEITA",
@@ -2078,6 +4058,10 @@
   {
     "n": "DEITE",
     "d": "DEITE"
+  },
+  {
+    "n": "DEITO",
+    "d": "DEITO"
   },
   {
     "n": "DEIXA",
@@ -2096,6 +4080,10 @@
     "d": "DELAS"
   },
   {
+    "n": "DELAY",
+    "d": "DELAY"
+  },
+  {
     "n": "DELES",
     "d": "DELES"
   },
@@ -2104,8 +4092,20 @@
     "d": "DELTA"
   },
   {
+    "n": "DEMAO",
+    "d": "DEMÃO"
+  },
+  {
     "n": "DEMOS",
     "d": "DEMOS"
+  },
+  {
+    "n": "DENDE",
+    "d": "DENDÊ"
+  },
+  {
+    "n": "DENGO",
+    "d": "DENGO"
   },
   {
     "n": "DENSA",
@@ -2120,12 +4120,52 @@
     "d": "DENTE"
   },
   {
+    "n": "DEPOE",
+    "d": "DEPÕE"
+  },
+  {
+    "n": "DEPOR",
+    "d": "DEPOR"
+  },
+  {
+    "n": "DEPOS",
+    "d": "DEPÔS"
+  },
+  {
+    "n": "DEPRE",
+    "d": "DEPRÊ"
+  },
+  {
+    "n": "DEQUE",
+    "d": "DEQUE"
+  },
+  {
     "n": "DERAM",
     "d": "DERAM"
   },
   {
+    "n": "DERBI",
+    "d": "DÉRBI"
+  },
+  {
     "n": "DERBY",
     "d": "DERBY"
+  },
+  {
+    "n": "DEREM",
+    "d": "DEREM"
+  },
+  {
+    "n": "DERES",
+    "d": "DERES"
+  },
+  {
+    "n": "DERMA",
+    "d": "DERMA"
+  },
+  {
+    "n": "DERME",
+    "d": "DERME"
   },
   {
     "n": "DESCA",
@@ -2140,8 +4180,16 @@
     "d": "DESCI"
   },
   {
+    "n": "DESCO",
+    "d": "DESÇO"
+  },
+  {
     "n": "DESDE",
     "d": "DESDE"
+  },
+  {
+    "n": "DESPE",
+    "d": "DESPE"
   },
   {
     "n": "DESSA",
@@ -2180,6 +4228,10 @@
     "d": "DEVAM"
   },
   {
+    "n": "DEVAS",
+    "d": "DEVAS"
+  },
+  {
     "n": "DEVEM",
     "d": "DEVEM"
   },
@@ -2192,8 +4244,16 @@
     "d": "DEVES"
   },
   {
+    "n": "DEVEU",
+    "d": "DEVEU"
+  },
+  {
     "n": "DEVIA",
     "d": "DEVIA"
+  },
+  {
+    "n": "DEVIR",
+    "d": "DEVIR"
   },
   {
     "n": "DIABO",
@@ -2208,6 +4268,10 @@
     "d": "DICAS"
   },
   {
+    "n": "DICHO",
+    "d": "DICHO"
+  },
+  {
     "n": "DIETA",
     "d": "DIETA"
   },
@@ -2216,12 +4280,36 @@
     "d": "DIGAM"
   },
   {
+    "n": "DIGAS",
+    "d": "DIGAS"
+  },
+  {
     "n": "DIGNA",
     "d": "DIGNA"
   },
   {
+    "n": "DIGNE",
+    "d": "DIGNE"
+  },
+  {
     "n": "DIGNO",
     "d": "DIGNO"
+  },
+  {
+    "n": "DILDO",
+    "d": "DILDO"
+  },
+  {
+    "n": "DILUA",
+    "d": "DILUA"
+  },
+  {
+    "n": "DILUI",
+    "d": "DILUI"
+  },
+  {
+    "n": "DINDA",
+    "d": "DINDA"
   },
   {
     "n": "DIODO",
@@ -2232,8 +4320,20 @@
     "d": "DIOGO"
   },
   {
+    "n": "DIPLO",
+    "d": "DIPLO"
+  },
+  {
+    "n": "DIQUE",
+    "d": "DIQUE"
+  },
+  {
     "n": "DIRAO",
     "d": "DIRÃO"
+  },
+  {
+    "n": "DIRAS",
+    "d": "DIRÁS"
   },
   {
     "n": "DIREI",
@@ -2256,16 +4356,36 @@
     "d": "DISSO"
   },
   {
+    "n": "DISTA",
+    "d": "DISTA"
+  },
+  {
     "n": "DISTO",
     "d": "DISTO"
+  },
+  {
+    "n": "DITAM",
+    "d": "DITAM"
+  },
+  {
+    "n": "DITAR",
+    "d": "DITAR"
   },
   {
     "n": "DITAS",
     "d": "DITAS"
   },
   {
+    "n": "DITOU",
+    "d": "DITOU"
+  },
+  {
     "n": "DIVAS",
     "d": "DIVAS"
+  },
+  {
+    "n": "DIZEI",
+    "d": "DIZEI"
   },
   {
     "n": "DIZEM",
@@ -2288,6 +4408,10 @@
     "d": "DOADO"
   },
   {
+    "n": "DOBLE",
+    "d": "DOBLE"
+  },
+  {
     "n": "DOBRA",
     "d": "DOBRA"
   },
@@ -2302,6 +4426,14 @@
   {
     "n": "DOCES",
     "d": "DOCES"
+  },
+  {
+    "n": "DOCIL",
+    "d": "DÓCIL"
+  },
+  {
+    "n": "DODOI",
+    "d": "DODÓI"
   },
   {
     "n": "DOGMA",
@@ -2320,12 +4452,44 @@
     "d": "DÓLAR"
   },
   {
+    "n": "DOLBY",
+    "d": "DOLBY"
+  },
+  {
+    "n": "DOLLY",
+    "d": "DOLLY"
+  },
+  {
+    "n": "DOLOR",
+    "d": "DOLOR"
+  },
+  {
+    "n": "DOMAR",
+    "d": "DOMAR"
+  },
+  {
     "n": "DONDE",
     "d": "DONDE"
   },
   {
+    "n": "DONUT",
+    "d": "DONUT"
+  },
+  {
+    "n": "DOQUE",
+    "d": "DOQUE"
+  },
+  {
     "n": "DORES",
     "d": "DORES"
+  },
+  {
+    "n": "DORIA",
+    "d": "DÓRIA"
+  },
+  {
+    "n": "DORIS",
+    "d": "DÓRIS"
   },
   {
     "n": "DORME",
@@ -2336,16 +4500,76 @@
     "d": "DORMI"
   },
   {
+    "n": "DORSO",
+    "d": "DORSO"
+  },
+  {
+    "n": "DOSAR",
+    "d": "DOSAR"
+  },
+  {
     "n": "DOSES",
     "d": "DOSES"
+  },
+  {
+    "n": "DOTAR",
+    "d": "DOTAR"
+  },
+  {
+    "n": "DOTES",
+    "d": "DOTES"
+  },
+  {
+    "n": "DOTOU",
+    "d": "DOTOU"
+  },
+  {
+    "n": "DOULA",
+    "d": "DOULA"
+  },
+  {
+    "n": "DOURE",
+    "d": "DOURE"
   },
   {
     "n": "DOURO",
     "d": "DOURO"
   },
   {
+    "n": "DOUTO",
+    "d": "DOUTO"
+  },
+  {
+    "n": "DRACO",
+    "d": "DRACO"
+  },
+  {
+    "n": "DRAFT",
+    "d": "DRAFT"
+  },
+  {
+    "n": "DRAGA",
+    "d": "DRAGA"
+  },
+  {
+    "n": "DRAGO",
+    "d": "DRAGO"
+  },
+  {
     "n": "DRAMA",
     "d": "DRAMA"
+  },
+  {
+    "n": "DREAD",
+    "d": "DREAD"
+  },
+  {
+    "n": "DRENA",
+    "d": "DRENA"
+  },
+  {
+    "n": "DRENO",
+    "d": "DRENO"
   },
   {
     "n": "DRINK",
@@ -2360,6 +4584,22 @@
     "d": "DROGA"
   },
   {
+    "n": "DRONE",
+    "d": "DRONE"
+  },
+  {
+    "n": "DROPS",
+    "d": "DROPS"
+  },
+  {
+    "n": "DUBIO",
+    "d": "DÚBIO"
+  },
+  {
+    "n": "DUBLE",
+    "d": "DUBLÊ"
+  },
+  {
     "n": "DUCHA",
     "d": "DUCHA"
   },
@@ -2368,12 +4608,20 @@
     "d": "DUCHE"
   },
   {
+    "n": "DUCTO",
+    "d": "DUCTO"
+  },
+  {
     "n": "DUELO",
     "d": "DUELO"
   },
   {
     "n": "DUETO",
     "d": "DUETO"
+  },
+  {
+    "n": "DUMAS",
+    "d": "DUMAS"
   },
   {
     "n": "DUNAS",
@@ -2412,6 +4660,14 @@
     "d": "DURAS"
   },
   {
+    "n": "DUREM",
+    "d": "DUREM"
+  },
+  {
+    "n": "DUREX",
+    "d": "DUREX"
+  },
+  {
     "n": "DURMA",
     "d": "DURMA"
   },
@@ -2432,24 +4688,80 @@
     "d": "EAGLE"
   },
   {
+    "n": "EBANO",
+    "d": "ÉBANO"
+  },
+  {
+    "n": "EBOLA",
+    "d": "EBOLA"
+  },
+  {
     "n": "EBOOK",
     "d": "EBOOK"
+  },
+  {
+    "n": "EBRIO",
+    "d": "ÉBRIO"
+  },
+  {
+    "n": "ECOAM",
+    "d": "ECOAM"
+  },
+  {
+    "n": "ECOAR",
+    "d": "ECOAR"
+  },
+  {
+    "n": "ECOOU",
+    "d": "ECOOU"
+  },
+  {
+    "n": "ECRAN",
+    "d": "ÉCRAN"
   },
   {
     "n": "EDEMA",
     "d": "EDEMA"
   },
   {
+    "n": "EDIPO",
+    "d": "ÉDIPO"
+  },
+  {
+    "n": "EDITA",
+    "d": "EDITA"
+  },
+  {
+    "n": "EDITE",
+    "d": "EDITE"
+  },
+  {
+    "n": "EDITO",
+    "d": "EDITO"
+  },
+  {
     "n": "EDUCA",
     "d": "EDUCA"
+  },
+  {
+    "n": "EGIDE",
+    "d": "ÉGIDE"
   },
   {
     "n": "EGITO",
     "d": "EGITO"
   },
   {
+    "n": "EGUAS",
+    "d": "ÉGUAS"
+  },
+  {
     "n": "ELEGE",
     "d": "ELEGE"
+  },
+  {
+    "n": "ELEJA",
+    "d": "ELEJA"
   },
   {
     "n": "ELENA",
@@ -2458,6 +4770,10 @@
   {
     "n": "ELEVA",
     "d": "ELEVA"
+  },
+  {
+    "n": "ELEVE",
+    "d": "ELEVE"
   },
   {
     "n": "ELISA",
@@ -2472,8 +4788,28 @@
     "d": "EMAIL"
   },
   {
+    "n": "EMANA",
+    "d": "EMANA"
+  },
+  {
+    "n": "EMFIM",
+    "d": "EMFIM"
+  },
+  {
+    "n": "EMITA",
+    "d": "EMITA"
+  },
+  {
     "n": "EMITE",
     "d": "EMITE"
+  },
+  {
+    "n": "EMOJI",
+    "d": "EMOJI"
+  },
+  {
+    "n": "EMULE",
+    "d": "EMULE"
   },
   {
     "n": "ENCHA",
@@ -2484,8 +4820,36 @@
     "d": "ENCHE"
   },
   {
+    "n": "ENCHI",
+    "d": "ENCHI"
+  },
+  {
+    "n": "ENCHO",
+    "d": "ENCHO"
+  },
+  {
+    "n": "ENFIA",
+    "d": "ENFIA"
+  },
+  {
+    "n": "ENFIE",
+    "d": "ENFIE"
+  },
+  {
     "n": "ENFIM",
     "d": "ENFIM"
+  },
+  {
+    "n": "ENFIO",
+    "d": "ENFIO"
+  },
+  {
+    "n": "ENJOA",
+    "d": "ENJOA"
+  },
+  {
+    "n": "ENJOO",
+    "d": "ENJOO"
   },
   {
     "n": "ENTAO",
@@ -2494,6 +4858,10 @@
   {
     "n": "ENTER",
     "d": "ENTER"
+  },
+  {
+    "n": "ENTOA",
+    "d": "ENTOA"
   },
   {
     "n": "ENTRA",
@@ -2532,12 +4900,28 @@
     "d": "ÉPOCA"
   },
   {
+    "n": "EPOXI",
+    "d": "EPÓXI"
+  },
+  {
+    "n": "ERETO",
+    "d": "ERETO"
+  },
+  {
     "n": "ERGUE",
     "d": "ERGUE"
   },
   {
+    "n": "ERGUI",
+    "d": "ERGUI"
+  },
+  {
     "n": "ERICA",
     "d": "ERICA"
+  },
+  {
+    "n": "ERRAM",
+    "d": "ERRAM"
   },
   {
     "n": "ERRAR",
@@ -2546,6 +4930,10 @@
   {
     "n": "ERREI",
     "d": "ERREI"
+  },
+  {
+    "n": "ERROR",
+    "d": "ERROR"
   },
   {
     "n": "ERROS",
@@ -2560,6 +4948,18 @@
     "d": "ERVAS"
   },
   {
+    "n": "ESCOA",
+    "d": "ESCOA"
+  },
+  {
+    "n": "ESCOL",
+    "d": "ESCOL"
+  },
+  {
+    "n": "ESPIA",
+    "d": "ESPIÃ"
+  },
+  {
     "n": "ESQUI",
     "d": "ESQUI"
   },
@@ -2570,6 +4970,10 @@
   {
     "n": "ESSES",
     "d": "ESSES"
+  },
+  {
+    "n": "ESTAI",
+    "d": "ESTAI"
   },
   {
     "n": "ESTAO",
@@ -2588,12 +4992,24 @@
     "d": "ESTES"
   },
   {
+    "n": "ESTIO",
+    "d": "ESTIO"
+  },
+  {
     "n": "ESTOU",
     "d": "ESTOU"
   },
   {
+    "n": "ESVAI",
+    "d": "ESVAI"
+  },
+  {
     "n": "ETAPA",
     "d": "ETAPA"
+  },
+  {
+    "n": "ETHOS",
+    "d": "ETHOS"
   },
   {
     "n": "ETICA",
@@ -2608,12 +5024,28 @@
     "d": "ETNIA"
   },
   {
+    "n": "EVASE",
+    "d": "EVASÊ"
+  },
+  {
     "n": "EVITA",
     "d": "EVITA"
   },
   {
     "n": "EVITE",
     "d": "EVITE"
+  },
+  {
+    "n": "EVITO",
+    "d": "EVITO"
+  },
+  {
+    "n": "EVOCA",
+    "d": "EVOCA"
+  },
+  {
+    "n": "EXALA",
+    "d": "EXALA"
   },
   {
     "n": "EXAME",
@@ -2624,16 +5056,36 @@
     "d": "EXATO"
   },
   {
+    "n": "EXIBA",
+    "d": "EXIBA"
+  },
+  {
     "n": "EXIBE",
     "d": "EXIBE"
+  },
+  {
+    "n": "EXIBI",
+    "d": "EXIBI"
   },
   {
     "n": "EXIGE",
     "d": "EXIGE"
   },
   {
+    "n": "EXIGI",
+    "d": "EXIGI"
+  },
+  {
     "n": "EXIJA",
     "d": "EXIJA"
+  },
+  {
+    "n": "EXIJO",
+    "d": "EXIJO"
+  },
+  {
+    "n": "EXIME",
+    "d": "EXIME"
   },
   {
     "n": "EXITO",
@@ -2656,12 +5108,28 @@
     "d": "EXPÔS"
   },
   {
+    "n": "EXPUS",
+    "d": "EXPUS"
+  },
+  {
     "n": "EXTRA",
     "d": "EXTRA"
   },
   {
     "n": "FACAM",
     "d": "FAÇAM"
+  },
+  {
+    "n": "FACAO",
+    "d": "FACÃO"
+  },
+  {
+    "n": "FACAS",
+    "d": "FAÇAS"
+  },
+  {
+    "n": "FACHO",
+    "d": "FACHO"
   },
   {
     "n": "FACIL",
@@ -2676,8 +5144,28 @@
     "d": "FADAS"
   },
   {
+    "n": "FADOS",
+    "d": "FADOS"
+  },
+  {
+    "n": "FAIAL",
+    "d": "FAIAL"
+  },
+  {
+    "n": "FAINA",
+    "d": "FAINA"
+  },
+  {
+    "n": "FAIRE",
+    "d": "FAIRE"
+  },
+  {
     "n": "FAIXA",
     "d": "FAIXA"
+  },
+  {
+    "n": "FAKES",
+    "d": "FAKES"
   },
   {
     "n": "FALAM",
@@ -2692,6 +5180,10 @@
     "d": "FALAS"
   },
   {
+    "n": "FALCO",
+    "d": "FALCO"
+  },
+  {
     "n": "FALEI",
     "d": "FALEI"
   },
@@ -2700,8 +5192,28 @@
     "d": "FALEM"
   },
   {
+    "n": "FALES",
+    "d": "FALES"
+  },
+  {
     "n": "FALHA",
     "d": "FALHA"
+  },
+  {
+    "n": "FALHE",
+    "d": "FALHE"
+  },
+  {
+    "n": "FALHO",
+    "d": "FALHO"
+  },
+  {
+    "n": "FALIR",
+    "d": "FALIR"
+  },
+  {
+    "n": "FALIU",
+    "d": "FALIU"
   },
   {
     "n": "FALOU",
@@ -2720,8 +5232,32 @@
     "d": "FALTA"
   },
   {
+    "n": "FALTE",
+    "d": "FALTE"
+  },
+  {
+    "n": "FALTO",
+    "d": "FALTO"
+  },
+  {
+    "n": "FANNY",
+    "d": "FANNY"
+  },
+  {
+    "n": "FANTA",
+    "d": "FANTA"
+  },
+  {
     "n": "FARAO",
     "d": "FARÃO"
+  },
+  {
+    "n": "FARAS",
+    "d": "FARÁS"
+  },
+  {
+    "n": "FARDA",
+    "d": "FARDA"
   },
   {
     "n": "FARDO",
@@ -2734,6 +5270,10 @@
   {
     "n": "FARIA",
     "d": "FARIA"
+  },
+  {
+    "n": "FARMA",
+    "d": "FARMA"
   },
   {
     "n": "FAROL",
@@ -2780,6 +5320,10 @@
     "d": "FAUNA"
   },
   {
+    "n": "FAUNO",
+    "d": "FAUNO"
+  },
+  {
     "n": "FAVOR",
     "d": "FAVOR"
   },
@@ -2808,6 +5352,10 @@
     "d": "FEBRE"
   },
   {
+    "n": "FECAL",
+    "d": "FECAL"
+  },
+  {
     "n": "FECHA",
     "d": "FECHA"
   },
@@ -2820,8 +5368,20 @@
     "d": "FECHO"
   },
   {
+    "n": "FEDER",
+    "d": "FEDER"
+  },
+  {
+    "n": "FEDOR",
+    "d": "FEDOR"
+  },
+  {
     "n": "FEIAS",
     "d": "FEIAS"
+  },
+  {
+    "n": "FEIJO",
+    "d": "FEIJÓ"
   },
   {
     "n": "FEIRA",
@@ -2852,12 +5412,36 @@
     "d": "FÊMEA"
   },
   {
+    "n": "FEMUR",
+    "d": "FÊMUR"
+  },
+  {
     "n": "FENDA",
     "d": "FENDA"
   },
   {
+    "n": "FENDI",
+    "d": "FENDI"
+  },
+  {
     "n": "FENIX",
     "d": "FÊNIX"
+  },
+  {
+    "n": "FENOL",
+    "d": "FENOL"
+  },
+  {
+    "n": "FEREM",
+    "d": "FEREM"
+  },
+  {
+    "n": "FERES",
+    "d": "FERES"
+  },
+  {
+    "n": "FERIA",
+    "d": "FERIA"
   },
   {
     "n": "FERIR",
@@ -2872,8 +5456,24 @@
     "d": "FEROZ"
   },
   {
+    "n": "FERRA",
+    "d": "FERRA"
+  },
+  {
     "n": "FERRO",
     "d": "FERRO"
+  },
+  {
+    "n": "FERRY",
+    "d": "FERRY"
+  },
+  {
+    "n": "FERVA",
+    "d": "FERVA"
+  },
+  {
+    "n": "FERVE",
+    "d": "FERVE"
   },
   {
     "n": "FESTA",
@@ -2884,12 +5484,28 @@
     "d": "FETAL"
   },
   {
+    "n": "FEUDO",
+    "d": "FEUDO"
+  },
+  {
     "n": "FEZES",
     "d": "FEZES"
   },
   {
+    "n": "FIADA",
+    "d": "FIADA"
+  },
+  {
+    "n": "FIADO",
+    "d": "FIADO"
+  },
+  {
     "n": "FIBRA",
     "d": "FIBRA"
+  },
+  {
+    "n": "FICAI",
+    "d": "FICAI"
   },
   {
     "n": "FICAM",
@@ -2898,6 +5514,10 @@
   {
     "n": "FICAR",
     "d": "FICAR"
+  },
+  {
+    "n": "FICAS",
+    "d": "FICAS"
   },
   {
     "n": "FICHA",
@@ -2910,6 +5530,10 @@
   {
     "n": "FIEIS",
     "d": "FIÉIS"
+  },
+  {
+    "n": "FILAO",
+    "d": "FILÃO"
   },
   {
     "n": "FILAS",
@@ -2928,6 +5552,10 @@
     "d": "FILHO"
   },
   {
+    "n": "FILIA",
+    "d": "FILIA"
+  },
+  {
     "n": "FILMA",
     "d": "FILMA"
   },
@@ -2940,8 +5568,40 @@
     "d": "FINAL"
   },
   {
+    "n": "FINCA",
+    "d": "FINCA"
+  },
+  {
+    "n": "FINDA",
+    "d": "FINDA"
+  },
+  {
+    "n": "FINDE",
+    "d": "FINDE"
+  },
+  {
+    "n": "FINDO",
+    "d": "FINDO"
+  },
+  {
     "n": "FINGE",
     "d": "FINGE"
+  },
+  {
+    "n": "FINGI",
+    "d": "FINGI"
+  },
+  {
+    "n": "FINJA",
+    "d": "FINJA"
+  },
+  {
+    "n": "FINJO",
+    "d": "FINJO"
+  },
+  {
+    "n": "FINTA",
+    "d": "FINTA"
   },
   {
     "n": "FIQUE",
@@ -2956,12 +5616,32 @@
     "d": "FIRME"
   },
   {
+    "n": "FIRMO",
+    "d": "FIRMO"
+  },
+  {
     "n": "FISCO",
     "d": "FISCO"
   },
   {
+    "n": "FITAR",
+    "d": "FITAR"
+  },
+  {
     "n": "FITAS",
     "d": "FITAS"
+  },
+  {
+    "n": "FITOU",
+    "d": "FITOU"
+  },
+  {
+    "n": "FIUZA",
+    "d": "FIÚZA"
+  },
+  {
+    "n": "FIXAM",
+    "d": "FIXAM"
   },
   {
     "n": "FIXAR",
@@ -2972,6 +5652,14 @@
     "d": "FIXAS"
   },
   {
+    "n": "FIXEI",
+    "d": "FIXEI"
+  },
+  {
+    "n": "FIXES",
+    "d": "FIXES"
+  },
+  {
     "n": "FIXOU",
     "d": "FIXOU"
   },
@@ -2980,32 +5668,92 @@
     "d": "FIZER"
   },
   {
+    "n": "FLAMA",
+    "d": "FLAMA"
+  },
+  {
+    "n": "FLAME",
+    "d": "FLAME"
+  },
+  {
+    "n": "FLARE",
+    "d": "FLARE"
+  },
+  {
     "n": "FLASH",
     "d": "FLASH"
+  },
+  {
+    "n": "FLINT",
+    "d": "FLINT"
+  },
+  {
+    "n": "FLOCO",
+    "d": "FLOCO"
   },
   {
     "n": "FLORA",
     "d": "FLORA"
   },
   {
+    "n": "FLUEM",
+    "d": "FLUEM"
+  },
+  {
     "n": "FLUIR",
     "d": "FLUIR"
+  },
+  {
+    "n": "FLUIU",
+    "d": "FLUIU"
+  },
+  {
+    "n": "FLUOR",
+    "d": "FLÚOR"
+  },
+  {
+    "n": "FLUSH",
+    "d": "FLUSH"
   },
   {
     "n": "FLUXO",
     "d": "FLUXO"
   },
   {
+    "n": "FOBIA",
+    "d": "FOBIA"
+  },
+  {
     "n": "FOCAL",
     "d": "FOCAL"
+  },
+  {
+    "n": "FOCAM",
+    "d": "FOCAM"
   },
   {
     "n": "FOCAR",
     "d": "FOCAR"
   },
   {
+    "n": "FOCAS",
+    "d": "FOCAS"
+  },
+  {
+    "n": "FOCOU",
+    "d": "FOCOU"
+  },
+  {
     "n": "FODER",
     "d": "FODER"
+  },
+  {
+    "n": "FODEU",
+    "d": "FODEU"
+  },
+  {
+    "n": "FOFAO",
+    "d": "FOFÃO"
   },
   {
     "n": "FOFOS",
@@ -3024,6 +5772,14 @@
     "d": "FOGOS"
   },
   {
+    "n": "FOICE",
+    "d": "FOICE"
+  },
+  {
+    "n": "FOLAR",
+    "d": "FOLAR"
+  },
+  {
     "n": "FOLGA",
     "d": "FOLGA"
   },
@@ -3036,6 +5792,10 @@
     "d": "FOLIA"
   },
   {
+    "n": "FOMES",
+    "d": "FOMES"
+  },
+  {
     "n": "FOMOS",
     "d": "FOMOS"
   },
@@ -3044,8 +5804,24 @@
     "d": "FONTE"
   },
   {
+    "n": "FOODS",
+    "d": "FOODS"
+  },
+  {
+    "n": "FOQUE",
+    "d": "FOQUE"
+  },
+  {
+    "n": "FORAL",
+    "d": "FORAL"
+  },
+  {
     "n": "FORAM",
     "d": "FORAM"
+  },
+  {
+    "n": "FORAS",
+    "d": "FORAS"
   },
   {
     "n": "FORCA",
@@ -3060,12 +5836,40 @@
     "d": "FOREM"
   },
   {
+    "n": "FORES",
+    "d": "FORES"
+  },
+  {
+    "n": "FORJA",
+    "d": "FORJA"
+  },
+  {
     "n": "FORMA",
     "d": "FORMA"
   },
   {
+    "n": "FORME",
+    "d": "FORME"
+  },
+  {
+    "n": "FORMO",
+    "d": "FORMO"
+  },
+  {
     "n": "FORNO",
     "d": "FORNO"
+  },
+  {
+    "n": "FOROS",
+    "d": "FOROS"
+  },
+  {
+    "n": "FORRA",
+    "d": "FORRA"
+  },
+  {
+    "n": "FORRE",
+    "d": "FORRE"
   },
   {
     "n": "FORRO",
@@ -3080,6 +5884,10 @@
     "d": "FÓRUM"
   },
   {
+    "n": "FOSCA",
+    "d": "FOSCA"
+  },
+  {
     "n": "FOSCO",
     "d": "FOSCO"
   },
@@ -3092,8 +5900,20 @@
     "d": "FOSSE"
   },
   {
+    "n": "FOSSO",
+    "d": "FOSSO"
+  },
+  {
     "n": "FOSTE",
     "d": "FOSTE"
+  },
+  {
+    "n": "FOTON",
+    "d": "FÓTON"
+  },
+  {
+    "n": "FOYER",
+    "d": "FOYER"
   },
   {
     "n": "FRACA",
@@ -3104,6 +5924,10 @@
     "d": "FRACO"
   },
   {
+    "n": "FRADE",
+    "d": "FRADE"
+  },
+  {
     "n": "FRAGA",
     "d": "FRAGA"
   },
@@ -3112,8 +5936,20 @@
     "d": "FRASE"
   },
   {
+    "n": "FREAR",
+    "d": "FREAR"
+  },
+  {
+    "n": "FREIA",
+    "d": "FREIA"
+  },
+  {
     "n": "FREIO",
     "d": "FREIO"
+  },
+  {
+    "n": "FRESA",
+    "d": "FRESA"
   },
   {
     "n": "FRETE",
@@ -3130,6 +5966,14 @@
   {
     "n": "FRIOS",
     "d": "FRIOS"
+  },
+  {
+    "n": "FRISA",
+    "d": "FRISA"
+  },
+  {
+    "n": "FRISE",
+    "d": "FRISE"
   },
   {
     "n": "FRISO",
@@ -3156,6 +6000,10 @@
     "d": "FROTA"
   },
   {
+    "n": "FRUIR",
+    "d": "FRUIR"
+  },
+  {
     "n": "FRUTA",
     "d": "FRUTA"
   },
@@ -3164,8 +6012,20 @@
     "d": "FRUTO"
   },
   {
+    "n": "FUCAR",
+    "d": "FUÇAR"
+  },
+  {
     "n": "FUDER",
     "d": "FUDER"
+  },
+  {
+    "n": "FUGAZ",
+    "d": "FUGAZ"
+  },
+  {
+    "n": "FUGIA",
+    "d": "FUGIA"
   },
   {
     "n": "FUGIR",
@@ -3176,12 +6036,36 @@
     "d": "FUGIU"
   },
   {
+    "n": "FUJAM",
+    "d": "FUJAM"
+  },
+  {
+    "n": "FUMAM",
+    "d": "FUMAM"
+  },
+  {
     "n": "FUMAR",
     "d": "FUMAR"
   },
   {
+    "n": "FUMEI",
+    "d": "FUMEI"
+  },
+  {
+    "n": "FUMOS",
+    "d": "FUMOS"
+  },
+  {
+    "n": "FUMOU",
+    "d": "FUMOU"
+  },
+  {
     "n": "FUNDA",
     "d": "FUNDA"
+  },
+  {
+    "n": "FUNDE",
+    "d": "FUNDE"
   },
   {
     "n": "FUNDO",
@@ -3192,6 +6076,10 @@
     "d": "FUNGO"
   },
   {
+    "n": "FUNIL",
+    "d": "FUNIL"
+  },
+  {
     "n": "FURAR",
     "d": "FURAR"
   },
@@ -3200,8 +6088,20 @@
     "d": "FÚRIA"
   },
   {
+    "n": "FUROR",
+    "d": "FUROR"
+  },
+  {
     "n": "FUROS",
     "d": "FUROS"
+  },
+  {
+    "n": "FUROU",
+    "d": "FUROU"
+  },
+  {
+    "n": "FURTA",
+    "d": "FURTA"
   },
   {
     "n": "FURTO",
@@ -3216,16 +6116,80 @@
     "d": "FUSCA"
   },
   {
+    "n": "FUSCO",
+    "d": "FUSCO"
+  },
+  {
+    "n": "FUTIL",
+    "d": "FÚTIL"
+  },
+  {
+    "n": "FUTON",
+    "d": "FUTON"
+  },
+  {
+    "n": "FUTRE",
+    "d": "FUTRE"
+  },
+  {
+    "n": "FUZIL",
+    "d": "FUZIL"
+  },
+  {
+    "n": "FUZIS",
+    "d": "FUZIS"
+  },
+  {
+    "n": "GABAO",
+    "d": "GABÃO"
+  },
+  {
+    "n": "GABAR",
+    "d": "GABAR"
+  },
+  {
     "n": "GAITA",
     "d": "GAITA"
+  },
+  {
+    "n": "GAJAS",
+    "d": "GAJAS"
+  },
+  {
+    "n": "GALAO",
+    "d": "GALÃO"
+  },
+  {
+    "n": "GALES",
+    "d": "GALÊS"
   },
   {
     "n": "GALHO",
     "d": "GALHO"
   },
   {
+    "n": "GALIA",
+    "d": "GÁLIA"
+  },
+  {
+    "n": "GALOS",
+    "d": "GALOS"
+  },
+  {
+    "n": "GAMBA",
+    "d": "GAMBÁ"
+  },
+  {
     "n": "GAMER",
     "d": "GAMER"
+  },
+  {
+    "n": "GANDA",
+    "d": "GANDA"
+  },
+  {
+    "n": "GANGA",
+    "d": "GANGA"
   },
   {
     "n": "GANHA",
@@ -3244,8 +6208,20 @@
     "d": "GANSO"
   },
   {
+    "n": "GARBO",
+    "d": "GARBO"
+  },
+  {
+    "n": "GARCA",
+    "d": "GARÇA"
+  },
+  {
     "n": "GARFO",
     "d": "GARFO"
+  },
+  {
+    "n": "GAROA",
+    "d": "GAROA"
   },
   {
     "n": "GARRA",
@@ -3260,12 +6236,44 @@
     "d": "GASTA"
   },
   {
+    "n": "GASTE",
+    "d": "GASTE"
+  },
+  {
     "n": "GASTO",
     "d": "GASTO"
   },
   {
+    "n": "GATAO",
+    "d": "GATÃO"
+  },
+  {
+    "n": "GATIL",
+    "d": "GATIL"
+  },
+  {
+    "n": "GAUGE",
+    "d": "GAUGE"
+  },
+  {
+    "n": "GAUSS",
+    "d": "GAUSS"
+  },
+  {
     "n": "GAVEA",
     "d": "GÁVEA"
+  },
+  {
+    "n": "GEADA",
+    "d": "GEADA"
+  },
+  {
+    "n": "GEEKS",
+    "d": "GEEKS"
+  },
+  {
+    "n": "GELAR",
+    "d": "GELAR"
   },
   {
     "n": "GEMAS",
@@ -3276,8 +6284,28 @@
     "d": "GÊMEA"
   },
   {
+    "n": "GEMEO",
+    "d": "GÊMEO"
+  },
+  {
+    "n": "GEMER",
+    "d": "GEMER"
+  },
+  {
+    "n": "GEMEU",
+    "d": "GEMEU"
+  },
+  {
+    "n": "GEMIA",
+    "d": "GEMIA"
+  },
+  {
     "n": "GENIO",
     "d": "GÊNIO"
+  },
+  {
+    "n": "GENOA",
+    "d": "GENOA"
   },
   {
     "n": "GENRO",
@@ -3300,8 +6328,16 @@
     "d": "GERAR"
   },
   {
+    "n": "GEREM",
+    "d": "GEREM"
+  },
+  {
     "n": "GERIR",
     "d": "GERIR"
+  },
+  {
+    "n": "GERME",
+    "d": "GERME"
   },
   {
     "n": "GEROU",
@@ -3312,12 +6348,28 @@
     "d": "GESSO"
   },
   {
+    "n": "GESTA",
+    "d": "GESTA"
+  },
+  {
     "n": "GESTO",
     "d": "GESTO"
   },
   {
     "n": "GIBIS",
     "d": "GIBIS"
+  },
+  {
+    "n": "GINGA",
+    "d": "GINGA"
+  },
+  {
+    "n": "GIRAM",
+    "d": "GIRAM"
+  },
+  {
+    "n": "GIRAO",
+    "d": "GIRÃO"
   },
   {
     "n": "GIRAR",
@@ -3328,12 +6380,56 @@
     "d": "GIRAS"
   },
   {
+    "n": "GIRIA",
+    "d": "GÍRIA"
+  },
+  {
+    "n": "GIROU",
+    "d": "GIROU"
+  },
+  {
+    "n": "GLACE",
+    "d": "GLACÊ"
+  },
+  {
+    "n": "GLEBA",
+    "d": "GLEBA"
+  },
+  {
+    "n": "GLIDE",
+    "d": "GLIDE"
+  },
+  {
     "n": "GLOBO",
     "d": "GLOBO"
   },
   {
+    "n": "GNOME",
+    "d": "GNOME"
+  },
+  {
+    "n": "GNOMO",
+    "d": "GNOMO"
+  },
+  {
+    "n": "GNOSE",
+    "d": "GNOSE"
+  },
+  {
+    "n": "GOELA",
+    "d": "GOELA"
+  },
+  {
     "n": "GOIAS",
     "d": "GOIÁS"
+  },
+  {
+    "n": "GOLAS",
+    "d": "GOLAS"
+  },
+  {
+    "n": "GOLES",
+    "d": "GOLES"
   },
   {
     "n": "GOLFE",
@@ -3348,8 +6444,20 @@
     "d": "GOLPE"
   },
   {
+    "n": "GOMAS",
+    "d": "GOMAS"
+  },
+  {
     "n": "GOMES",
     "d": "GOMES"
+  },
+  {
+    "n": "GONGO",
+    "d": "GONGO"
+  },
+  {
+    "n": "GONZO",
+    "d": "GONZO"
   },
   {
     "n": "GORDA",
@@ -3362,6 +6470,10 @@
   {
     "n": "GORRO",
     "d": "GORRO"
+  },
+  {
+    "n": "GOSMA",
+    "d": "GOSMA"
   },
   {
     "n": "GOSTA",
@@ -3380,8 +6492,28 @@
     "d": "GOTAS"
   },
   {
+    "n": "GOZAM",
+    "d": "GOZAM"
+  },
+  {
     "n": "GOZAR",
     "d": "GOZAR"
+  },
+  {
+    "n": "GOZEI",
+    "d": "GOZEI"
+  },
+  {
+    "n": "GOZOS",
+    "d": "GOZOS"
+  },
+  {
+    "n": "GOZOU",
+    "d": "GOZOU"
+  },
+  {
+    "n": "GRAAL",
+    "d": "GRAAL"
   },
   {
     "n": "GRACA",
@@ -3390,6 +6522,14 @@
   {
     "n": "GRADE",
     "d": "GRADE"
+  },
+  {
+    "n": "GRADO",
+    "d": "GRADO"
+  },
+  {
+    "n": "GRAFO",
+    "d": "GRAFO"
   },
   {
     "n": "GRAMA",
@@ -3420,6 +6560,18 @@
     "d": "GRAVE"
   },
   {
+    "n": "GRAVO",
+    "d": "GRAVO"
+  },
+  {
+    "n": "GRAXA",
+    "d": "GRAXA"
+  },
+  {
+    "n": "GRAXO",
+    "d": "GRAXO"
+  },
+  {
     "n": "GREEN",
     "d": "GREEN"
   },
@@ -3432,12 +6584,28 @@
     "d": "GREGO"
   },
   {
+    "n": "GRELO",
+    "d": "GRELO"
+  },
+  {
+    "n": "GRENA",
+    "d": "GRENÁ"
+  },
+  {
+    "n": "GRETA",
+    "d": "GRETA"
+  },
+  {
     "n": "GREVE",
     "d": "GREVE"
   },
   {
     "n": "GRIFE",
     "d": "GRIFE"
+  },
+  {
+    "n": "GRIFO",
+    "d": "GRIFO"
   },
   {
     "n": "GRILL",
@@ -3456,8 +6624,24 @@
     "d": "GRITA"
   },
   {
+    "n": "GRITE",
+    "d": "GRITE"
+  },
+  {
     "n": "GRITO",
     "d": "GRITO"
+  },
+  {
+    "n": "GROTA",
+    "d": "GROTA"
+  },
+  {
+    "n": "GRUDA",
+    "d": "GRUDA"
+  },
+  {
+    "n": "GRUDE",
+    "d": "GRUDE"
   },
   {
     "n": "GRUPO",
@@ -3466,6 +6650,26 @@
   {
     "n": "GRUTA",
     "d": "GRUTA"
+  },
+  {
+    "n": "GUACU",
+    "d": "GUAÇU"
+  },
+  {
+    "n": "GUARA",
+    "d": "GUARÁ"
+  },
+  {
+    "n": "GUETO",
+    "d": "GUETO"
+  },
+  {
+    "n": "GUIAM",
+    "d": "GUIAM"
+  },
+  {
+    "n": "GUIAO",
+    "d": "GUIÃO"
   },
   {
     "n": "GUIAR",
@@ -3478,6 +6682,18 @@
   {
     "n": "GUINE",
     "d": "GUINÉ"
+  },
+  {
+    "n": "GUIOU",
+    "d": "GUIOU"
+  },
+  {
+    "n": "GUISA",
+    "d": "GUISA"
+  },
+  {
+    "n": "GUITA",
+    "d": "GUITA"
   },
   {
     "n": "GURIA",
@@ -3496,8 +6712,24 @@
     "d": "HAITI"
   },
   {
+    "n": "HAJAM",
+    "d": "HAJAM"
+  },
+  {
+    "n": "HALAL",
+    "d": "HALAL"
+  },
+  {
     "n": "HAPPY",
     "d": "HAPPY"
+  },
+  {
+    "n": "HARAS",
+    "d": "HARAS"
+  },
+  {
+    "n": "HAREM",
+    "d": "HARÉM"
   },
   {
     "n": "HARPA",
@@ -3528,6 +6760,14 @@
     "d": "HEAVY"
   },
   {
+    "n": "HEDGE",
+    "d": "HEDGE"
+  },
+  {
+    "n": "HELIA",
+    "d": "HÉLIA"
+  },
+  {
     "n": "HELIO",
     "d": "HÉLIO"
   },
@@ -3536,12 +6776,52 @@
     "d": "HENRY"
   },
   {
+    "n": "HERDA",
+    "d": "HERDA"
+  },
+  {
     "n": "HEROI",
     "d": "HERÓI"
   },
   {
+    "n": "HERTZ",
+    "d": "HERTZ"
+  },
+  {
+    "n": "HIATO",
+    "d": "HIATO"
+  },
+  {
+    "n": "HIDRA",
+    "d": "HIDRA"
+  },
+  {
     "n": "HIDRO",
     "d": "HIDRO"
+  },
+  {
+    "n": "HIENA",
+    "d": "HIENA"
+  },
+  {
+    "n": "HIFEN",
+    "d": "HÍFEN"
+  },
+  {
+    "n": "HIGGS",
+    "d": "HIGGS"
+  },
+  {
+    "n": "HIMEN",
+    "d": "HÍMEN"
+  },
+  {
+    "n": "HINDI",
+    "d": "HINDI"
+  },
+  {
+    "n": "HINDU",
+    "d": "HINDU"
   },
   {
     "n": "HIPER",
@@ -3556,12 +6836,24 @@
     "d": "HOMEM"
   },
   {
+    "n": "HONOR",
+    "d": "HONOR"
+  },
+  {
     "n": "HONRA",
     "d": "HONRA"
   },
   {
+    "n": "HONRE",
+    "d": "HONRE"
+  },
+  {
     "n": "HORAS",
     "d": "HORAS"
+  },
+  {
+    "n": "HORDA",
+    "d": "HORDA"
   },
   {
     "n": "HORTA",
@@ -3588,12 +6880,36 @@
     "d": "HUMOR"
   },
   {
+    "n": "HUMUS",
+    "d": "HÚMUS"
+  },
+  {
+    "n": "HUSKY",
+    "d": "HUSKY"
+  },
+  {
     "n": "IAMOS",
     "d": "ÍAMOS"
   },
   {
+    "n": "IANSA",
+    "d": "IANSÃ"
+  },
+  {
+    "n": "IBERO",
+    "d": "IBERO"
+  },
+  {
     "n": "IBOPE",
     "d": "IBOPE"
+  },
+  {
+    "n": "ICARA",
+    "d": "IÇARA"
+  },
+  {
+    "n": "ICARO",
+    "d": "ÍCARO"
   },
   {
     "n": "ICONE",
@@ -3620,12 +6936,44 @@
     "d": "IDOSO"
   },
   {
+    "n": "IEMEN",
+    "d": "IÊMEN"
+  },
+  {
     "n": "IGUAL",
     "d": "IGUAL"
   },
   {
+    "n": "ILESA",
+    "d": "ILESA"
+  },
+  {
+    "n": "ILESO",
+    "d": "ILESO"
+  },
+  {
     "n": "ILHAS",
     "d": "ILHAS"
+  },
+  {
+    "n": "ILHEU",
+    "d": "ILHÉU"
+  },
+  {
+    "n": "ILHOS",
+    "d": "ILHÓS"
+  },
+  {
+    "n": "ILUDA",
+    "d": "ILUDA"
+  },
+  {
+    "n": "ILUDE",
+    "d": "ILUDE"
+  },
+  {
+    "n": "IMAGO",
+    "d": "IMAGO"
   },
   {
     "n": "IMITA",
@@ -3634,6 +6982,10 @@
   {
     "n": "IMPAR",
     "d": "ÍMPAR"
+  },
+  {
+    "n": "IMPIO",
+    "d": "ÍMPIO"
   },
   {
     "n": "IMPOE",
@@ -3650,6 +7002,26 @@
   {
     "n": "IMUNE",
     "d": "IMUNE"
+  },
+  {
+    "n": "IMUNO",
+    "d": "IMUNO"
+  },
+  {
+    "n": "INATA",
+    "d": "INATA"
+  },
+  {
+    "n": "INATO",
+    "d": "INATO"
+  },
+  {
+    "n": "INCAS",
+    "d": "INCAS"
+  },
+  {
+    "n": "INCHA",
+    "d": "INCHA"
   },
   {
     "n": "INDIA",
@@ -3672,8 +7044,24 @@
     "d": "INFRA"
   },
   {
+    "n": "INIBE",
+    "d": "INIBE"
+  },
+  {
     "n": "INOVA",
     "d": "INOVA"
+  },
+  {
+    "n": "INOVE",
+    "d": "INOVE"
+  },
+  {
+    "n": "INPUT",
+    "d": "INPUT"
+  },
+  {
+    "n": "INSTA",
+    "d": "INSTA"
   },
   {
     "n": "INTER",
@@ -3688,12 +7076,44 @@
     "d": "INVÉS"
   },
   {
+    "n": "IPIAU",
+    "d": "IPIAÚ"
+  },
+  {
+    "n": "IPIRA",
+    "d": "IPIRÁ"
+  },
+  {
+    "n": "IPORA",
+    "d": "IPORÁ"
+  },
+  {
+    "n": "IRADO",
+    "d": "IRADO"
+  },
+  {
+    "n": "IRANI",
+    "d": "IRANI"
+  },
+  {
+    "n": "IRATI",
+    "d": "IRATI"
+  },
+  {
+    "n": "IRECE",
+    "d": "IRECÊ"
+  },
+  {
     "n": "IRENE",
     "d": "IRENE"
   },
   {
     "n": "IRIAM",
     "d": "IRIAM"
+  },
+  {
+    "n": "IRINA",
+    "d": "IRINA"
   },
   {
     "n": "IRMAO",
@@ -3708,20 +7128,96 @@
     "d": "IRMOS"
   },
   {
+    "n": "ISLAO",
+    "d": "ISLÃO"
+  },
+  {
+    "n": "ISOLA",
+    "d": "ISOLA"
+  },
+  {
+    "n": "ISTMO",
+    "d": "ISTMO"
+  },
+  {
+    "n": "ITALO",
+    "d": "ÍTALO"
+  },
+  {
     "n": "ITENS",
     "d": "ITENS"
+  },
+  {
+    "n": "IVOTI",
+    "d": "IVOTI"
+  },
+  {
+    "n": "JACTO",
+    "d": "JACTO"
+  },
+  {
+    "n": "JACUI",
+    "d": "JACUÍ"
+  },
+  {
+    "n": "JALES",
+    "d": "JALES"
+  },
+  {
+    "n": "JAMBO",
+    "d": "JAMBO"
+  },
+  {
+    "n": "JANGO",
+    "d": "JANGO"
   },
   {
     "n": "JANTA",
     "d": "JANTA"
   },
   {
+    "n": "JANTE",
+    "d": "JANTE"
+  },
+  {
     "n": "JAPAO",
     "d": "JAPÃO"
   },
   {
+    "n": "JAQUE",
+    "d": "JAQUE"
+  },
+  {
+    "n": "JARRA",
+    "d": "JARRA"
+  },
+  {
+    "n": "JARRO",
+    "d": "JARRO"
+  },
+  {
+    "n": "JATAI",
+    "d": "JATAÍ"
+  },
+  {
+    "n": "JAULA",
+    "d": "JAULA"
+  },
+  {
+    "n": "JAZEM",
+    "d": "JAZEM"
+  },
+  {
+    "n": "JAZIA",
+    "d": "JAZIA"
+  },
+  {
     "n": "JEANS",
     "d": "JEANS"
+  },
+  {
+    "n": "JEGUE",
+    "d": "JEGUE"
   },
   {
     "n": "JEITO",
@@ -3740,12 +7236,28 @@
     "d": "JESUS"
   },
   {
+    "n": "JIHAD",
+    "d": "JIHAD"
+  },
+  {
+    "n": "JIRAU",
+    "d": "JIRAU"
+  },
+  {
+    "n": "JITSU",
+    "d": "JÍTSU"
+  },
+  {
     "n": "JOANA",
     "d": "JOANA"
   },
   {
     "n": "JOGAM",
     "d": "JOGAM"
+  },
+  {
+    "n": "JOGAO",
+    "d": "JOGÃO"
   },
   {
     "n": "JOGAR",
@@ -3768,12 +7280,40 @@
     "d": "JÓIAS"
   },
   {
+    "n": "JOINT",
+    "d": "JOINT"
+  },
+  {
+    "n": "JOKER",
+    "d": "JOKER"
+  },
+  {
+    "n": "JONGO",
+    "d": "JONGO"
+  },
+  {
     "n": "JORGE",
     "d": "JORGE"
   },
   {
+    "n": "JORRA",
+    "d": "JORRA"
+  },
+  {
+    "n": "JORRO",
+    "d": "JORRO"
+  },
+  {
+    "n": "JOULE",
+    "d": "JOULE"
+  },
+  {
     "n": "JOVEM",
     "d": "JOVEM"
+  },
+  {
+    "n": "JUARA",
+    "d": "JUARA"
   },
   {
     "n": "JUDAS",
@@ -3782,6 +7322,18 @@
   {
     "n": "JUDEU",
     "d": "JUDEU"
+  },
+  {
+    "n": "JUDIA",
+    "d": "JUDIA"
+  },
+  {
+    "n": "JUGAR",
+    "d": "JUGAR"
+  },
+  {
+    "n": "JUINA",
+    "d": "JUÍNA"
   },
   {
     "n": "JUIZA",
@@ -3812,6 +7364,14 @@
     "d": "JÚLIO"
   },
   {
+    "n": "JUMBO",
+    "d": "JUMBO"
+  },
+  {
+    "n": "JUNCO",
+    "d": "JUNCO"
+  },
+  {
     "n": "JUNHO",
     "d": "JUNHO"
   },
@@ -3828,12 +7388,44 @@
     "d": "JUNTO"
   },
   {
+    "n": "JURAM",
+    "d": "JURAM"
+  },
+  {
+    "n": "JURAR",
+    "d": "JURAR"
+  },
+  {
+    "n": "JURAS",
+    "d": "JURAS"
+  },
+  {
+    "n": "JUREI",
+    "d": "JUREI"
+  },
+  {
+    "n": "JURIS",
+    "d": "JURIS"
+  },
+  {
+    "n": "JUROU",
+    "d": "JUROU"
+  },
+  {
+    "n": "JURUA",
+    "d": "JURUÁ"
+  },
+  {
     "n": "JUSTA",
     "d": "JUSTA"
   },
   {
     "n": "JUSTO",
     "d": "JUSTO"
+  },
+  {
+    "n": "KANJI",
+    "d": "KANJI"
   },
   {
     "n": "KARMA",
@@ -3844,16 +7436,68 @@
     "d": "KAYAK"
   },
   {
+    "n": "KEBAB",
+    "d": "KEBAB"
+  },
+  {
+    "n": "KEFIR",
+    "d": "KEFIR"
+  },
+  {
+    "n": "KHMER",
+    "d": "KHMER"
+  },
+  {
+    "n": "KOALA",
+    "d": "KOALA"
+  },
+  {
+    "n": "KODAK",
+    "d": "KODAK"
+  },
+  {
     "n": "KOMBI",
     "d": "KOMBI"
+  },
+  {
+    "n": "KRAFT",
+    "d": "KRAFT"
+  },
+  {
+    "n": "LABAO",
+    "d": "LABÃO"
+  },
+  {
+    "n": "LABIA",
+    "d": "LÁBIA"
   },
   {
     "n": "LABIO",
     "d": "LÁBIO"
   },
   {
+    "n": "LABOR",
+    "d": "LABOR"
+  },
+  {
+    "n": "LACIO",
+    "d": "LÁCIO"
+  },
+  {
     "n": "LACOS",
     "d": "LAÇOS"
+  },
+  {
+    "n": "LACRE",
+    "d": "LACRE"
+  },
+  {
+    "n": "LADRA",
+    "d": "LADRA"
+  },
+  {
+    "n": "LAGAR",
+    "d": "LAGAR"
   },
   {
     "n": "LAGES",
@@ -3864,8 +7508,24 @@
     "d": "LAGOA"
   },
   {
+    "n": "LAICA",
+    "d": "LAICA"
+  },
+  {
+    "n": "LAICO",
+    "d": "LAICO"
+  },
+  {
     "n": "LAJES",
     "d": "LAJES"
+  },
+  {
+    "n": "LAMAS",
+    "d": "LAMAS"
+  },
+  {
+    "n": "LAMBE",
+    "d": "LAMBE"
   },
   {
     "n": "LANCA",
@@ -3876,8 +7536,16 @@
     "d": "LANCE"
   },
   {
+    "n": "LANCO",
+    "d": "LANÇO"
+  },
+  {
     "n": "LAPIS",
     "d": "LÁPIS"
+  },
+  {
+    "n": "LAPSO",
+    "d": "LAPSO"
   },
   {
     "n": "LARES",
@@ -3892,6 +7560,14 @@
     "d": "LARGO"
   },
   {
+    "n": "LARVA",
+    "d": "LARVA"
+  },
+  {
+    "n": "LASCA",
+    "d": "LASCA"
+  },
+  {
     "n": "LASER",
     "d": "LASER"
   },
@@ -3904,12 +7580,24 @@
     "d": "LATAS"
   },
   {
+    "n": "LATER",
+    "d": "LATER"
+  },
+  {
     "n": "LATEX",
     "d": "LÁTEX"
   },
   {
     "n": "LATIM",
     "d": "LATIM"
+  },
+  {
+    "n": "LATIR",
+    "d": "LATIR"
+  },
+  {
+    "n": "LAUDA",
+    "d": "LAUDA"
   },
   {
     "n": "LAUDO",
@@ -3924,16 +7612,60 @@
     "d": "LAURO"
   },
   {
+    "n": "LAVAM",
+    "d": "LAVAM"
+  },
+  {
     "n": "LAVAR",
     "d": "LAVAR"
+  },
+  {
+    "n": "LAVAS",
+    "d": "LAVAS"
+  },
+  {
+    "n": "LAVEI",
+    "d": "LAVEI"
+  },
+  {
+    "n": "LAVOR",
+    "d": "LAVOR"
+  },
+  {
+    "n": "LAVOU",
+    "d": "LAVOU"
+  },
+  {
+    "n": "LAVRA",
+    "d": "LAVRA"
   },
   {
     "n": "LAZER",
     "d": "LAZER"
   },
   {
+    "n": "LEBRE",
+    "d": "LEBRE"
+  },
+  {
+    "n": "LECTO",
+    "d": "LECTO"
+  },
+  {
     "n": "LEGAL",
     "d": "LEGAL"
+  },
+  {
+    "n": "LEGIS",
+    "d": "LEGIS"
+  },
+  {
+    "n": "LEGOU",
+    "d": "LEGOU"
+  },
+  {
+    "n": "LEGUA",
+    "d": "LÉGUA"
   },
   {
     "n": "LEIAM",
@@ -3968,6 +7700,10 @@
     "d": "LENDO"
   },
   {
+    "n": "LENGA",
+    "d": "LENGA"
+  },
+  {
     "n": "LENHA",
     "d": "LENHA"
   },
@@ -3980,6 +7716,14 @@
     "d": "LENTO"
   },
   {
+    "n": "LEONE",
+    "d": "LEONE"
+  },
+  {
+    "n": "LEPRA",
+    "d": "LEPRA"
+  },
+  {
     "n": "LEQUE",
     "d": "LEQUE"
   },
@@ -3988,12 +7732,40 @@
     "d": "LERAM"
   },
   {
+    "n": "LERDO",
+    "d": "LERDO"
+  },
+  {
+    "n": "LEREI",
+    "d": "LEREI"
+  },
+  {
     "n": "LEREM",
     "d": "LEREM"
   },
   {
+    "n": "LERES",
+    "d": "LERES"
+  },
+  {
+    "n": "LERIA",
+    "d": "LERIA"
+  },
+  {
     "n": "LESAO",
     "d": "LESÃO"
+  },
+  {
+    "n": "LESAR",
+    "d": "LESAR"
+  },
+  {
+    "n": "LESMA",
+    "d": "LESMA"
+  },
+  {
+    "n": "LESSE",
+    "d": "LESSE"
   },
   {
     "n": "LESTE",
@@ -4016,6 +7788,10 @@
     "d": "LEVAR"
   },
   {
+    "n": "LEVAS",
+    "d": "LEVAS"
+  },
+  {
     "n": "LEVEI",
     "d": "LEVEI"
   },
@@ -4032,12 +7808,32 @@
     "d": "LEVOU"
   },
   {
+    "n": "LHASA",
+    "d": "LHASA"
+  },
+  {
+    "n": "LIANA",
+    "d": "LIANA"
+  },
+  {
+    "n": "LIBER",
+    "d": "LIBER"
+  },
+  {
     "n": "LIBIA",
     "d": "LÍBIA"
   },
   {
+    "n": "LIBIO",
+    "d": "LÍBIO"
+  },
+  {
     "n": "LIBRA",
     "d": "LIBRA"
+  },
+  {
+    "n": "LIBRO",
+    "d": "LIBRO"
   },
   {
     "n": "LICAO",
@@ -4046,6 +7842,10 @@
   {
     "n": "LICEU",
     "d": "LICEU"
+  },
+  {
+    "n": "LICIA",
+    "d": "LÍCIA"
   },
   {
     "n": "LICOR",
@@ -4066,6 +7866,14 @@
   {
     "n": "LIDER",
     "d": "LÍDER"
+  },
+  {
+    "n": "LIDES",
+    "d": "LIDES"
+  },
+  {
+    "n": "LIDOU",
+    "d": "LIDOU"
   },
   {
     "n": "LIGAM",
@@ -4100,6 +7908,14 @@
     "d": "LIMÃO"
   },
   {
+    "n": "LIMAS",
+    "d": "LIMAS"
+  },
+  {
+    "n": "LIMBO",
+    "d": "LIMBO"
+  },
+  {
     "n": "LIMPA",
     "d": "LIMPA"
   },
@@ -4112,12 +7928,28 @@
     "d": "LIMPO"
   },
   {
+    "n": "LINCE",
+    "d": "LINCE"
+  },
+  {
     "n": "LINDA",
     "d": "LINDA"
   },
   {
+    "n": "LINDE",
+    "d": "LINDE"
+  },
+  {
     "n": "LINDO",
     "d": "LINDO"
+  },
+  {
+    "n": "LINES",
+    "d": "LINES"
+  },
+  {
+    "n": "LINFA",
+    "d": "LINFA"
   },
   {
     "n": "LINHA",
@@ -4128,12 +7960,40 @@
     "d": "LINHO"
   },
   {
+    "n": "LIRIO",
+    "d": "LÍRIO"
+  },
+  {
+    "n": "LISAS",
+    "d": "LISAS"
+  },
+  {
+    "n": "LISSA",
+    "d": "LISSA"
+  },
+  {
     "n": "LISTA",
     "d": "LISTA"
   },
   {
+    "n": "LISTE",
+    "d": "LISTE"
+  },
+  {
+    "n": "LISTO",
+    "d": "LISTO"
+  },
+  {
+    "n": "LITIO",
+    "d": "LÍTIO"
+  },
+  {
     "n": "LITRO",
     "d": "LITRO"
+  },
+  {
+    "n": "LIVES",
+    "d": "LIVES"
   },
   {
     "n": "LIVIA",
@@ -4150,6 +8010,18 @@
   {
     "n": "LIVRO",
     "d": "LIVRO"
+  },
+  {
+    "n": "LIXAO",
+    "d": "LIXÃO"
+  },
+  {
+    "n": "LIXAR",
+    "d": "LIXAR"
+  },
+  {
+    "n": "LIXAS",
+    "d": "LIXAS"
   },
   {
     "n": "LOBAO",
@@ -4172,6 +8044,18 @@
     "d": "LOÇÃO"
   },
   {
+    "n": "LOCAR",
+    "d": "LOCAR"
+  },
+  {
+    "n": "LOCUS",
+    "d": "LOCUS"
+  },
+  {
+    "n": "LOFTS",
+    "d": "LOFTS"
+  },
+  {
     "n": "LOGAR",
     "d": "LOGAR"
   },
@@ -4180,8 +8064,20 @@
     "d": "LOGIN"
   },
   {
+    "n": "LOGON",
+    "d": "LOGON"
+  },
+  {
     "n": "LOGOS",
     "d": "LOGOS"
+  },
+  {
+    "n": "LOGRO",
+    "d": "LOGRO"
+  },
+  {
+    "n": "LOICA",
+    "d": "LOIÇA"
   },
   {
     "n": "LOIRA",
@@ -4190,6 +8086,10 @@
   {
     "n": "LOIRO",
     "d": "LOIRO"
+  },
+  {
+    "n": "LOMBA",
+    "d": "LOMBA"
   },
   {
     "n": "LOMBO",
@@ -4216,12 +8116,32 @@
     "d": "LOPES"
   },
   {
+    "n": "LORCA",
+    "d": "LORCA"
+  },
+  {
     "n": "LORDE",
     "d": "LORDE"
   },
   {
+    "n": "LOTAM",
+    "d": "LOTAM"
+  },
+  {
+    "n": "LOTAR",
+    "d": "LOTAR"
+  },
+  {
     "n": "LOTES",
     "d": "LOTES"
+  },
+  {
+    "n": "LOTOU",
+    "d": "LOTOU"
+  },
+  {
+    "n": "LOTUS",
+    "d": "LÓTUS"
   },
   {
     "n": "LOUCA",
@@ -4232,8 +8152,28 @@
     "d": "LOUCO"
   },
   {
+    "n": "LOURA",
+    "d": "LOURA"
+  },
+  {
     "n": "LOURO",
     "d": "LOURO"
+  },
+  {
+    "n": "LOUSA",
+    "d": "LOUSA"
+  },
+  {
+    "n": "LOUVA",
+    "d": "LOUVA"
+  },
+  {
+    "n": "LOUVE",
+    "d": "LOUVE"
+  },
+  {
+    "n": "LOUVO",
+    "d": "LOUVO"
   },
   {
     "n": "LUCAS",
@@ -4248,6 +8188,10 @@
     "d": "LÚCIO"
   },
   {
+    "n": "LUCRA",
+    "d": "LUCRA"
+  },
+  {
     "n": "LUCRO",
     "d": "LUCRO"
   },
@@ -4256,8 +8200,36 @@
     "d": "LUGAR"
   },
   {
+    "n": "LUMEN",
+    "d": "LÚMEN"
+  },
+  {
+    "n": "LUMES",
+    "d": "LUMES"
+  },
+  {
     "n": "LUNAR",
     "d": "LUNAR"
+  },
+  {
+    "n": "LUNDA",
+    "d": "LUNDA"
+  },
+  {
+    "n": "LUPUS",
+    "d": "LÚPUS"
+  },
+  {
+    "n": "LUQUE",
+    "d": "LUQUE"
+  },
+  {
+    "n": "LUREX",
+    "d": "LUREX"
+  },
+  {
+    "n": "LUSAS",
+    "d": "LUSAS"
   },
   {
     "n": "LUTAM",
@@ -4272,12 +8244,24 @@
     "d": "LUTAS"
   },
   {
+    "n": "LUTEI",
+    "d": "LUTEI"
+  },
+  {
+    "n": "LUTEM",
+    "d": "LUTEM"
+  },
+  {
     "n": "LUTOU",
     "d": "LUTOU"
   },
   {
     "n": "LUVAS",
     "d": "LUVAS"
+  },
+  {
+    "n": "LUXOS",
+    "d": "LUXOS"
   },
   {
     "n": "LUZES",
@@ -4288,8 +8272,16 @@
     "d": "LUZIA"
   },
   {
+    "n": "LYCRA",
+    "d": "LYCRA"
+  },
+  {
     "n": "MACAE",
     "d": "MACAÉ"
+  },
+  {
+    "n": "MACAO",
+    "d": "MAÇÃO"
   },
   {
     "n": "MACAS",
@@ -4300,12 +8292,24 @@
     "d": "MACAU"
   },
   {
+    "n": "MACHA",
+    "d": "MACHA"
+  },
+  {
+    "n": "MACHE",
+    "d": "MACHÊ"
+  },
+  {
     "n": "MACHO",
     "d": "MACHO"
   },
   {
     "n": "MACIO",
     "d": "MACIO"
+  },
+  {
+    "n": "MACOM",
+    "d": "MAÇOM"
   },
   {
     "n": "MACRO",
@@ -4324,8 +8328,20 @@
     "d": "MAFRA"
   },
   {
+    "n": "MAGAL",
+    "d": "MAGAL"
+  },
+  {
+    "n": "MAGDA",
+    "d": "MAGDA"
+  },
+  {
     "n": "MAGIA",
     "d": "MAGIA"
+  },
+  {
+    "n": "MAGMA",
+    "d": "MAGMA"
   },
   {
     "n": "MAGNA",
@@ -4356,6 +8372,10 @@
     "d": "MAIOR"
   },
   {
+    "n": "MAIRI",
+    "d": "MAIRI"
+  },
+  {
     "n": "MAJOR",
     "d": "MAJOR"
   },
@@ -4368,12 +8388,28 @@
     "d": "MALHA"
   },
   {
+    "n": "MALHO",
+    "d": "MALHO"
+  },
+  {
     "n": "MALTA",
     "d": "MALTA"
   },
   {
+    "n": "MALTE",
+    "d": "MALTE"
+  },
+  {
+    "n": "MALVA",
+    "d": "MALVA"
+  },
+  {
     "n": "MAMAE",
     "d": "MAMÃE"
+  },
+  {
+    "n": "MAMAM",
+    "d": "MAMAM"
   },
   {
     "n": "MAMAO",
@@ -4388,6 +8424,26 @@
     "d": "MAMAS"
   },
   {
+    "n": "MAMBO",
+    "d": "MAMBO"
+  },
+  {
+    "n": "MAMOU",
+    "d": "MAMOU"
+  },
+  {
+    "n": "MANAS",
+    "d": "MANAS"
+  },
+  {
+    "n": "MANCA",
+    "d": "MANCA"
+  },
+  {
+    "n": "MANCO",
+    "d": "MANCO"
+  },
+  {
     "n": "MANDA",
     "d": "MANDA"
   },
@@ -4396,12 +8452,24 @@
     "d": "MANDE"
   },
   {
+    "n": "MANDI",
+    "d": "MANDI"
+  },
+  {
     "n": "MANDO",
     "d": "MANDO"
   },
   {
+    "n": "MANEL",
+    "d": "MANEL"
+  },
+  {
     "n": "MANGA",
     "d": "MANGA"
+  },
+  {
+    "n": "MANGO",
+    "d": "MANGO"
   },
   {
     "n": "MANHA",
@@ -4410,6 +8478,10 @@
   {
     "n": "MANIA",
     "d": "MANIA"
+  },
+  {
+    "n": "MANJA",
+    "d": "MANJA"
   },
   {
     "n": "MANSO",
@@ -4428,6 +8500,22 @@
     "d": "MANTO"
   },
   {
+    "n": "MAORI",
+    "d": "MAORI"
+  },
+  {
+    "n": "MAPLE",
+    "d": "MAPLE"
+  },
+  {
+    "n": "MARAO",
+    "d": "MARÃO"
+  },
+  {
+    "n": "MARAU",
+    "d": "MARAU"
+  },
+  {
     "n": "MARCA",
     "d": "MARCA"
   },
@@ -4440,12 +8528,24 @@
     "d": "MARES"
   },
   {
+    "n": "MARGO",
+    "d": "MARGO"
+  },
+  {
     "n": "MARIA",
     "d": "MARIA"
   },
   {
+    "n": "MARIM",
+    "d": "MARIM"
+  },
+  {
     "n": "MARIO",
     "d": "MÁRIO"
+  },
+  {
+    "n": "MARRA",
+    "d": "MARRA"
   },
   {
     "n": "MARTA",
@@ -4464,6 +8564,10 @@
     "d": "MATAM"
   },
   {
+    "n": "MATAO",
+    "d": "MATÃO"
+  },
+  {
     "n": "MATAR",
     "d": "MATAR"
   },
@@ -4480,16 +8584,44 @@
     "d": "MATEI"
   },
   {
+    "n": "MATEM",
+    "d": "MATEM"
+  },
+  {
+    "n": "MATER",
+    "d": "MATER"
+  },
+  {
+    "n": "MATIZ",
+    "d": "MATIZ"
+  },
+  {
     "n": "MATOU",
     "d": "MATOU"
+  },
+  {
+    "n": "MAUES",
+    "d": "MAUÉS"
   },
   {
     "n": "MAURO",
     "d": "MAURO"
   },
   {
+    "n": "MAXIM",
+    "d": "MAXIM"
+  },
+  {
+    "n": "MEADA",
+    "d": "MEADA"
+  },
+  {
     "n": "MECHA",
     "d": "MECHA"
+  },
+  {
+    "n": "MEDEM",
+    "d": "MEDEM"
   },
   {
     "n": "MEDIA",
@@ -4504,6 +8636,14 @@
     "d": "MEDIR"
   },
   {
+    "n": "MEDIU",
+    "d": "MEDIU"
+  },
+  {
+    "n": "MEIAO",
+    "d": "MEIÃO"
+  },
+  {
     "n": "MEIAS",
     "d": "MEIAS"
   },
@@ -4512,12 +8652,28 @@
     "d": "MEIGA"
   },
   {
+    "n": "MEIGO",
+    "d": "MEIGO"
+  },
+  {
     "n": "MEIOS",
     "d": "MEIOS"
   },
   {
     "n": "MELAO",
     "d": "MELÃO"
+  },
+  {
+    "n": "MELIA",
+    "d": "MELIA"
+  },
+  {
+    "n": "MELRO",
+    "d": "MELRO"
+  },
+  {
+    "n": "MENGO",
+    "d": "MENGO"
   },
   {
     "n": "MENOR",
@@ -4536,12 +8692,28 @@
     "d": "MENTE"
   },
   {
+    "n": "MENTI",
+    "d": "MENTI"
+  },
+  {
+    "n": "MENTO",
+    "d": "MENTO"
+  },
+  {
     "n": "MERCE",
     "d": "MERCÊ"
   },
   {
     "n": "MERDA",
     "d": "MERDA"
+  },
+  {
+    "n": "MERLO",
+    "d": "MERLO"
+  },
+  {
+    "n": "MESAO",
+    "d": "MESÃO"
   },
   {
     "n": "MESES",
@@ -4556,24 +8728,56 @@
     "d": "MESMO"
   },
   {
+    "n": "MESSE",
+    "d": "MESSE"
+  },
+  {
     "n": "METAL",
     "d": "METAL"
+  },
+  {
+    "n": "METAM",
+    "d": "METAM"
   },
   {
     "n": "METAS",
     "d": "METAS"
   },
   {
+    "n": "METEM",
+    "d": "METEM"
+  },
+  {
     "n": "METER",
     "d": "METER"
+  },
+  {
+    "n": "METES",
+    "d": "METES"
   },
   {
     "n": "METEU",
     "d": "METEU"
   },
   {
+    "n": "METIA",
+    "d": "METIA"
+  },
+  {
+    "n": "METIL",
+    "d": "METIL"
+  },
+  {
     "n": "METRO",
     "d": "METRO"
+  },
+  {
+    "n": "MEXAM",
+    "d": "MEXAM"
+  },
+  {
+    "n": "MEXEM",
+    "d": "MEXEM"
   },
   {
     "n": "MEXER",
@@ -4584,16 +8788,40 @@
     "d": "MEXEU"
   },
   {
+    "n": "MEXIA",
+    "d": "MEXIA"
+  },
+  {
+    "n": "MICHA",
+    "d": "MICHA"
+  },
+  {
     "n": "MICRO",
     "d": "MICRO"
+  },
+  {
+    "n": "MIDAS",
+    "d": "MIDAS"
   },
   {
     "n": "MIDIA",
     "d": "MÍDIA"
   },
   {
+    "n": "MIGAS",
+    "d": "MIGAS"
+  },
+  {
+    "n": "MIGRA",
+    "d": "MIGRA"
+  },
+  {
     "n": "MIGRE",
     "d": "MIGRE"
+  },
+  {
+    "n": "MIJAR",
+    "d": "MIJAR"
   },
   {
     "n": "MILAO",
@@ -4608,6 +8836,14 @@
     "d": "MILHO"
   },
   {
+    "n": "MIMAR",
+    "d": "MIMAR"
+  },
+  {
+    "n": "MINAR",
+    "d": "MINAR"
+  },
+  {
     "n": "MINAS",
     "d": "MINAS"
   },
@@ -4616,12 +8852,48 @@
     "d": "MINHA"
   },
   {
+    "n": "MINTA",
+    "d": "MINTA"
+  },
+  {
+    "n": "MINTO",
+    "d": "MINTO"
+  },
+  {
     "n": "MIOLO",
     "d": "MIOLO"
   },
   {
+    "n": "MIOMA",
+    "d": "MIOMA"
+  },
+  {
+    "n": "MIOPE",
+    "d": "MÍOPE"
+  },
+  {
+    "n": "MIRAI",
+    "d": "MIRAI"
+  },
+  {
+    "n": "MIRAR",
+    "d": "MIRAR"
+  },
+  {
+    "n": "MIRAS",
+    "d": "MIRAS"
+  },
+  {
     "n": "MIRIM",
     "d": "MIRIM"
+  },
+  {
+    "n": "MIROU",
+    "d": "MIROU"
+  },
+  {
+    "n": "MIRRA",
+    "d": "MIRRA"
   },
   {
     "n": "MISSA",
@@ -4636,16 +8908,40 @@
     "d": "MISTO"
   },
   {
+    "n": "MITRA",
+    "d": "MITRA"
+  },
+  {
     "n": "MIUDO",
     "d": "MIÚDO"
+  },
+  {
+    "n": "MIXAR",
+    "d": "MIXAR"
   },
   {
     "n": "MIXER",
     "d": "MIXER"
   },
   {
+    "n": "MIXTO",
+    "d": "MIXTO"
+  },
+  {
+    "n": "MOBIL",
+    "d": "MÓBIL"
+  },
+  {
     "n": "MOCAO",
     "d": "MOÇÃO"
+  },
+  {
+    "n": "MOCHO",
+    "d": "MOCHO"
+  },
+  {
+    "n": "MODAL",
+    "d": "MODAL"
   },
   {
     "n": "MODEL",
@@ -4660,6 +8956,10 @@
     "d": "MODOS"
   },
   {
+    "n": "MODUS",
+    "d": "MODUS"
+  },
+  {
     "n": "MOEDA",
     "d": "MOEDA"
   },
@@ -4668,24 +8968,60 @@
     "d": "MOEMA"
   },
   {
+    "n": "MOGNO",
+    "d": "MOGNO"
+  },
+  {
+    "n": "MOIDO",
+    "d": "MOÍDO"
+  },
+  {
+    "n": "MOIRA",
+    "d": "MOIRA"
+  },
+  {
     "n": "MOITA",
     "d": "MOITA"
+  },
+  {
+    "n": "MOLAR",
+    "d": "MOLAR"
   },
   {
     "n": "MOLAS",
     "d": "MOLAS"
   },
   {
+    "n": "MOLDA",
+    "d": "MOLDA"
+  },
+  {
     "n": "MOLDE",
     "d": "MOLDE"
+  },
+  {
+    "n": "MOLHA",
+    "d": "MOLHA"
+  },
+  {
+    "n": "MOLHE",
+    "d": "MOLHE"
   },
   {
     "n": "MOLHO",
     "d": "MOLHO"
   },
   {
+    "n": "MONDO",
+    "d": "MONDO"
+  },
+  {
     "n": "MONGE",
     "d": "MONGE"
+  },
+  {
+    "n": "MONJA",
+    "d": "MONJA"
   },
   {
     "n": "MONTA",
@@ -4694,6 +9030,10 @@
   {
     "n": "MONTE",
     "d": "MONTE"
+  },
+  {
+    "n": "MONTO",
+    "d": "MONTO"
   },
   {
     "n": "MORAL",
@@ -4708,8 +9048,32 @@
     "d": "MORAR"
   },
   {
+    "n": "MORAS",
+    "d": "MORAS"
+  },
+  {
+    "n": "MORDA",
+    "d": "MORDA"
+  },
+  {
+    "n": "MORDE",
+    "d": "MORDE"
+  },
+  {
+    "n": "MORDI",
+    "d": "MORDI"
+  },
+  {
+    "n": "MORDO",
+    "d": "MORDO"
+  },
+  {
     "n": "MOREI",
     "d": "MOREI"
+  },
+  {
+    "n": "MORES",
+    "d": "MORES"
   },
   {
     "n": "MORNA",
@@ -4740,6 +9104,14 @@
     "d": "MORRO"
   },
   {
+    "n": "MORSA",
+    "d": "MORSA"
+  },
+  {
+    "n": "MORSE",
+    "d": "MORSE"
+  },
+  {
     "n": "MORTA",
     "d": "MORTA"
   },
@@ -4756,8 +9128,16 @@
     "d": "MOSCA"
   },
   {
+    "n": "MOSTO",
+    "d": "MOSTO"
+  },
+  {
     "n": "MOTEL",
     "d": "MOTEL"
+  },
+  {
+    "n": "MOTIM",
+    "d": "MOTIM"
   },
   {
     "n": "MOTOR",
@@ -4768,8 +9148,16 @@
     "d": "MOURA"
   },
   {
+    "n": "MOURO",
+    "d": "MOURO"
+  },
+  {
     "n": "MOUSE",
     "d": "MOUSE"
+  },
+  {
+    "n": "MOVAM",
+    "d": "MOVAM"
   },
   {
     "n": "MOVEL",
@@ -4782,6 +9170,22 @@
   {
     "n": "MOVER",
     "d": "MOVER"
+  },
+  {
+    "n": "MOVES",
+    "d": "MOVES"
+  },
+  {
+    "n": "MOVEU",
+    "d": "MOVEU"
+  },
+  {
+    "n": "MOVIA",
+    "d": "MOVIA"
+  },
+  {
+    "n": "MUCHA",
+    "d": "MUCHA"
   },
   {
     "n": "MUDAM",
@@ -4800,6 +9204,14 @@
     "d": "MUDEI"
   },
   {
+    "n": "MUDEM",
+    "d": "MUDEM"
+  },
+  {
+    "n": "MUDEZ",
+    "d": "MUDEZ"
+  },
+  {
     "n": "MUDOU",
     "d": "MUDOU"
   },
@@ -4816,20 +9228,52 @@
     "d": "MULTI"
   },
   {
+    "n": "MUMIA",
+    "d": "MÚMIA"
+  },
+  {
     "n": "MUNDO",
     "d": "MUNDO"
+  },
+  {
+    "n": "MUNIR",
+    "d": "MUNIR"
   },
   {
     "n": "MURAL",
     "d": "MURAL"
   },
   {
+    "n": "MURCA",
+    "d": "MURÇA"
+  },
+  {
+    "n": "MURRO",
+    "d": "MURRO"
+  },
+  {
+    "n": "MURTA",
+    "d": "MURTA"
+  },
+  {
     "n": "MUSEU",
     "d": "MUSEU"
   },
   {
+    "n": "MUSGO",
+    "d": "MUSGO"
+  },
+  {
+    "n": "MUSSE",
+    "d": "MUSSE"
+  },
+  {
     "n": "MUTUA",
     "d": "MÚTUA"
+  },
+  {
+    "n": "MUTUM",
+    "d": "MUTUM"
   },
   {
     "n": "MUTUO",
@@ -4840,8 +9284,36 @@
     "d": "NAÇÃO"
   },
   {
+    "n": "NACHO",
+    "d": "NACHO"
+  },
+  {
+    "n": "NADAM",
+    "d": "NADAM"
+  },
+  {
     "n": "NADAR",
     "d": "NADAR"
+  },
+  {
+    "n": "NADAS",
+    "d": "NADAS"
+  },
+  {
+    "n": "NADIR",
+    "d": "NADIR"
+  },
+  {
+    "n": "NADOU",
+    "d": "NADOU"
+  },
+  {
+    "n": "NAFTA",
+    "d": "NAFTA"
+  },
+  {
+    "n": "NAIPE",
+    "d": "NAIPE"
   },
   {
     "n": "NARIZ",
@@ -4854,6 +9326,10 @@
   {
     "n": "NASAL",
     "d": "NASAL"
+  },
+  {
+    "n": "NASCA",
+    "d": "NASÇA"
   },
   {
     "n": "NASCE",
@@ -4896,6 +9372,10 @@
     "d": "NEGRO"
   },
   {
+    "n": "NEGUE",
+    "d": "NEGUE"
+  },
+  {
     "n": "NELAS",
     "d": "NELAS"
   },
@@ -4904,8 +9384,20 @@
     "d": "NELES"
   },
   {
+    "n": "NENEM",
+    "d": "NENÉM"
+  },
+  {
+    "n": "NEPAL",
+    "d": "NEPAL"
+  },
+  {
     "n": "NERDS",
     "d": "NERDS"
+  },
+  {
+    "n": "NERES",
+    "d": "NERES"
   },
   {
     "n": "NERVO",
@@ -4928,8 +9420,24 @@
     "d": "NESTE"
   },
   {
+    "n": "NETAS",
+    "d": "NETAS"
+  },
+  {
     "n": "NETOS",
     "d": "NETOS"
+  },
+  {
+    "n": "NEURA",
+    "d": "NEURA"
+  },
+  {
+    "n": "NEURO",
+    "d": "NEURO"
+  },
+  {
+    "n": "NEVAR",
+    "d": "NEVAR"
   },
   {
     "n": "NEVES",
@@ -4940,8 +9448,24 @@
     "d": "NÉVOA"
   },
   {
+    "n": "NEVOU",
+    "d": "NEVOU"
+  },
+  {
     "n": "NICHO",
     "d": "NICHO"
+  },
+  {
+    "n": "NIGER",
+    "d": "NÍGER"
+  },
+  {
+    "n": "NINAR",
+    "d": "NINAR"
+  },
+  {
+    "n": "NINFA",
+    "d": "NINFA"
   },
   {
     "n": "NINHO",
@@ -4952,12 +9476,20 @@
     "d": "NINJA"
   },
   {
+    "n": "NIQUE",
+    "d": "NIQUE"
+  },
+  {
     "n": "NISSO",
     "d": "NISSO"
   },
   {
     "n": "NISTO",
     "d": "NISTO"
+  },
+  {
+    "n": "NITRO",
+    "d": "NITRO"
   },
   {
     "n": "NIVEL",
@@ -4976,6 +9508,10 @@
     "d": "NOÇÃO"
   },
   {
+    "n": "NODOA",
+    "d": "NÓDOA"
+  },
+  {
     "n": "NOITE",
     "d": "NOITE"
   },
@@ -4986,6 +9522,10 @@
   {
     "n": "NOIVO",
     "d": "NOIVO"
+  },
+  {
+    "n": "NOMEA",
+    "d": "NOMEÁ"
   },
   {
     "n": "NOMES",
@@ -5008,6 +9548,10 @@
     "d": "NOSSO"
   },
   {
+    "n": "NOTAM",
+    "d": "NOTAM"
+  },
+  {
     "n": "NOTAR",
     "d": "NOTAR"
   },
@@ -5018,6 +9562,10 @@
   {
     "n": "NOTEI",
     "d": "NOTEI"
+  },
+  {
+    "n": "NOTEM",
+    "d": "NOTEM"
   },
   {
     "n": "NOTES",
@@ -5032,6 +9580,10 @@
     "d": "NOVAS"
   },
   {
+    "n": "NOVEL",
+    "d": "NOVEL"
+  },
+  {
     "n": "NOVOS",
     "d": "NOVOS"
   },
@@ -5044,12 +9596,32 @@
     "d": "NUDEZ"
   },
   {
+    "n": "NULAS",
+    "d": "NULAS"
+  },
+  {
+    "n": "NUMAS",
+    "d": "NUMAS"
+  },
+  {
     "n": "NUNCA",
     "d": "NUNCA"
   },
   {
     "n": "NUNES",
     "d": "NUNES"
+  },
+  {
+    "n": "NUTRE",
+    "d": "NUTRE"
+  },
+  {
+    "n": "NUTRI",
+    "d": "NUTRI"
+  },
+  {
+    "n": "NUTRO",
+    "d": "NUTRO"
   },
   {
     "n": "NUVEM",
@@ -5064,12 +9636,24 @@
     "d": "OÁSIS"
   },
   {
+    "n": "OBESO",
+    "d": "OBESO"
+  },
+  {
+    "n": "OBICE",
+    "d": "ÓBICE"
+  },
+  {
     "n": "OBITO",
     "d": "ÓBITO"
   },
   {
     "n": "OBRAS",
     "d": "OBRAS"
+  },
+  {
+    "n": "OBSTA",
+    "d": "OBSTA"
   },
   {
     "n": "OBTEM",
@@ -5080,28 +9664,76 @@
     "d": "OBTER"
   },
   {
+    "n": "OBVIA",
+    "d": "OBVIA"
+  },
+  {
     "n": "OBVIO",
     "d": "ÓBVIO"
+  },
+  {
+    "n": "OCASO",
+    "d": "OCASO"
   },
   {
     "n": "OCUPA",
     "d": "OCUPA"
   },
   {
+    "n": "OCUPE",
+    "d": "OCUPE"
+  },
+  {
+    "n": "OCUPO",
+    "d": "OCUPO"
+  },
+  {
     "n": "ODEIA",
     "d": "ODEIA"
+  },
+  {
+    "n": "ODEIE",
+    "d": "ODEIE"
   },
   {
     "n": "ODEIO",
     "d": "ODEIO"
   },
   {
+    "n": "ODEON",
+    "d": "ODEON"
+  },
+  {
     "n": "ODIAR",
     "d": "ODIAR"
   },
   {
+    "n": "ODIEI",
+    "d": "ODIEI"
+  },
+  {
+    "n": "ODILO",
+    "d": "ODILO"
+  },
+  {
+    "n": "ODIOU",
+    "d": "ODIOU"
+  },
+  {
     "n": "OESTE",
     "d": "OESTE"
+  },
+  {
+    "n": "OFURO",
+    "d": "OFURÔ"
+  },
+  {
+    "n": "OGIVA",
+    "d": "OGIVA"
+  },
+  {
+    "n": "OLHAI",
+    "d": "OLHAI"
   },
   {
     "n": "OLHAM",
@@ -5112,12 +9744,20 @@
     "d": "OLHAR"
   },
   {
+    "n": "OLHAS",
+    "d": "OLHAS"
+  },
+  {
     "n": "OLHEI",
     "d": "OLHEI"
   },
   {
     "n": "OLHEM",
     "d": "OLHEM"
+  },
+  {
+    "n": "OLHES",
+    "d": "OLHES"
   },
   {
     "n": "OLHOS",
@@ -5140,12 +9780,24 @@
     "d": "ÔMEGA"
   },
   {
+    "n": "OMITE",
+    "d": "OMITE"
+  },
+  {
+    "n": "OMNIA",
+    "d": "OMNIA"
+  },
+  {
     "n": "ONDAS",
     "d": "ONDAS"
   },
   {
     "n": "ONTEM",
     "d": "ONTEM"
+  },
+  {
+    "n": "OPACO",
+    "d": "OPACO"
   },
   {
     "n": "OPALA",
@@ -5160,6 +9812,22 @@
     "d": "OPERA"
   },
   {
+    "n": "OPERE",
+    "d": "OPERE"
+  },
+  {
+    "n": "OPINA",
+    "d": "OPINA"
+  },
+  {
+    "n": "OPINE",
+    "d": "OPINE"
+  },
+  {
+    "n": "OPOEM",
+    "d": "OPÕEM"
+  },
+  {
     "n": "OPTAM",
     "d": "OPTAM"
   },
@@ -5172,16 +9840,36 @@
     "d": "OPTEI"
   },
   {
+    "n": "OPTEM",
+    "d": "OPTEM"
+  },
+  {
     "n": "OPTOU",
     "d": "OPTOU"
+  },
+  {
+    "n": "ORADO",
+    "d": "ORADO"
   },
   {
     "n": "ORAIS",
     "d": "ORAIS"
   },
   {
+    "n": "ORAVA",
+    "d": "ORAVA"
+  },
+  {
+    "n": "ORCAR",
+    "d": "ORÇAR"
+  },
+  {
     "n": "ORDEM",
     "d": "ORDEM"
+  },
+  {
+    "n": "ORFAO",
+    "d": "ÓRFÃO"
   },
   {
     "n": "ORGAO",
@@ -5192,32 +9880,80 @@
     "d": "ORGIA"
   },
   {
+    "n": "ORION",
+    "d": "ÓRION"
+  },
+  {
     "n": "ORIXA",
     "d": "ORIXÁ"
+  },
+  {
+    "n": "OSCAR",
+    "d": "ÓSCAR"
   },
   {
     "n": "OSMAR",
     "d": "OSMAR"
   },
   {
+    "n": "OSRAM",
+    "d": "OSRAM"
+  },
+  {
+    "n": "OSSEO",
+    "d": "ÓSSEO"
+  },
+  {
     "n": "OSSOS",
     "d": "OSSOS"
+  },
+  {
+    "n": "OSTRA",
+    "d": "OSTRA"
   },
   {
     "n": "OTICA",
     "d": "ÓTICA"
   },
   {
+    "n": "OTICO",
+    "d": "ÓTICO"
+  },
+  {
     "n": "OTIMO",
     "d": "ÓTIMO"
+  },
+  {
+    "n": "OTITE",
+    "d": "OTITE"
   },
   {
     "n": "OUCAM",
     "d": "OUÇAM"
   },
   {
+    "n": "OUREM",
+    "d": "OURÉM"
+  },
+  {
+    "n": "OUROS",
+    "d": "OUROS"
+  },
+  {
+    "n": "OUSAM",
+    "d": "OUSAM"
+  },
+  {
     "n": "OUSAR",
     "d": "OUSAR"
+  },
+  {
+    "n": "OUSEI",
+    "d": "OUSEI"
+  },
+  {
+    "n": "OUSOU",
+    "d": "OUSOU"
   },
   {
     "n": "OUTRA",
@@ -5232,6 +9968,10 @@
     "d": "OUVEM"
   },
   {
+    "n": "OUVES",
+    "d": "OUVES"
+  },
+  {
     "n": "OUVIA",
     "d": "OUVIA"
   },
@@ -5244,12 +9984,24 @@
     "d": "OUVIU"
   },
   {
+    "n": "OVULO",
+    "d": "ÓVULO"
+  },
+  {
     "n": "OXALA",
     "d": "OXALÁ"
   },
   {
     "n": "OXIDO",
     "d": "ÓXIDO"
+  },
+  {
+    "n": "OZONO",
+    "d": "OZONO"
+  },
+  {
+    "n": "PACAS",
+    "d": "PACAS"
   },
   {
     "n": "PACTO",
@@ -5260,8 +10012,16 @@
     "d": "PADRE"
   },
   {
+    "n": "PAETE",
+    "d": "PAETÊ"
+  },
+  {
     "n": "PAGAM",
     "d": "PAGAM"
+  },
+  {
+    "n": "PAGAO",
+    "d": "PAGÃO"
   },
   {
     "n": "PAGAR",
@@ -5284,8 +10044,28 @@
     "d": "PAGUE"
   },
   {
+    "n": "PAIOL",
+    "d": "PAIOL"
+  },
+  {
+    "n": "PAIRA",
+    "d": "PAIRA"
+  },
+  {
     "n": "PAIVA",
     "d": "PAIVA"
+  },
+  {
+    "n": "PAJEM",
+    "d": "PAJEM"
+  },
+  {
+    "n": "PAJEU",
+    "d": "PAJEÚ"
+  },
+  {
+    "n": "PALAU",
+    "d": "PALAU"
   },
   {
     "n": "PALCO",
@@ -5304,8 +10084,20 @@
     "d": "PALMA"
   },
   {
+    "n": "PALMO",
+    "d": "PALMO"
+  },
+  {
+    "n": "PALOP",
+    "d": "PALOP"
+  },
+  {
     "n": "PAMPA",
     "d": "PAMPA"
+  },
+  {
+    "n": "PANCA",
+    "d": "PANÇA"
   },
   {
     "n": "PANDA",
@@ -5320,6 +10112,14 @@
     "d": "PAPAI"
   },
   {
+    "n": "PAPAL",
+    "d": "PAPAL"
+  },
+  {
+    "n": "PAPAO",
+    "d": "PAPÃO"
+  },
+  {
     "n": "PAPAS",
     "d": "PAPAS"
   },
@@ -5332,12 +10132,36 @@
     "d": "PAPER"
   },
   {
+    "n": "PAPOS",
+    "d": "PAPOS"
+  },
+  {
+    "n": "PAPUA",
+    "d": "PAPUA"
+  },
+  {
     "n": "PARAM",
     "d": "PARAM"
   },
   {
     "n": "PARAR",
     "d": "PARAR"
+  },
+  {
+    "n": "PARAS",
+    "d": "PARAS"
+  },
+  {
+    "n": "PARCA",
+    "d": "PARCA"
+  },
+  {
+    "n": "PARCO",
+    "d": "PARCO"
+  },
+  {
+    "n": "PARDA",
+    "d": "PARDA"
   },
   {
     "n": "PARDO",
@@ -5352,20 +10176,40 @@
     "d": "PAREM"
   },
   {
+    "n": "PAREO",
+    "d": "PÁREO"
+  },
+  {
     "n": "PARES",
     "d": "PARES"
   },
   {
+    "n": "PARIR",
+    "d": "PARIR"
+  },
+  {
     "n": "PARIS",
-    "d": "PARIS"
+    "d": "PARÍS"
   },
   {
     "n": "PARIU",
     "d": "PARIU"
   },
   {
+    "n": "PARMA",
+    "d": "PARMA"
+  },
+  {
     "n": "PAROU",
     "d": "PAROU"
+  },
+  {
+    "n": "PARRA",
+    "d": "PARRA"
+  },
+  {
+    "n": "PARTA",
+    "d": "PARTA"
   },
   {
     "n": "PARTE",
@@ -5378,6 +10222,26 @@
   {
     "n": "PARTO",
     "d": "PARTO"
+  },
+  {
+    "n": "PARVA",
+    "d": "PARVA"
+  },
+  {
+    "n": "PARVO",
+    "d": "PARVO"
+  },
+  {
+    "n": "PASMA",
+    "d": "PASMA"
+  },
+  {
+    "n": "PASME",
+    "d": "PASME"
+  },
+  {
+    "n": "PASMO",
+    "d": "PASMO"
   },
   {
     "n": "PASSA",
@@ -5396,8 +10260,16 @@
     "d": "PASTA"
   },
   {
+    "n": "PASTE",
+    "d": "PASTE"
+  },
+  {
     "n": "PASTO",
     "d": "PASTO"
+  },
+  {
+    "n": "PATEL",
+    "d": "PATEL"
   },
   {
     "n": "PATIO",
@@ -5406,6 +10278,10 @@
   {
     "n": "PATOS",
     "d": "PATOS"
+  },
+  {
+    "n": "PATUA",
+    "d": "PATUÁ"
   },
   {
     "n": "PAULA",
@@ -5428,8 +10304,24 @@
     "d": "PAVÃO"
   },
   {
+    "n": "PAVIA",
+    "d": "PAVIA"
+  },
+  {
+    "n": "PAVIO",
+    "d": "PAVIO"
+  },
+  {
     "n": "PAVOR",
     "d": "PAVOR"
+  },
+  {
+    "n": "PAZES",
+    "d": "PAZES"
+  },
+  {
+    "n": "PECAM",
+    "d": "PEÇAM"
   },
   {
     "n": "PECAR",
@@ -5440,12 +10332,28 @@
     "d": "PEÇAS"
   },
   {
+    "n": "PECEM",
+    "d": "PECÉM"
+  },
+  {
+    "n": "PECHA",
+    "d": "PECHA"
+  },
+  {
+    "n": "PECOU",
+    "d": "PECOU"
+  },
+  {
     "n": "PEDAL",
     "d": "PEDAL"
   },
   {
     "n": "PEDEM",
     "d": "PEDEM"
+  },
+  {
+    "n": "PEDES",
+    "d": "PEDES"
   },
   {
     "n": "PEDIA",
@@ -5464,6 +10372,10 @@
     "d": "PEDRA"
   },
   {
+    "n": "PEDRO",
+    "d": "PEDRO"
+  },
+  {
     "n": "PEGAM",
     "d": "PEGAM"
   },
@@ -5472,12 +10384,24 @@
     "d": "PEGAR"
   },
   {
+    "n": "PEGAS",
+    "d": "PEGAS"
+  },
+  {
     "n": "PEGOU",
     "d": "PEGOU"
   },
   {
     "n": "PEGUE",
     "d": "PEGUE"
+  },
+  {
+    "n": "PEIDA",
+    "d": "PEIDA"
+  },
+  {
+    "n": "PEIDO",
+    "d": "PEIDO"
   },
   {
     "n": "PEITO",
@@ -5500,12 +10424,36 @@
     "d": "PELOS"
   },
   {
+    "n": "PELVE",
+    "d": "PELVE"
+  },
+  {
+    "n": "PEMBA",
+    "d": "PEMBA"
+  },
+  {
     "n": "PENAL",
     "d": "PENAL"
   },
   {
+    "n": "PENAR",
+    "d": "PENAR"
+  },
+  {
     "n": "PENAS",
     "d": "PENAS"
+  },
+  {
+    "n": "PENCA",
+    "d": "PENCA"
+  },
+  {
+    "n": "PENCE",
+    "d": "PENCE"
+  },
+  {
+    "n": "PENDE",
+    "d": "PENDE"
   },
   {
     "n": "PENHA",
@@ -5514,6 +10462,14 @@
   {
     "n": "PENIS",
     "d": "PÊNIS"
+  },
+  {
+    "n": "PENNE",
+    "d": "PENNE"
+  },
+  {
+    "n": "PENNY",
+    "d": "PENNY"
   },
   {
     "n": "PENSA",
@@ -5528,12 +10484,28 @@
     "d": "PENSO"
   },
   {
+    "n": "PENTA",
+    "d": "PENTA"
+  },
+  {
     "n": "PENTE",
     "d": "PENTE"
   },
   {
     "n": "PEOES",
     "d": "PEÕES"
+  },
+  {
+    "n": "PEQUE",
+    "d": "PEQUE"
+  },
+  {
+    "n": "PEQUI",
+    "d": "PEQUI"
+  },
+  {
+    "n": "PERAS",
+    "d": "PERAS"
   },
   {
     "n": "PERCA",
@@ -5560,8 +10532,16 @@
     "d": "PERES"
   },
   {
+    "n": "PERLA",
+    "d": "PERLA"
+  },
+  {
     "n": "PERNA",
     "d": "PERNA"
+  },
+  {
+    "n": "PERRO",
+    "d": "PERRO"
   },
   {
     "n": "PERSA",
@@ -5572,6 +10552,18 @@
     "d": "PERTO"
   },
   {
+    "n": "PERUA",
+    "d": "PERUA"
+  },
+  {
+    "n": "PERUS",
+    "d": "PERUS"
+  },
+  {
+    "n": "PESAM",
+    "d": "PESAM"
+  },
+  {
     "n": "PESAR",
     "d": "PESAR"
   },
@@ -5580,8 +10572,28 @@
     "d": "PESCA"
   },
   {
+    "n": "PESEI",
+    "d": "PESEI"
+  },
+  {
+    "n": "PESEM",
+    "d": "PESEM"
+  },
+  {
+    "n": "PESOU",
+    "d": "PESOU"
+  },
+  {
     "n": "PESTE",
     "d": "PESTE"
+  },
+  {
+    "n": "PESTO",
+    "d": "PESTO"
+  },
+  {
+    "n": "PETRA",
+    "d": "PETRA"
   },
   {
     "n": "PIADA",
@@ -5592,12 +10604,48 @@
     "d": "PIANO"
   },
   {
+    "n": "PIATA",
+    "d": "PIATÃ"
+  },
+  {
     "n": "PIAUI",
     "d": "PIAUÍ"
   },
   {
+    "n": "PICAO",
+    "d": "PICÃO"
+  },
+  {
+    "n": "PICAR",
+    "d": "PICAR"
+  },
+  {
+    "n": "PICAS",
+    "d": "PICAS"
+  },
+  {
+    "n": "PICHE",
+    "d": "PICHE"
+  },
+  {
     "n": "PICOS",
     "d": "PICOS"
+  },
+  {
+    "n": "PICUI",
+    "d": "PICUÍ"
+  },
+  {
+    "n": "PIFIO",
+    "d": "PÍFIO"
+  },
+  {
+    "n": "PIFOU",
+    "d": "PIFOU"
+  },
+  {
+    "n": "PILAO",
+    "d": "PILÃO"
   },
   {
     "n": "PILAR",
@@ -5608,8 +10656,20 @@
     "d": "PILHA"
   },
   {
+    "n": "PIMBA",
+    "d": "PIMBA"
+  },
+  {
     "n": "PINCA",
     "d": "PINÇA"
+  },
+  {
+    "n": "PINDA",
+    "d": "PINDA"
+  },
+  {
+    "n": "PINEL",
+    "d": "PINEL"
   },
   {
     "n": "PINGA",
@@ -5620,12 +10680,20 @@
     "d": "PINGO"
   },
   {
+    "n": "PINHA",
+    "d": "PINHA"
+  },
+  {
     "n": "PINHO",
     "d": "PINHO"
   },
   {
     "n": "PINTA",
     "d": "PINTA"
+  },
+  {
+    "n": "PINTE",
+    "d": "PINTE"
   },
   {
     "n": "PINTO",
@@ -5636,12 +10704,44 @@
     "d": "PIORA"
   },
   {
+    "n": "PIPAS",
+    "d": "PIPAS"
+  },
+  {
     "n": "PIQUE",
     "d": "PIQUE"
   },
   {
+    "n": "PIRAI",
+    "d": "PIRAÍ"
+  },
+  {
+    "n": "PIRAO",
+    "d": "PIRÃO"
+  },
+  {
+    "n": "PIRAR",
+    "d": "PIRAR"
+  },
+  {
+    "n": "PIREI",
+    "d": "PIREI"
+  },
+  {
     "n": "PIRES",
     "d": "PIRES"
+  },
+  {
+    "n": "PIREX",
+    "d": "PIREX"
+  },
+  {
+    "n": "PIROU",
+    "d": "PIROU"
+  },
+  {
+    "n": "PISAM",
+    "d": "PISAM"
   },
   {
     "n": "PISAR",
@@ -5652,8 +10752,24 @@
     "d": "PISCA"
   },
   {
+    "n": "PISCO",
+    "d": "PISCO"
+  },
+  {
+    "n": "PISEI",
+    "d": "PISEI"
+  },
+  {
+    "n": "PISOU",
+    "d": "PISOU"
+  },
+  {
     "n": "PISTA",
     "d": "PISTA"
+  },
+  {
+    "n": "PIVOT",
+    "d": "PIVOT"
   },
   {
     "n": "PIXEL",
@@ -5672,8 +10788,20 @@
     "d": "PLANA"
   },
   {
+    "n": "PLANE",
+    "d": "PLANE"
+  },
+  {
     "n": "PLANO",
     "d": "PLANO"
+  },
+  {
+    "n": "PLATO",
+    "d": "PLATÔ"
+  },
+  {
+    "n": "PLEBE",
+    "d": "PLEBE"
   },
   {
     "n": "PLENA",
@@ -5684,8 +10812,36 @@
     "d": "PLENO"
   },
   {
+    "n": "PLEXO",
+    "d": "PLEXO"
+  },
+  {
+    "n": "PLUMA",
+    "d": "PLUMA"
+  },
+  {
+    "n": "PLUSH",
+    "d": "PLUSH"
+  },
+  {
+    "n": "PLUTO",
+    "d": "PLUTO"
+  },
+  {
     "n": "POBRE",
     "d": "POBRE"
+  },
+  {
+    "n": "POCAO",
+    "d": "POÇÃO"
+  },
+  {
+    "n": "PODAR",
+    "d": "PODAR"
+  },
+  {
+    "n": "PODAS",
+    "d": "PODAS"
   },
   {
     "n": "PODEM",
@@ -5728,6 +10884,26 @@
     "d": "POLAR"
   },
   {
+    "n": "POLEN",
+    "d": "PÓLEN"
+  },
+  {
+    "n": "POLIA",
+    "d": "POLIA"
+  },
+  {
+    "n": "POLIO",
+    "d": "PÓLIO"
+  },
+  {
+    "n": "POLIR",
+    "d": "POLIR"
+  },
+  {
+    "n": "POLIS",
+    "d": "POLIS"
+  },
+  {
     "n": "POLOS",
     "d": "POLOS"
   },
@@ -5752,8 +10928,20 @@
     "d": "POMBO"
   },
   {
+    "n": "POMOS",
+    "d": "POMOS"
+  },
+  {
+    "n": "POMPA",
+    "d": "POMPA"
+  },
+  {
     "n": "PONDO",
     "d": "PONDO"
+  },
+  {
+    "n": "PONEI",
+    "d": "PÔNEI"
   },
   {
     "n": "PONHA",
@@ -5788,8 +10976,20 @@
     "d": "PORCO"
   },
   {
+    "n": "POREI",
+    "d": "POREI"
+  },
+  {
     "n": "POREM",
     "d": "PORÉM"
+  },
+  {
+    "n": "PORES",
+    "d": "PORES"
+  },
+  {
+    "n": "PORIA",
+    "d": "PORIA"
   },
   {
     "n": "PORNO",
@@ -5798,6 +10998,10 @@
   {
     "n": "PORRA",
     "d": "PORRA"
+  },
+  {
+    "n": "PORRE",
+    "d": "PORRE"
   },
   {
     "n": "PORTA",
@@ -5810,6 +11014,26 @@
   {
     "n": "PORTO",
     "d": "PORTO"
+  },
+  {
+    "n": "POSAM",
+    "d": "POSAM"
+  },
+  {
+    "n": "POSAR",
+    "d": "POSAR"
+  },
+  {
+    "n": "POSER",
+    "d": "POSER"
+  },
+  {
+    "n": "POSES",
+    "d": "POSES"
+  },
+  {
+    "n": "POSOU",
+    "d": "POSOU"
   },
   {
     "n": "POSSA",
@@ -5840,6 +11064,10 @@
     "d": "POSTS"
   },
   {
+    "n": "POTRO",
+    "d": "POTRO"
+  },
+  {
     "n": "POUCA",
     "d": "POUCA"
   },
@@ -5848,12 +11076,28 @@
     "d": "POUCO"
   },
   {
+    "n": "POUND",
+    "d": "POUND"
+  },
+  {
     "n": "POUPA",
     "d": "POUPA"
   },
   {
+    "n": "POUPE",
+    "d": "POUPE"
+  },
+  {
+    "n": "POUSA",
+    "d": "POUSA"
+  },
+  {
     "n": "POUSO",
     "d": "POUSO"
+  },
+  {
+    "n": "POVAO",
+    "d": "POVÃO"
   },
   {
     "n": "POVOA",
@@ -5878,6 +11122,10 @@
   {
     "n": "PRAIA",
     "d": "PRAIA"
+  },
+  {
+    "n": "PRANA",
+    "d": "PRANA"
   },
   {
     "n": "PRATA",
@@ -5912,6 +11160,14 @@
     "d": "PREGO"
   },
   {
+    "n": "PREIA",
+    "d": "PREIA"
+  },
+  {
+    "n": "PRELO",
+    "d": "PRELO"
+  },
+  {
     "n": "PRESA",
     "d": "PRESA"
   },
@@ -5932,6 +11188,22 @@
     "d": "PREVÊ"
   },
   {
+    "n": "PREVI",
+    "d": "PREVI"
+  },
+  {
+    "n": "PREZA",
+    "d": "PREZA"
+  },
+  {
+    "n": "PREZE",
+    "d": "PREZE"
+  },
+  {
+    "n": "PREZO",
+    "d": "PREZO"
+  },
+  {
     "n": "PRIMA",
     "d": "PRIMA"
   },
@@ -5944,8 +11216,32 @@
     "d": "PRIMO"
   },
   {
+    "n": "PRIOR",
+    "d": "PRIOR"
+  },
+  {
+    "n": "PRIVA",
+    "d": "PRIVA"
+  },
+  {
+    "n": "PRIVE",
+    "d": "PRIVE"
+  },
+  {
+    "n": "PROFE",
+    "d": "PROFE"
+  },
+  {
+    "n": "PROLE",
+    "d": "PROLE"
+  },
+  {
     "n": "PROSA",
     "d": "PROSA"
+  },
+  {
+    "n": "PROTO",
+    "d": "PROTO"
   },
   {
     "n": "PROVA",
@@ -5954,6 +11250,22 @@
   {
     "n": "PROVE",
     "d": "PROVE"
+  },
+  {
+    "n": "PROVO",
+    "d": "PROVO"
+  },
+  {
+    "n": "PRUMO",
+    "d": "PRUMO"
+  },
+  {
+    "n": "PSICO",
+    "d": "PSICO"
+  },
+  {
+    "n": "PUBIS",
+    "d": "PÚBIS"
   },
   {
     "n": "PUDER",
@@ -5968,16 +11280,52 @@
     "d": "PUDOR"
   },
   {
+    "n": "PUGNA",
+    "d": "PUGNA"
+  },
+  {
+    "n": "PULAM",
+    "d": "PULAM"
+  },
+  {
     "n": "PULAR",
     "d": "PULAR"
+  },
+  {
+    "n": "PULEI",
+    "d": "PULEI"
+  },
+  {
+    "n": "PULGA",
+    "d": "PULGA"
   },
   {
     "n": "PULOU",
     "d": "PULOU"
   },
   {
+    "n": "PULSA",
+    "d": "PULSA"
+  },
+  {
+    "n": "PULSE",
+    "d": "PULSE"
+  },
+  {
     "n": "PULSO",
     "d": "PULSO"
+  },
+  {
+    "n": "PUMBA",
+    "d": "PUMBA"
+  },
+  {
+    "n": "PUNCH",
+    "d": "PUNCH"
+  },
+  {
+    "n": "PUNHA",
+    "d": "PUNHA"
   },
   {
     "n": "PUNHO",
@@ -5988,6 +11336,10 @@
     "d": "PUNIR"
   },
   {
+    "n": "PUNIU",
+    "d": "PUNIU"
+  },
+  {
     "n": "PUNTO",
     "d": "PUNTO"
   },
@@ -5996,24 +11348,64 @@
     "d": "PURAS"
   },
   {
+    "n": "PURGA",
+    "d": "PURGA"
+  },
+  {
     "n": "PUROS",
     "d": "PUROS"
+  },
+  {
+    "n": "PUSER",
+    "d": "PUSER"
+  },
+  {
+    "n": "PUSSY",
+    "d": "PUSSY"
   },
   {
     "n": "PUTAS",
     "d": "PUTAS"
   },
   {
+    "n": "PUXAM",
+    "d": "PUXAM"
+  },
+  {
+    "n": "PUXAO",
+    "d": "PUXÃO"
+  },
+  {
     "n": "PUXAR",
     "d": "PUXAR"
+  },
+  {
+    "n": "PUXEI",
+    "d": "PUXEI"
   },
   {
     "n": "PUXOU",
     "d": "PUXOU"
   },
   {
+    "n": "QATAR",
+    "d": "QATAR"
+  },
+  {
+    "n": "QUADO",
+    "d": "QUADO"
+  },
+  {
     "n": "QUAIS",
     "d": "QUAIS"
+  },
+  {
+    "n": "QUALE",
+    "d": "QUALÉ"
+  },
+  {
+    "n": "QUARK",
+    "d": "QUARK"
   },
   {
     "n": "QUASE",
@@ -6024,16 +11416,40 @@
     "d": "QUEDA"
   },
   {
+    "n": "QUEDO",
+    "d": "QUEDO"
+  },
+  {
     "n": "QUEEN",
     "d": "QUEEN"
+  },
+  {
+    "n": "QUEER",
+    "d": "QUEER"
+  },
+  {
+    "n": "QUELA",
+    "d": "QUELA"
+  },
+  {
+    "n": "QUELE",
+    "d": "QUELE"
   },
   {
     "n": "QUERO",
     "d": "QUERO"
   },
   {
+    "n": "QUIBE",
+    "d": "QUIBE"
+  },
+  {
     "n": "QUICA",
     "d": "QUIÇÁ"
+  },
+  {
+    "n": "QUICO",
+    "d": "QUICO"
   },
   {
     "n": "QUILO",
@@ -6044,12 +11460,32 @@
     "d": "QUINA"
   },
   {
+    "n": "QUITA",
+    "d": "QUITA"
+  },
+  {
+    "n": "QUITE",
+    "d": "QUITE"
+  },
+  {
+    "n": "QUITO",
+    "d": "QUITO"
+  },
+  {
     "n": "QUOTA",
     "d": "QUOTA"
   },
   {
     "n": "QUOTE",
     "d": "QUOTE"
+  },
+  {
+    "n": "RABAO",
+    "d": "RABÃO"
+  },
+  {
+    "n": "RABOS",
+    "d": "RABOS"
   },
   {
     "n": "RACAO",
@@ -6060,6 +11496,18 @@
     "d": "RAÇAS"
   },
   {
+    "n": "RACHA",
+    "d": "RACHA"
+  },
+  {
+    "n": "RACIO",
+    "d": "RÁCIO"
+  },
+  {
+    "n": "RACKS",
+    "d": "RACKS"
+  },
+  {
     "n": "RADAR",
     "d": "RADAR"
   },
@@ -6068,12 +11516,28 @@
     "d": "RÁDIO"
   },
   {
+    "n": "RAFIA",
+    "d": "RÁFIA"
+  },
+  {
+    "n": "RAIAR",
+    "d": "RAIAR"
+  },
+  {
+    "n": "RAIAS",
+    "d": "RAIAS"
+  },
+  {
     "n": "RAIOS",
     "d": "RAIOS"
   },
   {
     "n": "RAIVA",
     "d": "RAIVA"
+  },
+  {
+    "n": "RALAR",
+    "d": "RALAR"
   },
   {
     "n": "RALLY",
@@ -6092,12 +11556,60 @@
     "d": "RAMPA"
   },
   {
+    "n": "RANCO",
+    "d": "RANÇO"
+  },
+  {
     "n": "RANGE",
     "d": "RANGE"
   },
   {
+    "n": "RANGO",
+    "d": "RANGO"
+  },
+  {
     "n": "RAPAZ",
     "d": "RAPAZ"
+  },
+  {
+    "n": "RAPEL",
+    "d": "RAPEL"
+  },
+  {
+    "n": "RAPTO",
+    "d": "RAPTO"
+  },
+  {
+    "n": "RASCA",
+    "d": "RASCA"
+  },
+  {
+    "n": "RASGA",
+    "d": "RASGA"
+  },
+  {
+    "n": "RASGO",
+    "d": "RASGO"
+  },
+  {
+    "n": "RASPA",
+    "d": "RASPA"
+  },
+  {
+    "n": "RASPE",
+    "d": "RASPE"
+  },
+  {
+    "n": "RASTA",
+    "d": "RASTA"
+  },
+  {
+    "n": "RASTO",
+    "d": "RASTO"
+  },
+  {
+    "n": "RATIO",
+    "d": "RATIO"
   },
   {
     "n": "RATOS",
@@ -6116,12 +11628,40 @@
     "d": "REAIS"
   },
   {
+    "n": "REAJA",
+    "d": "REAJA"
+  },
+  {
+    "n": "REBEL",
+    "d": "REBEL"
+  },
+  {
+    "n": "RECAI",
+    "d": "RECAI"
+  },
+  {
     "n": "RECEM",
     "d": "RECÉM"
   },
   {
+    "n": "RECTA",
+    "d": "RECTA"
+  },
+  {
+    "n": "RECTO",
+    "d": "RECTO"
+  },
+  {
+    "n": "RECUA",
+    "d": "RECUA"
+  },
+  {
     "n": "RECUO",
     "d": "RECUO"
+  },
+  {
+    "n": "REDEA",
+    "d": "RÉDEA"
   },
   {
     "n": "REDES",
@@ -6136,16 +11676,56 @@
     "d": "REDUZ"
   },
   {
+    "n": "REFAZ",
+    "d": "REFAZ"
+  },
+  {
     "n": "REFEM",
     "d": "REFÉM"
+  },
+  {
+    "n": "REFEZ",
+    "d": "REFEZ"
   },
   {
     "n": "REFIL",
     "d": "REFIL"
   },
   {
+    "n": "REFIZ",
+    "d": "REFIZ"
+  },
+  {
+    "n": "REFRI",
+    "d": "REFRI"
+  },
+  {
+    "n": "REGAL",
+    "d": "REGAL"
+  },
+  {
+    "n": "REGAR",
+    "d": "REGAR"
+  },
+  {
+    "n": "REGAS",
+    "d": "REGAS"
+  },
+  {
     "n": "REGEM",
     "d": "REGEM"
+  },
+  {
+    "n": "REGER",
+    "d": "REGER"
+  },
+  {
+    "n": "REGIA",
+    "d": "RÉGIA"
+  },
+  {
+    "n": "REGIO",
+    "d": "RÉGIO"
   },
   {
     "n": "REGRA",
@@ -6156,12 +11736,24 @@
     "d": "RÉGUA"
   },
   {
+    "n": "REGUE",
+    "d": "REGUE"
+  },
+  {
+    "n": "REICH",
+    "d": "REICH"
+  },
+  {
     "n": "REIKI",
     "d": "REIKI"
   },
   {
     "n": "REINA",
     "d": "REINA"
+  },
+  {
+    "n": "REINE",
+    "d": "REINE"
   },
   {
     "n": "REINO",
@@ -6176,8 +11768,16 @@
     "d": "RELER"
   },
   {
+    "n": "RELES",
+    "d": "RELES"
+  },
+  {
     "n": "RELVA",
     "d": "RELVA"
+  },
+  {
+    "n": "REMAR",
+    "d": "REMAR"
   },
   {
     "n": "REMIX",
@@ -6196,44 +11796,140 @@
     "d": "RENDE"
   },
   {
+    "n": "RENDI",
+    "d": "RENDI"
+  },
+  {
+    "n": "RENDO",
+    "d": "RENDO"
+  },
+  {
+    "n": "RENTE",
+    "d": "RENTE"
+  },
+  {
+    "n": "REPOE",
+    "d": "REPÕE"
+  },
+  {
     "n": "REPOR",
     "d": "REPOR"
+  },
+  {
+    "n": "REPTO",
+    "d": "REPTO"
   },
   {
     "n": "RESTA",
     "d": "RESTA"
   },
   {
+    "n": "RESTE",
+    "d": "RESTE"
+  },
+  {
     "n": "RESTO",
     "d": "RESTO"
+  },
+  {
+    "n": "RETAL",
+    "d": "RETAL"
+  },
+  {
+    "n": "RETEM",
+    "d": "RETÉM"
   },
   {
     "n": "RETER",
     "d": "RETER"
   },
   {
+    "n": "RETOS",
+    "d": "RETOS"
+  },
+  {
     "n": "RETRO",
     "d": "RETRÔ"
+  },
+  {
+    "n": "REUNA",
+    "d": "REÚNA"
   },
   {
     "n": "REUNE",
     "d": "REÚNE"
   },
   {
+    "n": "REUNI",
+    "d": "REUNI"
+  },
+  {
+    "n": "REUSO",
+    "d": "REÚSO"
+  },
+  {
+    "n": "REVEL",
+    "d": "REVEL"
+  },
+  {
     "n": "REVER",
     "d": "REVER"
+  },
+  {
+    "n": "REVES",
+    "d": "REVÉS"
+  },
+  {
+    "n": "REVIU",
+    "d": "REVIU"
+  },
+  {
+    "n": "REZAM",
+    "d": "REZAM"
   },
   {
     "n": "REZAR",
     "d": "REZAR"
   },
   {
+    "n": "REZAS",
+    "d": "REZAS"
+  },
+  {
+    "n": "REZEI",
+    "d": "REZEI"
+  },
+  {
+    "n": "REZEM",
+    "d": "REZEM"
+  },
+  {
+    "n": "REZOU",
+    "d": "REZOU"
+  },
+  {
     "n": "RICAS",
     "d": "RICAS"
   },
   {
+    "n": "RIDES",
+    "d": "RIDES"
+  },
+  {
+    "n": "RIFAS",
+    "d": "RIFAS"
+  },
+  {
+    "n": "RIFLE",
+    "d": "RIFLE"
+  },
+  {
     "n": "RIGOR",
     "d": "RIGOR"
+  },
+  {
+    "n": "RIMAR",
+    "d": "RIMAR"
   },
   {
     "n": "RIMAS",
@@ -6244,8 +11940,28 @@
     "d": "RÍMEL"
   },
   {
+    "n": "RIMOS",
+    "d": "RIMOS"
+  },
+  {
     "n": "RINDO",
     "d": "RINDO"
+  },
+  {
+    "n": "RINHA",
+    "d": "RINHA"
+  },
+  {
+    "n": "RIQUE",
+    "d": "RIQUE"
+  },
+  {
+    "n": "RIRAM",
+    "d": "RIRAM"
+  },
+  {
+    "n": "RIREM",
+    "d": "RIREM"
   },
   {
     "n": "RISCA",
@@ -6254,6 +11970,10 @@
   {
     "n": "RISCO",
     "d": "RISCO"
+  },
+  {
+    "n": "RISTE",
+    "d": "RISTE"
   },
   {
     "n": "RITMO",
@@ -6268,8 +11988,24 @@
     "d": "ROBOT"
   },
   {
+    "n": "ROCAR",
+    "d": "ROÇAR"
+  },
+  {
+    "n": "ROCAS",
+    "d": "ROÇAS"
+  },
+  {
     "n": "ROCHA",
     "d": "ROCHA"
+  },
+  {
+    "n": "ROCIO",
+    "d": "ROCIO"
+  },
+  {
+    "n": "RODAM",
+    "d": "RODAM"
   },
   {
     "n": "RODAR",
@@ -6280,8 +12016,64 @@
     "d": "RODAS"
   },
   {
+    "n": "RODEI",
+    "d": "RODEI"
+  },
+  {
+    "n": "RODEO",
+    "d": "RODEO"
+  },
+  {
+    "n": "RODES",
+    "d": "RODES"
+  },
+  {
+    "n": "RODIO",
+    "d": "RÓDIO"
+  },
+  {
+    "n": "RODOU",
+    "d": "RODOU"
+  },
+  {
+    "n": "ROGAI",
+    "d": "ROGAI"
+  },
+  {
+    "n": "ROGAR",
+    "d": "ROGAR"
+  },
+  {
+    "n": "ROGUE",
+    "d": "ROGUE"
+  },
+  {
+    "n": "ROJAO",
+    "d": "ROJÃO"
+  },
+  {
+    "n": "ROLAM",
+    "d": "ROLAM"
+  },
+  {
     "n": "ROLAR",
     "d": "ROLAR"
+  },
+  {
+    "n": "ROLAS",
+    "d": "ROLAS"
+  },
+  {
+    "n": "ROLES",
+    "d": "ROLES"
+  },
+  {
+    "n": "ROLHA",
+    "d": "ROLHA"
+  },
+  {
+    "n": "ROLIM",
+    "d": "ROLIM"
   },
   {
     "n": "ROLOU",
@@ -6292,12 +12084,28 @@
     "d": "ROMÃO"
   },
   {
+    "n": "ROMBO",
+    "d": "ROMBO"
+  },
+  {
     "n": "ROMEU",
     "d": "ROMEU"
   },
   {
+    "n": "ROMPA",
+    "d": "ROMPA"
+  },
+  {
     "n": "ROMPE",
     "d": "ROMPE"
+  },
+  {
+    "n": "RONCA",
+    "d": "RONCA"
+  },
+  {
+    "n": "RONCO",
+    "d": "RONCO"
   },
   {
     "n": "RONDA",
@@ -6320,12 +12128,28 @@
     "d": "ROTAS"
   },
   {
+    "n": "ROTOR",
+    "d": "ROTOR"
+  },
+  {
     "n": "ROUBA",
     "d": "ROUBA"
   },
   {
+    "n": "ROUBE",
+    "d": "ROUBE"
+  },
+  {
     "n": "ROUBO",
     "d": "ROUBO"
+  },
+  {
+    "n": "ROUCA",
+    "d": "ROUCA"
+  },
+  {
+    "n": "ROUCO",
+    "d": "ROUCO"
   },
   {
     "n": "ROUGE",
@@ -6340,12 +12164,36 @@
     "d": "ROUPA"
   },
   {
+    "n": "RUBIA",
+    "d": "RÚBIA"
+  },
+  {
+    "n": "RUBIM",
+    "d": "RUBIM"
+  },
+  {
+    "n": "RUBOR",
+    "d": "RUBOR"
+  },
+  {
+    "n": "RUBRA",
+    "d": "RUBRA"
+  },
+  {
     "n": "RUBRO",
     "d": "RUBRO"
   },
   {
+    "n": "RUELA",
+    "d": "RUELA"
+  },
+  {
     "n": "RUGAS",
     "d": "RUGAS"
+  },
+  {
+    "n": "RUGBI",
+    "d": "RÚGBI"
   },
   {
     "n": "RUGBY",
@@ -6372,8 +12220,24 @@
     "d": "RUIVO"
   },
   {
+    "n": "RUMAR",
+    "d": "RUMAR"
+  },
+  {
+    "n": "RUMBA",
+    "d": "RUMBA"
+  },
+  {
     "n": "RUMOR",
     "d": "RUMOR"
+  },
+  {
+    "n": "RUMOU",
+    "d": "RUMOU"
+  },
+  {
+    "n": "RUNAS",
+    "d": "RUNAS"
   },
   {
     "n": "RURAL",
@@ -6392,6 +12256,10 @@
     "d": "SABÃO"
   },
   {
+    "n": "SABEI",
+    "d": "SABEI"
+  },
+  {
     "n": "SABEM",
     "d": "SABEM"
   },
@@ -6408,6 +12276,10 @@
     "d": "SABIA"
   },
   {
+    "n": "SABIN",
+    "d": "SABIN"
+  },
+  {
     "n": "SABIO",
     "d": "SÁBIO"
   },
@@ -6416,16 +12288,60 @@
     "d": "SABOR"
   },
   {
+    "n": "SABRE",
+    "d": "SABRE"
+  },
+  {
     "n": "SACAR",
     "d": "SACAR"
+  },
+  {
+    "n": "SACAS",
+    "d": "SACAS"
+  },
+  {
+    "n": "SACHA",
+    "d": "SACHA"
+  },
+  {
+    "n": "SACHE",
+    "d": "SACHÊ"
+  },
+  {
+    "n": "SACIA",
+    "d": "SACIA"
+  },
+  {
+    "n": "SACOU",
+    "d": "SACOU"
   },
   {
     "n": "SACRA",
     "d": "SACRA"
   },
   {
+    "n": "SACRO",
+    "d": "SACRO"
+  },
+  {
+    "n": "SADIO",
+    "d": "SADIO"
+  },
+  {
+    "n": "SAFAR",
+    "d": "SAFAR"
+  },
+  {
     "n": "SAFRA",
     "d": "SAFRA"
+  },
+  {
+    "n": "SAGAZ",
+    "d": "SAGAZ"
+  },
+  {
+    "n": "SAGRA",
+    "d": "SAGRA"
   },
   {
     "n": "SAIAM",
@@ -6452,6 +12368,10 @@
     "d": "SAIRÁ"
   },
   {
+    "n": "SAITE",
+    "d": "SAITE"
+  },
+  {
     "n": "SALAO",
     "d": "SALÃO"
   },
@@ -6464,6 +12384,10 @@
     "d": "SALES"
   },
   {
+    "n": "SALGA",
+    "d": "SALGA"
+  },
+  {
     "n": "SALMO",
     "d": "SALMO"
   },
@@ -6474,6 +12398,10 @@
   {
     "n": "SALTA",
     "d": "SALTA"
+  },
+  {
+    "n": "SALTE",
+    "d": "SALTE"
   },
   {
     "n": "SALTO",
@@ -6496,12 +12424,36 @@
     "d": "SAMBA"
   },
   {
+    "n": "SAMOA",
+    "d": "SAMOA"
+  },
+  {
+    "n": "SAMOS",
+    "d": "SAMOS"
+  },
+  {
     "n": "SAMPA",
     "d": "SAMPA"
   },
   {
     "n": "SANAR",
     "d": "SANAR"
+  },
+  {
+    "n": "SANCA",
+    "d": "SANCA"
+  },
+  {
+    "n": "SANDE",
+    "d": "SANDE"
+  },
+  {
+    "n": "SANHA",
+    "d": "SANHA"
+  },
+  {
+    "n": "SANSA",
+    "d": "SANSA"
   },
   {
     "n": "SANTA",
@@ -6512,28 +12464,84 @@
     "d": "SANTO"
   },
   {
+    "n": "SAPAO",
+    "d": "SAPÃO"
+  },
+  {
     "n": "SAQUE",
     "d": "SAQUE"
+  },
+  {
+    "n": "SARAI",
+    "d": "SARAI"
+  },
+  {
+    "n": "SARAR",
+    "d": "SARAR"
   },
   {
     "n": "SARAU",
     "d": "SARAU"
   },
   {
+    "n": "SARCA",
+    "d": "SARÇA"
+  },
+  {
+    "n": "SARJA",
+    "d": "SARJA"
+  },
+  {
+    "n": "SARNA",
+    "d": "SARNA"
+  },
+  {
+    "n": "SARRO",
+    "d": "SARRO"
+  },
+  {
+    "n": "SAUDA",
+    "d": "SAÚDA"
+  },
+  {
     "n": "SAUDE",
     "d": "SAÚDE"
+  },
+  {
+    "n": "SAUDO",
+    "d": "SAÚDO"
   },
   {
     "n": "SAUNA",
     "d": "SAUNA"
   },
   {
+    "n": "SAXAO",
+    "d": "SAXÃO"
+  },
+  {
+    "n": "SCORE",
+    "d": "SCORE"
+  },
+  {
     "n": "SCRUM",
     "d": "SCRUM"
   },
   {
+    "n": "SCUBA",
+    "d": "SCUBA"
+  },
+  {
     "n": "SEARA",
     "d": "SEARA"
+  },
+  {
+    "n": "SEBES",
+    "d": "SEBES"
+  },
+  {
+    "n": "SECAM",
+    "d": "SECAM"
   },
   {
     "n": "SECAO",
@@ -6552,8 +12560,24 @@
     "d": "SECOS"
   },
   {
+    "n": "SECOU",
+    "d": "SECOU"
+  },
+  {
     "n": "SEDAN",
     "d": "SEDAN"
+  },
+  {
+    "n": "SEDAS",
+    "d": "SEDAS"
+  },
+  {
+    "n": "SEDIA",
+    "d": "SEDIA"
+  },
+  {
+    "n": "SEDUZ",
+    "d": "SEDUZ"
   },
   {
     "n": "SEGUE",
@@ -6572,6 +12596,14 @@
     "d": "SEITA"
   },
   {
+    "n": "SEIVA",
+    "d": "SEIVA"
+  },
+  {
+    "n": "SEIXO",
+    "d": "SEIXO"
+  },
+  {
     "n": "SEJAM",
     "d": "SEJAM"
   },
@@ -6580,12 +12612,36 @@
     "d": "SEJAS"
   },
   {
+    "n": "SELAR",
+    "d": "SELAR"
+  },
+  {
+    "n": "SELAS",
+    "d": "SELAS"
+  },
+  {
+    "n": "SELIM",
+    "d": "SELIM"
+  },
+  {
+    "n": "SELOU",
+    "d": "SELOU"
+  },
+  {
     "n": "SELVA",
     "d": "SELVA"
   },
   {
+    "n": "SEMEN",
+    "d": "SÊMEN"
+  },
+  {
     "n": "SENAO",
     "d": "SENÃO"
+  },
+  {
+    "n": "SENDA",
+    "d": "SENDA"
   },
   {
     "n": "SENDO",
@@ -6594,6 +12650,18 @@
   {
     "n": "SENHA",
     "d": "SENHA"
+  },
+  {
+    "n": "SENHO",
+    "d": "SENHO"
+  },
+  {
+    "n": "SENIL",
+    "d": "SENIL"
+  },
+  {
+    "n": "SENRA",
+    "d": "SENRA"
   },
   {
     "n": "SENSO",
@@ -6614,6 +12682,26 @@
   {
     "n": "SENTI",
     "d": "SENTI"
+  },
+  {
+    "n": "SENTO",
+    "d": "SENTO"
+  },
+  {
+    "n": "SEPIA",
+    "d": "SÉPIA"
+  },
+  {
+    "n": "SEPSE",
+    "d": "SEPSE"
+  },
+  {
+    "n": "SEPTO",
+    "d": "SEPTO"
+  },
+  {
+    "n": "SEQUE",
+    "d": "SEQUE"
   },
   {
     "n": "SERAO",
@@ -6656,6 +12744,22 @@
     "d": "SERRA"
   },
   {
+    "n": "SERRO",
+    "d": "SERRO"
+  },
+  {
+    "n": "SERTA",
+    "d": "SERTÃ"
+  },
+  {
+    "n": "SERUM",
+    "d": "SÉRUM"
+  },
+  {
+    "n": "SERVA",
+    "d": "SERVA"
+  },
+  {
     "n": "SERVE",
     "d": "SERVE"
   },
@@ -6666,6 +12770,10 @@
   {
     "n": "SERVO",
     "d": "SERVO"
+  },
+  {
+    "n": "SESTA",
+    "d": "SESTA"
   },
   {
     "n": "SETOR",
@@ -6700,6 +12808,10 @@
     "d": "SHARE"
   },
   {
+    "n": "SHEIK",
+    "d": "SHEIK"
+  },
+  {
     "n": "SHELL",
     "d": "SHELL"
   },
@@ -6708,8 +12820,24 @@
     "d": "SHORT"
   },
   {
+    "n": "SHOYO",
+    "d": "SHOYO"
+  },
+  {
+    "n": "SHOYU",
+    "d": "SHOYU"
+  },
+  {
+    "n": "SIDRA",
+    "d": "SIDRA"
+  },
+  {
     "n": "SIENA",
     "d": "SIENA"
+  },
+  {
+    "n": "SIFAO",
+    "d": "SIFÃO"
   },
   {
     "n": "SIGAM",
@@ -6740,12 +12868,28 @@
     "d": "SINAL"
   },
   {
+    "n": "SINHA",
+    "d": "SINHÁ"
+  },
+  {
+    "n": "SINHO",
+    "d": "SINHÔ"
+  },
+  {
+    "n": "SINOP",
+    "d": "SINOP"
+  },
+  {
     "n": "SINTA",
     "d": "SINTA"
   },
   {
     "n": "SINTO",
     "d": "SINTO"
+  },
+  {
+    "n": "SIOUX",
+    "d": "SIOUX"
   },
   {
     "n": "SIRIA",
@@ -6760,6 +12904,18 @@
     "d": "SIRVA"
   },
   {
+    "n": "SIRVO",
+    "d": "SIRVO"
+  },
+  {
+    "n": "SISAL",
+    "d": "SISAL"
+  },
+  {
+    "n": "SISMO",
+    "d": "SISMO"
+  },
+  {
     "n": "SITES",
     "d": "SITES"
   },
@@ -6772,6 +12928,14 @@
     "d": "SITUA"
   },
   {
+    "n": "SITUE",
+    "d": "SITUE"
+  },
+  {
+    "n": "SKANK",
+    "d": "SKANK"
+  },
+  {
     "n": "SKATE",
     "d": "SKATE"
   },
@@ -6780,8 +12944,28 @@
     "d": "SKYPE"
   },
   {
+    "n": "SLACK",
+    "d": "SLACK"
+  },
+  {
+    "n": "SLICE",
+    "d": "SLICE"
+  },
+  {
     "n": "SLIDE",
     "d": "SLIDE"
+  },
+  {
+    "n": "SLING",
+    "d": "SLING"
+  },
+  {
+    "n": "SMILE",
+    "d": "SMILE"
+  },
+  {
+    "n": "SOAVA",
+    "d": "SOAVA"
   },
   {
     "n": "SOBEM",
@@ -6796,8 +12980,16 @@
     "d": "SOBRE"
   },
   {
+    "n": "SOCAR",
+    "d": "SOCAR"
+  },
+  {
     "n": "SOCIO",
     "d": "SÓCIO"
+  },
+  {
+    "n": "SOCOU",
+    "d": "SOCOU"
   },
   {
     "n": "SODIO",
@@ -6836,8 +13028,16 @@
     "d": "SOLAR"
   },
   {
+    "n": "SOLAS",
+    "d": "SOLAS"
+  },
+  {
     "n": "SOLDA",
     "d": "SOLDA"
+  },
+  {
+    "n": "SOLDO",
+    "d": "SOLDO"
   },
   {
     "n": "SOLTA",
@@ -6860,12 +13060,24 @@
     "d": "SOMAR"
   },
   {
+    "n": "SOMAS",
+    "d": "SOMAS"
+  },
+  {
+    "n": "SOMEM",
+    "d": "SOMEM"
+  },
+  {
     "n": "SOMOS",
     "d": "SOMOS"
   },
   {
     "n": "SOMOU",
     "d": "SOMOU"
+  },
+  {
+    "n": "SONAR",
+    "d": "SONAR"
   },
   {
     "n": "SONDA",
@@ -6876,12 +13088,28 @@
     "d": "SONHA"
   },
   {
+    "n": "SONHE",
+    "d": "SONHE"
+  },
+  {
     "n": "SONHO",
     "d": "SONHO"
   },
   {
+    "n": "SOPRA",
+    "d": "SOPRA"
+  },
+  {
+    "n": "SOPRE",
+    "d": "SOPRE"
+  },
+  {
     "n": "SOPRO",
     "d": "SOPRO"
+  },
+  {
+    "n": "SORGO",
+    "d": "SORGO"
   },
   {
     "n": "SORRI",
@@ -6892,8 +13120,20 @@
     "d": "SORTE"
   },
   {
+    "n": "SOSIA",
+    "d": "SÓSIA"
+  },
+  {
+    "n": "SOTAO",
+    "d": "SÓTÃO"
+  },
+  {
     "n": "SOUBE",
     "d": "SOUBE"
+  },
+  {
+    "n": "SOURE",
+    "d": "SOURE"
   },
   {
     "n": "SOUSA",
@@ -6902,6 +13142,10 @@
   {
     "n": "SOUTO",
     "d": "SOUTO"
+  },
+  {
+    "n": "SOVAR",
+    "d": "SOVAR"
   },
   {
     "n": "SPLIT",
@@ -6916,12 +13160,24 @@
     "d": "SPRAY"
   },
   {
+    "n": "SQUID",
+    "d": "SQUID"
+  },
+  {
     "n": "STAFF",
     "d": "STAFF"
   },
   {
     "n": "STAND",
     "d": "STAND"
+  },
+  {
+    "n": "STEAK",
+    "d": "STEAK"
+  },
+  {
+    "n": "STENT",
+    "d": "STENT"
   },
   {
     "n": "STICK",
@@ -6936,12 +13192,28 @@
     "d": "STOCK"
   },
   {
+    "n": "STOUT",
+    "d": "STOUT"
+  },
+  {
     "n": "STRIP",
     "d": "STRIP"
   },
   {
+    "n": "SUADO",
+    "d": "SUADO"
+  },
+  {
+    "n": "SUAVA",
+    "d": "SUAVA"
+  },
+  {
     "n": "SUAVE",
     "d": "SUAVE"
+  },
+  {
+    "n": "SUBAM",
+    "d": "SUBAM"
   },
   {
     "n": "SUBIA",
@@ -6956,6 +13228,10 @@
     "d": "SUBIU"
   },
   {
+    "n": "SUCRE",
+    "d": "SUCRE"
+  },
+  {
     "n": "SUDAO",
     "d": "SUDÃO"
   },
@@ -6966,6 +13242,18 @@
   {
     "n": "SUECO",
     "d": "SUECO"
+  },
+  {
+    "n": "SUEDE",
+    "d": "SUEDE"
+  },
+  {
+    "n": "SUFLE",
+    "d": "SUFLÊ"
+  },
+  {
+    "n": "SUGAM",
+    "d": "SUGAM"
   },
   {
     "n": "SUGAR",
@@ -6980,12 +13268,36 @@
     "d": "SUÍÇO"
   },
   {
+    "n": "SUINO",
+    "d": "SUÍNO"
+  },
+  {
     "n": "SUITE",
     "d": "SUÍTE"
   },
   {
+    "n": "SUJAM",
+    "d": "SUJAM"
+  },
+  {
+    "n": "SUJAR",
+    "d": "SUJAR"
+  },
+  {
     "n": "SUJAS",
     "d": "SUJAS"
+  },
+  {
+    "n": "SUJOU",
+    "d": "SUJOU"
+  },
+  {
+    "n": "SULCO",
+    "d": "SULCO"
+  },
+  {
+    "n": "SUMIA",
+    "d": "SUMIA"
   },
   {
     "n": "SUMIR",
@@ -6994,6 +13306,10 @@
   {
     "n": "SUMIU",
     "d": "SUMIU"
+  },
+  {
+    "n": "SUNGA",
+    "d": "SUNGA"
   },
   {
     "n": "SUPER",
@@ -7012,6 +13328,14 @@
     "d": "SUPRA"
   },
   {
+    "n": "SUPRE",
+    "d": "SUPRE"
+  },
+  {
+    "n": "SURDA",
+    "d": "SURDA"
+  },
+  {
     "n": "SURDO",
     "d": "SURDO"
   },
@@ -7024,8 +13348,20 @@
     "d": "SURGE"
   },
   {
+    "n": "SURJA",
+    "d": "SURJA"
+  },
+  {
     "n": "SURRA",
     "d": "SURRA"
+  },
+  {
+    "n": "SURTA",
+    "d": "SURTA"
+  },
+  {
+    "n": "SURTE",
+    "d": "SURTE"
   },
   {
     "n": "SURTO",
@@ -7048,24 +13384,80 @@
     "d": "SUTIL"
   },
   {
+    "n": "SUTRA",
+    "d": "SUTRA"
+  },
+  {
+    "n": "SWELL",
+    "d": "SWELL"
+  },
+  {
     "n": "SWING",
     "d": "SWING"
+  },
+  {
+    "n": "SYRAH",
+    "d": "SYRAH"
   },
   {
     "n": "TABUA",
     "d": "TÁBUA"
   },
   {
+    "n": "TACAR",
+    "d": "TACAR"
+  },
+  {
     "n": "TACHO",
     "d": "TACHO"
+  },
+  {
+    "n": "TACOS",
+    "d": "TACOS"
+  },
+  {
+    "n": "TACTO",
+    "d": "TACTO"
+  },
+  {
+    "n": "TAIPA",
+    "d": "TAIPA"
+  },
+  {
+    "n": "TALAO",
+    "d": "TALÃO"
+  },
+  {
+    "n": "TALCO",
+    "d": "TALCO"
+  },
+  {
+    "n": "TALHA",
+    "d": "TALHA"
+  },
+  {
+    "n": "TALHO",
+    "d": "TALHO"
   },
   {
     "n": "TAMPA",
     "d": "TAMPA"
   },
   {
+    "n": "TAMPE",
+    "d": "TAMPE"
+  },
+  {
     "n": "TAMPO",
     "d": "TAMPO"
+  },
+  {
+    "n": "TANDO",
+    "d": "TANDO"
+  },
+  {
+    "n": "TANGA",
+    "d": "TANGA"
   },
   {
     "n": "TANGE",
@@ -7088,12 +13480,52 @@
     "d": "TAPAS"
   },
   {
+    "n": "TAPES",
+    "d": "TAPES"
+  },
+  {
+    "n": "TARDA",
+    "d": "TARDA"
+  },
+  {
     "n": "TARDE",
     "d": "TARDE"
   },
   {
+    "n": "TARJA",
+    "d": "TARJA"
+  },
+  {
+    "n": "TAROT",
+    "d": "TAROT"
+  },
+  {
     "n": "TARSO",
     "d": "TARSO"
+  },
+  {
+    "n": "TARTE",
+    "d": "TARTE"
+  },
+  {
+    "n": "TASCA",
+    "d": "TASCA"
+  },
+  {
+    "n": "TASCO",
+    "d": "TASCO"
+  },
+  {
+    "n": "TATIL",
+    "d": "TÁTIL"
+  },
+  {
+    "n": "TATUI",
+    "d": "TATUÍ"
+  },
+  {
+    "n": "TAXAR",
+    "d": "TAXAR"
   },
   {
     "n": "TAXAS",
@@ -7108,12 +13540,32 @@
     "d": "TCHAU"
   },
   {
+    "n": "TEBAS",
+    "d": "TEBAS"
+  },
+  {
+    "n": "TECEM",
+    "d": "TECEM"
+  },
+  {
     "n": "TECER",
     "d": "TECER"
   },
   {
+    "n": "TECEU",
+    "d": "TECEU"
+  },
+  {
     "n": "TECLA",
     "d": "TECLA"
+  },
+  {
+    "n": "TECLE",
+    "d": "TECLE"
+  },
+  {
+    "n": "TECNO",
+    "d": "TECNO"
   },
   {
     "n": "TECTO",
@@ -7124,6 +13576,10 @@
     "d": "TÉDIO"
   },
   {
+    "n": "TEIMA",
+    "d": "TEIMA"
+  },
+  {
     "n": "TELAO",
     "d": "TELÃO"
   },
@@ -7132,8 +13588,16 @@
     "d": "TELES"
   },
   {
+    "n": "TELEX",
+    "d": "TELEX"
+  },
+  {
     "n": "TELHA",
     "d": "TELHA"
+  },
+  {
+    "n": "TEMAM",
+    "d": "TEMAM"
   },
   {
     "n": "TEMAS",
@@ -7148,6 +13612,14 @@
     "d": "TEMER"
   },
   {
+    "n": "TEMEU",
+    "d": "TEMEU"
+  },
+  {
+    "n": "TEMIA",
+    "d": "TEMIA"
+  },
+  {
     "n": "TEMOR",
     "d": "TEMOR"
   },
@@ -7158,6 +13630,10 @@
   {
     "n": "TEMPO",
     "d": "TEMPO"
+  },
+  {
+    "n": "TENAZ",
+    "d": "TENAZ"
   },
   {
     "n": "TENDA",
@@ -7184,6 +13660,14 @@
     "d": "TÊNIS"
   },
   {
+    "n": "TENOR",
+    "d": "TENOR"
+  },
+  {
+    "n": "TENRA",
+    "d": "TENRA"
+  },
+  {
     "n": "TENSA",
     "d": "TENSA"
   },
@@ -7202,6 +13686,10 @@
   {
     "n": "TENTO",
     "d": "TENTO"
+  },
+  {
+    "n": "TENUE",
+    "d": "TÊNUE"
   },
   {
     "n": "TERAO",
@@ -7236,8 +13724,16 @@
     "d": "TERIA"
   },
   {
+    "n": "TERME",
+    "d": "TERME"
+  },
+  {
     "n": "TERMO",
     "d": "TERMO"
+  },
+  {
+    "n": "TERNA",
+    "d": "TERNA"
   },
   {
     "n": "TERNO",
@@ -7252,6 +13748,10 @@
     "d": "TESÃO"
   },
   {
+    "n": "TESLA",
+    "d": "TESLA"
+  },
+  {
     "n": "TESTA",
     "d": "TESTA"
   },
@@ -7264,12 +13764,40 @@
     "d": "TESTO"
   },
   {
+    "n": "TETAS",
+    "d": "TETAS"
+  },
+  {
+    "n": "TETOS",
+    "d": "TETOS"
+  },
+  {
+    "n": "TETRA",
+    "d": "TETRA"
+  },
+  {
+    "n": "TEUTO",
+    "d": "TEUTO"
+  },
+  {
     "n": "TEXTO",
     "d": "TEXTO"
   },
   {
+    "n": "TIAGO",
+    "d": "TIAGO"
+  },
+  {
     "n": "TIARA",
     "d": "TIARA"
+  },
+  {
+    "n": "TIBAU",
+    "d": "TIBAU"
+  },
+  {
+    "n": "TIBIA",
+    "d": "TÍBIA"
   },
   {
     "n": "TIETE",
@@ -7284,12 +13812,28 @@
     "d": "TIMÃO"
   },
   {
+    "n": "TIMBO",
+    "d": "TIMBÓ"
+  },
+  {
+    "n": "TIMBU",
+    "d": "TIMBU"
+  },
+  {
     "n": "TIMER",
     "d": "TIMER"
   },
   {
+    "n": "TIMON",
+    "d": "TIMON"
+  },
+  {
     "n": "TIMOR",
     "d": "TIMOR"
+  },
+  {
+    "n": "TINGA",
+    "d": "TINGA"
   },
   {
     "n": "TINHA",
@@ -7306,6 +13850,10 @@
   {
     "n": "TIPOS",
     "d": "TIPOS"
+  },
+  {
+    "n": "TIQUE",
+    "d": "TIQUE"
   },
   {
     "n": "TIRAM",
@@ -7328,6 +13876,10 @@
     "d": "TIREM"
   },
   {
+    "n": "TIRES",
+    "d": "TIRES"
+  },
+  {
     "n": "TIROS",
     "d": "TIROS"
   },
@@ -7336,8 +13888,24 @@
     "d": "TIROU"
   },
   {
+    "n": "TIRSO",
+    "d": "TIRSO"
+  },
+  {
+    "n": "TITIA",
+    "d": "TITIA"
+  },
+  {
+    "n": "TITIO",
+    "d": "TITIO"
+  },
+  {
     "n": "TIVER",
     "d": "TIVER"
+  },
+  {
+    "n": "TOADA",
+    "d": "TOADA"
   },
   {
     "n": "TOCAM",
@@ -7348,8 +13916,16 @@
     "d": "TOCAR"
   },
   {
+    "n": "TOCAS",
+    "d": "TOCAS"
+  },
+  {
     "n": "TOCHA",
     "d": "TOCHA"
+  },
+  {
+    "n": "TOCOS",
+    "d": "TOCOS"
   },
   {
     "n": "TOCOU",
@@ -7364,6 +13940,22 @@
     "d": "TODOS"
   },
   {
+    "n": "TOIRO",
+    "d": "TOIRO"
+  },
+  {
+    "n": "TOKEN",
+    "d": "TOKEN"
+  },
+  {
+    "n": "TOLDO",
+    "d": "TOLDO"
+  },
+  {
+    "n": "TOMAI",
+    "d": "TOMAI"
+  },
+  {
     "n": "TOMAM",
     "d": "TOMAM"
   },
@@ -7374,6 +13966,10 @@
   {
     "n": "TOMAS",
     "d": "TOMÁS"
+  },
+  {
+    "n": "TOMBA",
+    "d": "TOMBA"
   },
   {
     "n": "TOMBO",
@@ -7392,8 +13988,48 @@
     "d": "TOMOU"
   },
   {
+    "n": "TONAL",
+    "d": "TONAL"
+  },
+  {
+    "n": "TONEL",
+    "d": "TONEL"
+  },
+  {
     "n": "TONER",
     "d": "TONER"
+  },
+  {
+    "n": "TONGA",
+    "d": "TONGA"
+  },
+  {
+    "n": "TONHO",
+    "d": "TONHO"
+  },
+  {
+    "n": "TONTA",
+    "d": "TONTA"
+  },
+  {
+    "n": "TONTO",
+    "d": "TONTO"
+  },
+  {
+    "n": "TONUS",
+    "d": "TÔNUS"
+  },
+  {
+    "n": "TOPAR",
+    "d": "TOPAR"
+  },
+  {
+    "n": "TOPEI",
+    "d": "TOPEI"
+  },
+  {
+    "n": "TOPOU",
+    "d": "TOPOU"
   },
   {
     "n": "TOQUE",
@@ -7404,12 +14040,28 @@
     "d": "TÓRAX"
   },
   {
+    "n": "TORCA",
+    "d": "TORÇA"
+  },
+  {
     "n": "TORCE",
     "d": "TORCE"
   },
   {
+    "n": "TORCI",
+    "d": "TORCI"
+  },
+  {
     "n": "TORCO",
     "d": "TORÇO"
+  },
+  {
+    "n": "TORDO",
+    "d": "TORDO"
+  },
+  {
+    "n": "TORGA",
+    "d": "TORGA"
   },
   {
     "n": "TORNA",
@@ -7424,8 +14076,20 @@
     "d": "TORNO"
   },
   {
+    "n": "TORPE",
+    "d": "TORPE"
+  },
+  {
+    "n": "TORRA",
+    "d": "TORRA"
+  },
+  {
     "n": "TORRE",
     "d": "TORRE"
+  },
+  {
+    "n": "TORSO",
+    "d": "TORSO"
   },
   {
     "n": "TORTA",
@@ -7444,8 +14108,16 @@
     "d": "TOSSE"
   },
   {
+    "n": "TOSTA",
+    "d": "TOSTA"
+  },
+  {
     "n": "TOTAL",
     "d": "TOTAL"
+  },
+  {
+    "n": "TOTEM",
+    "d": "TOTEM"
   },
   {
     "n": "TOUCA",
@@ -7468,8 +14140,16 @@
     "d": "TRAÇA"
   },
   {
+    "n": "TRACE",
+    "d": "TRACE"
+  },
+  {
     "n": "TRACO",
     "d": "TRAÇO"
+  },
+  {
+    "n": "TRAEM",
+    "d": "TRAEM"
   },
   {
     "n": "TRAGA",
@@ -7478,6 +14158,14 @@
   {
     "n": "TRAGO",
     "d": "TRAGO"
+  },
+  {
+    "n": "TRAIA",
+    "d": "TRAIA"
+  },
+  {
+    "n": "TRAIN",
+    "d": "TRAIN"
   },
   {
     "n": "TRAIR",
@@ -7498,6 +14186,10 @@
   {
     "n": "TRANS",
     "d": "TRANS"
+  },
+  {
+    "n": "TRAPO",
+    "d": "TRAPO"
   },
   {
     "n": "TRARA",
@@ -7524,16 +14216,56 @@
     "d": "TRAVE"
   },
   {
+    "n": "TRAVO",
+    "d": "TRAVO"
+  },
+  {
     "n": "TRAZE",
     "d": "TRAZÊ"
+  },
+  {
+    "n": "TRECO",
+    "d": "TRECO"
+  },
+  {
+    "n": "TRELA",
+    "d": "TRELA"
+  },
+  {
+    "n": "TREMA",
+    "d": "TREMA"
+  },
+  {
+    "n": "TREME",
+    "d": "TREME"
+  },
+  {
+    "n": "TREMO",
+    "d": "TREMO"
+  },
+  {
+    "n": "TRENA",
+    "d": "TRENA"
+  },
+  {
+    "n": "TRENO",
+    "d": "TRENÓ"
   },
   {
     "n": "TRENS",
     "d": "TRENS"
   },
   {
+    "n": "TREPA",
+    "d": "TREPA"
+  },
+  {
     "n": "TRETA",
     "d": "TRETA"
+  },
+  {
+    "n": "TREVA",
+    "d": "TREVA"
   },
   {
     "n": "TREVO",
@@ -7542,6 +14274,10 @@
   {
     "n": "TREZE",
     "d": "TREZE"
+  },
+  {
+    "n": "TRIAL",
+    "d": "TRIAL"
   },
   {
     "n": "TRIBO",
@@ -7556,8 +14292,20 @@
     "d": "TRIGO"
   },
   {
+    "n": "TRINO",
+    "d": "TRINO"
+  },
+  {
+    "n": "TRIPA",
+    "d": "TRIPA"
+  },
+  {
     "n": "TRIPE",
     "d": "TRIPÉ"
+  },
+  {
+    "n": "TRIPS",
+    "d": "TRIPS"
   },
   {
     "n": "TROCA",
@@ -7568,6 +14316,18 @@
     "d": "TROCO"
   },
   {
+    "n": "TROFA",
+    "d": "TROFA"
+  },
+  {
+    "n": "TROIA",
+    "d": "TRÓIA"
+  },
+  {
+    "n": "TROLL",
+    "d": "TROLL"
+  },
+  {
     "n": "TRONO",
     "d": "TRONO"
   },
@@ -7576,24 +14336,88 @@
     "d": "TROPA"
   },
   {
+    "n": "TROTE",
+    "d": "TROTE"
+  },
+  {
+    "n": "TROVA",
+    "d": "TROVA"
+  },
+  {
+    "n": "TRUCO",
+    "d": "TRUCO"
+  },
+  {
+    "n": "TRUFA",
+    "d": "TRUFA"
+  },
+  {
+    "n": "TRUPE",
+    "d": "TRUPE"
+  },
+  {
+    "n": "TRUST",
+    "d": "TRUST"
+  },
+  {
+    "n": "TRUTA",
+    "d": "TRUTA"
+  },
+  {
+    "n": "TUFAO",
+    "d": "TUFÃO"
+  },
+  {
+    "n": "TUFOS",
+    "d": "TUFOS"
+  },
+  {
     "n": "TULIO",
     "d": "TÚLIO"
+  },
+  {
+    "n": "TUMBA",
+    "d": "TUMBA"
   },
   {
     "n": "TUMOR",
     "d": "TUMOR"
   },
   {
+    "n": "TUNAS",
+    "d": "TUNAS"
+  },
+  {
     "n": "TUNEL",
     "d": "TÚNEL"
+  },
+  {
+    "n": "TUPIA",
+    "d": "TUPIA"
+  },
+  {
+    "n": "TURBA",
+    "d": "TURBA"
   },
   {
     "n": "TURBO",
     "d": "TURBO"
   },
   {
+    "n": "TURCA",
+    "d": "TURCA"
+  },
+  {
     "n": "TURCO",
     "d": "TURCO"
+  },
+  {
+    "n": "TURFA",
+    "d": "TURFA"
+  },
+  {
+    "n": "TURFE",
+    "d": "TURFE"
   },
   {
     "n": "TURMA",
@@ -7608,16 +14432,64 @@
     "d": "TURNO"
   },
   {
+    "n": "TURRA",
+    "d": "TURRA"
+  },
+  {
+    "n": "TURVA",
+    "d": "TURVA"
+  },
+  {
+    "n": "TURVO",
+    "d": "TURVO"
+  },
+  {
     "n": "TUTOR",
     "d": "TUTOR"
+  },
+  {
+    "n": "TUTTI",
+    "d": "TUTTI"
+  },
+  {
+    "n": "TWEED",
+    "d": "TWEED"
   },
   {
     "n": "TWEET",
     "d": "TWEET"
   },
   {
+    "n": "TWIST",
+    "d": "TWIST"
+  },
+  {
+    "n": "UBATA",
+    "d": "UBATÃ"
+  },
+  {
+    "n": "UCHOA",
+    "d": "UCHOA"
+  },
+  {
+    "n": "UHULL",
+    "d": "UHULL"
+  },
+  {
     "n": "ULTRA",
     "d": "ULTRA"
+  },
+  {
+    "n": "UMBRA",
+    "d": "UMBRA"
+  },
+  {
+    "n": "UMBRO",
+    "d": "UMBRO"
+  },
+  {
+    "n": "UMERO",
+    "d": "ÚMERO"
   },
   {
     "n": "UMIDO",
@@ -7626,6 +14498,14 @@
   {
     "n": "UNCAO",
     "d": "UNÇÃO"
+  },
+  {
+    "n": "UNGIR",
+    "d": "UNGIR"
+  },
+  {
+    "n": "UNGIU",
+    "d": "UNGIU"
   },
   {
     "n": "UNHAS",
@@ -7648,12 +14528,36 @@
     "d": "UNIDO"
   },
   {
+    "n": "UNIRA",
+    "d": "UNIRÁ"
+  },
+  {
+    "n": "UNTAR",
+    "d": "UNTAR"
+  },
+  {
+    "n": "URANO",
+    "d": "URANO"
+  },
+  {
+    "n": "UREIA",
+    "d": "URÉIA"
+  },
+  {
+    "n": "URICO",
+    "d": "ÚRICO"
+  },
+  {
     "n": "URINA",
     "d": "URINA"
   },
   {
     "n": "URNAS",
     "d": "URNAS"
+  },
+  {
+    "n": "URUBU",
+    "d": "URUBU"
   },
   {
     "n": "USADO",
@@ -7680,6 +14584,10 @@
     "d": "USUAL"
   },
   {
+    "n": "USURA",
+    "d": "USURA"
+  },
+  {
     "n": "UTEIS",
     "d": "ÚTEIS"
   },
@@ -7696,12 +14604,44 @@
     "d": "VADIA"
   },
   {
+    "n": "VADIO",
+    "d": "VADIO"
+  },
+  {
+    "n": "VAGAM",
+    "d": "VAGAM"
+  },
+  {
+    "n": "VAGAO",
+    "d": "VAGÃO"
+  },
+  {
     "n": "VAGAR",
     "d": "VAGAR"
   },
   {
     "n": "VAGAS",
     "d": "VAGAS"
+  },
+  {
+    "n": "VAGEM",
+    "d": "VAGEM"
+  },
+  {
+    "n": "VAGUE",
+    "d": "VAGUE"
+  },
+  {
+    "n": "VAIAR",
+    "d": "VAIAR"
+  },
+  {
+    "n": "VAIAS",
+    "d": "VAIAS"
+  },
+  {
+    "n": "VALDO",
+    "d": "VALDO"
   },
   {
     "n": "VALEM",
@@ -7724,6 +14664,10 @@
     "d": "VALHA"
   },
   {
+    "n": "VALHO",
+    "d": "VALHO"
+  },
+  {
     "n": "VALIA",
     "d": "VALIA"
   },
@@ -7738,6 +14682,10 @@
   {
     "n": "VAMOS",
     "d": "VAMOS"
+  },
+  {
+    "n": "VANDA",
+    "d": "VANDA"
   },
   {
     "n": "VAPOR",
@@ -7760,6 +14708,18 @@
     "d": "VARIA"
   },
   {
+    "n": "VARIE",
+    "d": "VARIE"
+  },
+  {
+    "n": "VARIO",
+    "d": "VÁRIO"
+  },
+  {
+    "n": "VARRE",
+    "d": "VARRE"
+  },
+  {
     "n": "VASCO",
     "d": "VASCO"
   },
@@ -7772,8 +14732,16 @@
     "d": "VASTO"
   },
   {
+    "n": "VAZAM",
+    "d": "VAZAM"
+  },
+  {
     "n": "VAZAO",
     "d": "VAZÃO"
+  },
+  {
+    "n": "VAZAR",
+    "d": "VAZAR"
   },
   {
     "n": "VAZIA",
@@ -7788,12 +14756,36 @@
     "d": "VAZOU"
   },
   {
+    "n": "VEADO",
+    "d": "VEADO"
+  },
+  {
+    "n": "VEDAR",
+    "d": "VEDAR"
+  },
+  {
+    "n": "VEDAS",
+    "d": "VEDAS"
+  },
+  {
+    "n": "VEDES",
+    "d": "VEDES"
+  },
+  {
     "n": "VEIGA",
     "d": "VEIGA"
   },
   {
     "n": "VEJAM",
     "d": "VEJAM"
+  },
+  {
+    "n": "VEJAS",
+    "d": "VEJAS"
+  },
+  {
+    "n": "VELAR",
+    "d": "VELAR"
   },
   {
     "n": "VELAS",
@@ -7816,6 +14808,10 @@
     "d": "VEMOS"
   },
   {
+    "n": "VENAL",
+    "d": "VENAL"
+  },
+  {
     "n": "VENCA",
     "d": "VENÇA"
   },
@@ -7824,12 +14820,20 @@
     "d": "VENCE"
   },
   {
+    "n": "VENCI",
+    "d": "VENCI"
+  },
+  {
     "n": "VENDA",
     "d": "VENDA"
   },
   {
     "n": "VENDE",
     "d": "VENDE"
+  },
+  {
+    "n": "VENDI",
+    "d": "VENDI"
   },
   {
     "n": "VENDO",
@@ -7844,6 +14848,14 @@
     "d": "VENHO"
   },
   {
+    "n": "VENIA",
+    "d": "VÊNIA"
+  },
+  {
+    "n": "VENTA",
+    "d": "VENTA"
+  },
+  {
     "n": "VENTO",
     "d": "VENTO"
   },
@@ -7854,6 +14866,10 @@
   {
     "n": "VERAO",
     "d": "VERÃO"
+  },
+  {
+    "n": "VERAS",
+    "d": "VERAS"
   },
   {
     "n": "VERBA",
@@ -7868,24 +14884,80 @@
     "d": "VERDE"
   },
   {
+    "n": "VEREI",
+    "d": "VEREI"
+  },
+  {
     "n": "VEREM",
     "d": "VEREM"
+  },
+  {
+    "n": "VERES",
+    "d": "VERES"
+  },
+  {
+    "n": "VERGA",
+    "d": "VERGA"
+  },
+  {
+    "n": "VERIA",
+    "d": "VERIA"
+  },
+  {
+    "n": "VERME",
+    "d": "VERME"
   },
   {
     "n": "VERSA",
     "d": "VERSA"
   },
   {
+    "n": "VERSE",
+    "d": "VERSE"
+  },
+  {
     "n": "VERSO",
     "d": "VERSO"
+  },
+  {
+    "n": "VERTA",
+    "d": "VERTA"
+  },
+  {
+    "n": "VERTE",
+    "d": "VERTE"
+  },
+  {
+    "n": "VERVE",
+    "d": "VERVE"
+  },
+  {
+    "n": "VESGO",
+    "d": "VESGO"
+  },
+  {
+    "n": "VESPA",
+    "d": "VESPA"
   },
   {
     "n": "VESTE",
     "d": "VESTE"
   },
   {
+    "n": "VESTI",
+    "d": "VESTI"
+  },
+  {
+    "n": "VETAR",
+    "d": "VETAR"
+  },
+  {
     "n": "VETOR",
     "d": "VETOR"
+  },
+  {
+    "n": "VETOU",
+    "d": "VETOU"
   },
   {
     "n": "VEZES",
@@ -7912,6 +14984,22 @@
     "d": "VIANA"
   },
   {
+    "n": "VIBES",
+    "d": "VIBES"
+  },
+  {
+    "n": "VIBRA",
+    "d": "VIBRA"
+  },
+  {
+    "n": "VIBRO",
+    "d": "VIBRO"
+  },
+  {
+    "n": "VICIA",
+    "d": "VICIA"
+  },
+  {
     "n": "VICIO",
     "d": "VÍCIO"
   },
@@ -7928,8 +15016,20 @@
     "d": "VIDRO"
   },
   {
+    "n": "VIELA",
+    "d": "VIELA"
+  },
+  {
+    "n": "VIERA",
+    "d": "VIERA"
+  },
+  {
     "n": "VIGIA",
     "d": "VIGIA"
+  },
+  {
+    "n": "VIGIE",
+    "d": "VIGIE"
   },
   {
     "n": "VIGOR",
@@ -7948,12 +15048,24 @@
     "d": "VIMOS"
   },
   {
+    "n": "VINCO",
+    "d": "VINCO"
+  },
+  {
     "n": "VINDA",
     "d": "VINDA"
   },
   {
+    "n": "VINDE",
+    "d": "VINDE"
+  },
+  {
     "n": "VINDO",
     "d": "VINDO"
+  },
+  {
+    "n": "VINGA",
+    "d": "VINGA"
   },
   {
     "n": "VINHA",
@@ -7974,6 +15086,10 @@
   {
     "n": "VIOLA",
     "d": "VIOLA"
+  },
+  {
+    "n": "VIOLE",
+    "d": "VIOLE"
   },
   {
     "n": "VIRAL",
@@ -8000,8 +15116,16 @@
     "d": "VIREM"
   },
   {
+    "n": "VIRES",
+    "d": "VIRES"
+  },
+  {
     "n": "VIRIA",
     "d": "VIRIA"
+  },
+  {
+    "n": "VIRIL",
+    "d": "VIRIL"
   },
   {
     "n": "VIROU",
@@ -8020,6 +15144,18 @@
     "d": "VISÃO"
   },
   {
+    "n": "VISAR",
+    "d": "VISAR"
+  },
+  {
+    "n": "VISCO",
+    "d": "VISCO"
+  },
+  {
+    "n": "VISEM",
+    "d": "VISEM"
+  },
+  {
     "n": "VISEU",
     "d": "VISEU"
   },
@@ -8028,12 +15164,20 @@
     "d": "VISOR"
   },
   {
+    "n": "VISOU",
+    "d": "VISOU"
+  },
+  {
     "n": "VISSE",
     "d": "VISSE"
   },
   {
     "n": "VISTA",
     "d": "VISTA"
+  },
+  {
+    "n": "VISTE",
+    "d": "VISTE"
   },
   {
     "n": "VISTO",
@@ -8052,6 +15196,10 @@
     "d": "VIÚVA"
   },
   {
+    "n": "VIUVO",
+    "d": "VIÚVO"
+  },
+  {
     "n": "VIVAM",
     "d": "VIVAM"
   },
@@ -8060,12 +15208,20 @@
     "d": "VIVAS"
   },
   {
+    "n": "VIVAZ",
+    "d": "VIVAZ"
+  },
+  {
     "n": "VIVEM",
     "d": "VIVEM"
   },
   {
     "n": "VIVER",
     "d": "VIVER"
+  },
+  {
+    "n": "VIVES",
+    "d": "VIVES"
   },
   {
     "n": "VIVEU",
@@ -8080,12 +15236,28 @@
     "d": "VIVOS"
   },
   {
+    "n": "VLOGS",
+    "d": "VLOGS"
+  },
+  {
+    "n": "VOADO",
+    "d": "VOADO"
+  },
+  {
+    "n": "VOAVA",
+    "d": "VOAVA"
+  },
+  {
     "n": "VOCAL",
     "d": "VOCAL"
   },
   {
     "n": "VOCES",
     "d": "VOCÊS"
+  },
+  {
+    "n": "VODCA",
+    "d": "VODCA"
   },
   {
     "n": "VODKA",
@@ -8098,6 +15270,10 @@
   {
     "n": "VOGUE",
     "d": "VOGUE"
+  },
+  {
+    "n": "VOILA",
+    "d": "VOILÀ"
   },
   {
     "n": "VOLEI",
@@ -8120,6 +15296,10 @@
     "d": "VOLVO"
   },
   {
+    "n": "VORAZ",
+    "d": "VORAZ"
+  },
+  {
     "n": "VOSSA",
     "d": "VOSSA"
   },
@@ -8128,12 +15308,20 @@
     "d": "VOSSO"
   },
   {
+    "n": "VOTAM",
+    "d": "VOTAM"
+  },
+  {
     "n": "VOTAR",
     "d": "VOTAR"
   },
   {
     "n": "VOTEI",
     "d": "VOTEI"
+  },
+  {
+    "n": "VOTEM",
+    "d": "VOTEM"
   },
   {
     "n": "VOTES",
@@ -8148,6 +15336,10 @@
     "d": "VOTOU"
   },
   {
+    "n": "VOZAO",
+    "d": "VOZÃO"
+  },
+  {
     "n": "VOZES",
     "d": "VOZES"
   },
@@ -8156,16 +15348,80 @@
     "d": "VULGO"
   },
   {
+    "n": "VULTO",
+    "d": "VULTO"
+  },
+  {
+    "n": "VULVA",
+    "d": "VULVA"
+  },
+  {
     "n": "WEBER",
     "d": "WEBER"
+  },
+  {
+    "n": "WICCA",
+    "d": "WICCA"
+  },
+  {
+    "n": "XAMPU",
+    "d": "XAMPU"
+  },
+  {
+    "n": "XANGO",
+    "d": "XANGÔ"
+  },
+  {
+    "n": "XAXIM",
+    "d": "XAXIM"
   },
   {
     "n": "XEQUE",
     "d": "XEQUE"
   },
   {
+    "n": "XEREM",
+    "d": "XERÉM"
+  },
+  {
     "n": "XEROX",
     "d": "XEROX"
+  },
+  {
+    "n": "XIITA",
+    "d": "XIITA"
+  },
+  {
+    "n": "XINGA",
+    "d": "XINGA"
+  },
+  {
+    "n": "XISTO",
+    "d": "XISTO"
+  },
+  {
+    "n": "YACHT",
+    "d": "YACHT"
+  },
+  {
+    "n": "YIELD",
+    "d": "YIELD"
+  },
+  {
+    "n": "ZAGUE",
+    "d": "ZAGUE"
+  },
+  {
+    "n": "ZAIRE",
+    "d": "ZAIRE"
+  },
+  {
+    "n": "ZANGA",
+    "d": "ZANGA"
+  },
+  {
+    "n": "ZARCO",
+    "d": "ZARCO"
   },
   {
     "n": "ZEBRA",
@@ -8176,12 +15432,52 @@
     "d": "ZELAR"
   },
   {
+    "n": "ZERAR",
+    "d": "ZERAR"
+  },
+  {
+    "n": "ZEREI",
+    "d": "ZEREI"
+  },
+  {
+    "n": "ZIGUE",
+    "d": "ZIGUE"
+  },
+  {
     "n": "ZINCO",
     "d": "ZINCO"
   },
   {
+    "n": "ZINHA",
+    "d": "ZINHA"
+  },
+  {
+    "n": "ZINHO",
+    "d": "ZINHO"
+  },
+  {
     "n": "ZIPER",
     "d": "ZÍPER"
+  },
+  {
+    "n": "ZOMBA",
+    "d": "ZOMBA"
+  },
+  {
+    "n": "ZONAL",
+    "d": "ZONAL"
+  },
+  {
+    "n": "ZORRA",
+    "d": "ZORRA"
+  },
+  {
+    "n": "ZORRO",
+    "d": "ZORRO"
+  },
+  {
+    "n": "ZUMBA",
+    "d": "ZUMBA"
   },
   {
     "n": "ZUMBI",
