@@ -20,14 +20,9 @@ export function useDiscord() {
     const clientId = process.env.NEXT_PUBLIC_DISCORD_CLIENT_ID;
 
     async function initDiscord() {
-      // Se não houver Client ID configurado ou não estiver no Discord SDK, fallback para Web
       if (!clientId) {
         if (isMounted) {
-          setUser({
-            id: "local_dev",
-            username: "Jogador",
-            globalName: "Visitante Web",
-          });
+          setUser({ id: "dev", username: "Jogador", globalName: "Visitante Web" });
           setIsReady(true);
         }
         return;
@@ -37,33 +32,28 @@ export function useDiscord() {
         const discordSdk = new DiscordSDK(clientId);
         await discordSdk.ready();
 
-        // Solicita autorização de identidade
-        const { code } = await discordSdk.commands.authorize({
-          client_id: clientId,
-          response_type: "code",
-          state: "",
-          prompt: "none",
-          scope: ["identify"],
-        });
-
-        // Caso consiga autorizar com sucesso
         if (isMounted) {
           setInDiscord(true);
-          setUser({
-            id: "discord_user",
-            username: "Discord Player",
-            globalName: "Membro Discord",
-          });
+          setUser({ id: "discord", username: "Discord Player", globalName: "Membro Discord" });
           setIsReady(true);
         }
-      } catch (err) {
-        console.log("Executando fora do cliente do Discord (Modo Web/Dev).", err);
-        if (isMounted) {
-          setUser({
-            id: "web_player",
-            username: "Jogador",
-            globalName: "Jogador Palavrita",
+
+        // Tenta autorizar em segundo plano sem travar o carregamento
+        try {
+          await discordSdk.commands.authorize({
+            client_id: clientId,
+            response_type: "code",
+            state: "",
+            prompt: "none",
+            scope: ["identify"],
           });
+        } catch (e) {
+          console.log("Autorização de escopo opcional pulada:", e);
+        }
+      } catch (err) {
+        console.log("Executando fora do cliente do Discord ou em modo de compatibilidade:", err);
+        if (isMounted) {
+          setUser({ id: "web", username: "Jogador", globalName: "Visitante Web" });
           setIsReady(true);
         }
       }
