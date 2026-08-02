@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { DiscordSDK } from "@discord/embedded-app-sdk";
+import { DiscordSDK, DiscordSDKMock, RPCCloseCodes } from "@discord/embedded-app-sdk";
 
 export interface DiscordUser {
   id: string;
@@ -17,9 +17,8 @@ function getOrCreateWebUser(): DiscordUser {
   try {
     const key = "palavrita_user_profile";
     const existing = localStorage.getItem(key);
-    if (existing) {
-      return JSON.parse(existing);
-    }
+    if (existing) return JSON.parse(existing);
+
     const randomId = "web_" + Math.random().toString(36).substring(2, 8);
     const newUser: DiscordUser = {
       id: randomId,
@@ -47,6 +46,7 @@ export function useDiscord() {
     async function initDiscord() {
       const fallbackUser = getOrCreateWebUser();
 
+      // Sem Client ID = modo web/local
       if (!clientId) {
         if (isMounted) {
           setUser(fallbackUser);
@@ -60,47 +60,44 @@ export function useDiscord() {
         const discordSdk = new DiscordSDK(clientId);
         await discordSdk.ready();
 
+        if (!isMounted) return;
+
+        setInDiscord(true);
+        setGuildId(discordSdk.guildId || "global");
+        setChannelId(discordSdk.channelId || null);
+
+        // Autoriza e obtém access_token
+        const { code } = await discordSdk.commands.authorize({
+          client_id: clientId,
+          response_type: "code",
+          state: "",
+          prompt: "none",
+          scope: ["identify"],
+        });
+
+        // Troca code por token e perfil via nosso backend
+        const authRes = await fetch("/api/auth/discord", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ code }),
+        });
+
+        if (authRes.ok) {
+          const data = await authRes.json();
+          if (data.user && isMounted) {
+            setUser(data.user);
+            setIsReady(true);
+            return;
+          }
+        }
+
+        // Fallback caso o auth falhe (sem client secret configurado)
         if (isMounted) {
-          setInDiscord(true);
-          setGuildId(discordSdk.guildId || "global");
-          setChannelId(discordSdk.channelId || null);
-          setUser({
-            id: "discord_temp",
-            username: "Jogador Discord",
-            globalName: "Membro Discord",
-          });
+          setUser({ id: "discord_user", username: "Jogador Discord", globalName: "Jogador Discord" });
           setIsReady(true);
         }
-
-        // Tenta autorizar em segundo plano para obter os dados reais do perfil
-        try {
-          const authResult = await discordSdk.commands.authorize({
-            client_id: clientId,
-            response_type: "code",
-            state: "",
-            prompt: "none",
-            scope: ["identify"],
-          });
-
-          if (authResult?.code) {
-            const response = await fetch("/api/auth/discord", {
-              method: "POST",
-              headers: { "Content-Type": "application/json" },
-              body: JSON.stringify({ code: authResult.code }),
-            });
-
-            if (response.ok) {
-              const data = await response.json();
-              if (data.user && isMounted) {
-                setUser(data.user);
-              }
-            }
-          }
-        } catch (e) {
-          console.log("Autorização Discord pulada ou executando em modo dev local:", e);
-        }
       } catch (err) {
-        console.log("Executando fora do cliente do Discord:", err);
+        console.log("Executando fora do cliente Discord ou erro de autorização:", err);
         if (isMounted) {
           setUser(fallbackUser);
           setGuildId("global");
