@@ -7,6 +7,16 @@ import {
 } from "@/lib/server/leaderboardStore";
 import { getTodayDateString, getDailyWord } from "@/lib/dailyWord";
 
+// Verifica se agora é hora de enviar o placar (após 23:50 no horário de Brasília)
+function isTimeToNotify(): boolean {
+  const now = new Date();
+  const brt = new Date(now.toLocaleString("en-US", { timeZone: "America/Sao_Paulo" }));
+  const hour = brt.getHours();
+  const minute = brt.getMinutes();
+  // Dispara entre 23:50 e 23:59
+  return hour === 23 && minute >= 50;
+}
+
 export async function processDailyNotification(dateParam: string) {
   const webhookUrl = process.env.DISCORD_WEBHOOK_URL;
   const botToken = process.env.DISCORD_BOT_TOKEN;
@@ -21,7 +31,7 @@ export async function processDailyNotification(dateParam: string) {
   const dailyInfo = getDailyWord(dateParam);
   const resultsSent: Array<{ target: string; status: string }> = [];
 
-  // 1. Envio via WEBHOOK DO DISCORD
+  // Envio via WEBHOOK DO DISCORD
   if (webhookUrl) {
     const entries = getTodayLeaderboard(dateParam, "global");
 
@@ -38,16 +48,11 @@ export async function processDailyNotification(dateParam: string) {
           ? `Vitória em ${entry.attempts}/6 🎯`
           : "Derrota (X/6) ❌";
 
-      return {
-        name: `${badge} ${name}`,
-        value: statusText,
-        inline: true,
-      };
+      return { name: `${badge} ${name}`, value: statusText, inline: true };
     });
 
     const payload = {
       username: "Palavrita Placar",
-      avatar_url: "https://cdn-icons-png.flaticon.com/512/3112/3112946.png",
       embeds: [
         {
           title: `🏆 Placar do Dia #${dailyInfo.dayNumber} - Palavrita`,
@@ -57,9 +62,7 @@ export async function processDailyNotification(dateParam: string) {
             fields.length > 0
               ? fields
               : [{ name: "Palavrita", value: "Nenhuma partida registrada neste dia.", inline: false }],
-          footer: {
-            text: "Palavrita • O jogo diário de palavras!",
-          },
+          footer: { text: "Palavrita • O jogo diário de palavras!" },
           timestamp: new Date().toISOString(),
         },
       ],
@@ -77,7 +80,6 @@ export async function processDailyNotification(dateParam: string) {
         markNotificationPosted(dateParam);
       } else {
         const errText = await webhookRes.text();
-        console.error("Erro ao enviar mensagem via Webhook:", errText);
         resultsSent.push({ target: "WEBHOOK", status: `FAILED: ${errText}` });
       }
     } catch (e) {
@@ -85,7 +87,7 @@ export async function processDailyNotification(dateParam: string) {
     }
   }
 
-  // 2. Envio via BOT TOKEN (para múltiplos servidores do Discord)
+  // Envio via BOT TOKEN (para múltiplos servidores)
   if (botToken) {
     const allGuildLeaderboards = getAllLeaderboardsForDate(dateParam);
     for (const [guildId, entries] of Object.entries(allGuildLeaderboards)) {
@@ -112,15 +114,9 @@ export async function processDailyNotification(dateParam: string) {
 
         const name = entry.user.globalName || entry.user.username;
         const statusText =
-          entry.gameStatus === "WON"
-            ? `Vitória em ${entry.attempts}/6 🎯`
-            : "Derrota (X/6) ❌";
+          entry.gameStatus === "WON" ? `Vitória em ${entry.attempts}/6 🎯` : "Derrota (X/6) ❌";
 
-        return {
-          name: `${badge} ${name}`,
-          value: statusText,
-          inline: true,
-        };
+        return { name: `${badge} ${name}`, value: statusText, inline: true };
       });
 
       const botPayload = {

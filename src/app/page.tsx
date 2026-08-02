@@ -85,12 +85,6 @@ export default function Home() {
     }
   }, []);
 
-  // Submete ao leaderboard sempre que o usuário for carregado e o jogo estiver concluído
-  useEffect(() => {
-    if (user && gameStatus !== "IN_PROGRESS" && guesses.length > 0) {
-      submitGameToLeaderboard(guesses, gameStatus);
-    }
-  }, [user, gameStatus, guildId, channelId]);
 
   // Botão 🔄 do Dev Mode para sortear uma nova palavra voluntariamente
   const handleResetDevWord = () => {
