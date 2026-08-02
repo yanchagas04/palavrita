@@ -7,6 +7,8 @@ import { Grid } from "@/components/Grid";
 import { Keyboard } from "@/components/Keyboard";
 import { StatsModal } from "@/components/StatsModal";
 import { HelpModal } from "@/components/HelpModal";
+import { Trophy } from "lucide-react";
+import { LeaderboardModal } from "@/components/LeaderboardModal";
 import { useDiscord } from "@/hooks/useDiscord";
 import { getDailyWord, getTodayDateString, DailyWordInfo } from "@/lib/dailyWord";
 import { VALID_GUESSES_SET, normalizeWord } from "@/data/words";
@@ -35,11 +37,33 @@ export default function Home() {
 
   const [isHelpOpen, setIsHelpOpen] = useState(false);
   const [isStatsOpen, setIsStatsOpen] = useState(false);
+  const [isLeaderboardOpen, setIsLeaderboardOpen] = useState(false);
   const [stats, setStats] = useState<GameStats>(() => loadStats());
 
   const showToast = (msg: string) => {
     setToastMessage(msg);
     setTimeout(() => setToastMessage(null), 2000);
+  };
+
+  const submitGameToLeaderboard = async (
+    finalGuesses: string[],
+    status: "WON" | "LOST"
+  ) => {
+    if (!user) return;
+    try {
+      await fetch("/api/leaderboard", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          user,
+          dateString: dailyInfo.dateString,
+          guesses: finalGuesses,
+          gameStatus: status,
+        }),
+      });
+    } catch (e) {
+      console.error("Erro ao enviar jogo para o leaderboard:", e);
+    }
   };
 
   // Carrega estado salvo se NÃO estiver no modo Dev
@@ -58,6 +82,13 @@ export default function Home() {
       }
     }
   }, []);
+
+  // Submete ao leaderboard sempre que o usuário for carregado e o jogo estiver concluído
+  useEffect(() => {
+    if (user && gameStatus !== "IN_PROGRESS" && guesses.length > 0) {
+      submitGameToLeaderboard(guesses, gameStatus);
+    }
+  }, [user, gameStatus]);
 
   // Botão 🔄 do Dev Mode para sortear uma nova palavra voluntariamente
   const handleResetDevWord = () => {
@@ -119,6 +150,8 @@ export default function Home() {
       setGameStatus("WON");
       const updatedStats = recordGameFinished(true, newGuesses.length);
       setStats(updatedStats);
+      submitGameToLeaderboard(newGuesses, "WON");
+
       if (!isDev) {
         saveGameState({
           dateString: dailyInfo.dateString,
@@ -140,6 +173,8 @@ export default function Home() {
       setGameStatus("LOST");
       const updatedStats = recordGameFinished(false, newGuesses.length);
       setStats(updatedStats);
+      submitGameToLeaderboard(newGuesses, "LOST");
+
       if (!isDev) {
         saveGameState({
           dateString: dailyInfo.dateString,
@@ -160,7 +195,7 @@ export default function Home() {
 
   const handleKeyDown = useCallback(
     (e: KeyboardEvent) => {
-      if (isHelpOpen || isStatsOpen) return;
+      if (isHelpOpen || isStatsOpen || isLeaderboardOpen) return;
 
       if (e.key === "Enter") {
         handleEnter();
@@ -170,7 +205,7 @@ export default function Home() {
         handleChar(e.key);
       }
     },
-    [currentGuess, guesses, gameStatus, isHelpOpen, isStatsOpen, dailyInfo]
+    [currentGuess, guesses, gameStatus, isHelpOpen, isStatsOpen, isLeaderboardOpen, dailyInfo]
   );
 
   useEffect(() => {
@@ -179,14 +214,26 @@ export default function Home() {
   }, [handleKeyDown]);
 
   return (
-    <main className="flex flex-col items-center justify-between min-h-screen bg-[#1e1f22] text-[#f2f3f5] overflow-hidden select-none">
+    <main className="flex flex-col items-center justify-between min-h-screen bg-[#1e1f22] text-[#f2f3f5] overflow-hidden select-none pb-4 sm:pb-2">
       <Header
         dayNumber={dailyInfo.dayNumber}
         user={user}
         onOpenHelp={() => setIsHelpOpen(true)}
         onOpenStats={() => setIsStatsOpen(true)}
+        onOpenLeaderboard={() => setIsLeaderboardOpen(true)}
         onResetDevWord={handleResetDevWord}
       />
+
+      {/* Botão Placar destacado logo abaixo do Header */}
+      <div className="w-full flex justify-center pt-3 pb-1">
+        <button
+          onClick={() => setIsLeaderboardOpen(true)}
+          className="flex items-center gap-2 px-4 py-1.5 bg-[#5865f2] hover:bg-[#4752c4] active:scale-95 text-white text-xs sm:text-sm font-black rounded-full shadow-md transition-all cursor-pointer"
+        >
+          <Trophy size={16} className="text-[#f0b232]" />
+          <span>Placar</span>
+        </button>
+      </div>
 
       {toastMessage && (
         <div className="absolute top-16 z-40 bg-white text-[#1e1f22] px-4 py-2 rounded-lg font-bold shadow-lg animate-fadeIn text-sm">
@@ -218,6 +265,14 @@ export default function Home() {
         solution={dailyInfo.wordEntry.normalized}
         displaySolution={dailyInfo.wordEntry.display}
         gameStatus={gameStatus}
+      />
+
+      <LeaderboardModal
+        isOpen={isLeaderboardOpen}
+        onClose={() => setIsLeaderboardOpen(false)}
+        solution={dailyInfo.wordEntry.normalized}
+        dayNumber={dailyInfo.dayNumber}
+        currentUserId={user?.id}
       />
 
       <HelpModal isOpen={isHelpOpen} onClose={() => setIsHelpOpen(false)} />
