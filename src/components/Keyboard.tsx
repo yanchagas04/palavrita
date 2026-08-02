@@ -32,7 +32,7 @@ export const Keyboard: React.FC<KeyboardProps> = ({
   };
 
   return (
-    <div className="w-full max-w-md px-1.5 pb-4 flex flex-col gap-1.5 select-none">
+    <div className="w-full max-w-md px-1.5 pb-8 sm:pb-6 flex flex-col gap-1.5 select-none">
       {/* Linha 1 */}
       <div className="flex justify-center gap-1">
         {KEYS_ROW1.map((char) => (

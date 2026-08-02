@@ -1,0 +1,8 @@
+{
+  "crons": [
+    {
+      "path": "/api/leaderboard/notify",
+      "schedule": "59 23 * * *"
+    }
+  ]
+}
