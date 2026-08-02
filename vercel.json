@@ -1,8 +1,8 @@
 {
   "crons": [
     {
-      "path": "/api/leaderboard/notify",
-      "schedule": "59 23 * * *"
+      "path": "/api/cron/daily-leaderboard",
+      "schedule": "59 2 * * *"
     }
   ]
 }
