@@ -210,7 +210,7 @@ export default function Home() {
   }, [handleKeyDown]);
 
   return (
-    <main className="flex flex-col items-center justify-between min-h-screen bg-[#1e1f22] text-[#f2f3f5] overflow-hidden select-none pb-4 sm:pb-2">
+    <main className="flex flex-col items-center justify-between min-h-screen bg-[#1e1f22] text-[#f2f3f5] overflow-hidden select-none pb-4 sm:pb-2 pt-14 sm:pt-0">
       <Header
         dayNumber={dailyInfo.dayNumber}
         user={user}
