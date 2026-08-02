@@ -9,16 +9,22 @@ export interface LeaderboardUser {
 }
 
 export interface LeaderboardEntry {
-  id: string; // ID único do registro ou do usuário
+  id: string;
   user: LeaderboardUser;
-  dateString: string; // Data no formato YYYY-MM-DD
+  dateString: string;
   guesses: string[];
   gameStatus: "WON" | "LOST";
   attempts: number;
-  completedAt: string; // ISO string
+  completedAt: string;
+  guildId?: string;
+  channelId?: string;
 }
 
-// Arquivo para persistência simples no ambiente de servidor
+interface LeaderboardDataFile {
+  entries: LeaderboardEntry[];
+  postedNotifications?: Record<string, boolean>; // Ex: { "2026-08-01": true }
+}
+
 const DATA_DIR = path.join(process.cwd(), "data");
 const FILE_PATH = path.join(DATA_DIR, "leaderboard.json");
 
@@ -28,25 +34,33 @@ function ensureFileExists(): void {
       fs.mkdirSync(DATA_DIR, { recursive: true });
     }
     if (!fs.existsSync(FILE_PATH)) {
-      fs.writeFileSync(FILE_PATH, JSON.stringify({ entries: [] }, null, 2), "utf-8");
+      fs.writeFileSync(
+        FILE_PATH,
+        JSON.stringify({ entries: [], postedNotifications: {} }, null, 2),
+        "utf-8"
+      );
     }
   } catch (e) {
     console.error("Erro ao criar estrutura de armazenamento do leaderboard:", e);
   }
 }
 
-function readData(): { entries: LeaderboardEntry[] } {
+function readData(): LeaderboardDataFile {
   try {
     ensureFileExists();
     const content = fs.readFileSync(FILE_PATH, "utf-8");
-    return JSON.parse(content);
+    const parsed = JSON.parse(content);
+    return {
+      entries: parsed.entries || [],
+      postedNotifications: parsed.postedNotifications || {},
+    };
   } catch (e) {
     console.error("Erro ao ler leaderboard:", e);
-    return { entries: [] };
+    return { entries: [], postedNotifications: {} };
   }
 }
 
-function writeData(data: { entries: LeaderboardEntry[] }): void {
+function writeData(data: LeaderboardDataFile): void {
   try {
     ensureFileExists();
     fs.writeFileSync(FILE_PATH, JSON.stringify(data, null, 2), "utf-8");
@@ -55,47 +69,70 @@ function writeData(data: { entries: LeaderboardEntry[] }): void {
   }
 }
 
-export function getTodayLeaderboard(todayDateStr: string): LeaderboardEntry[] {
+export function isNotificationPosted(dateString: string): boolean {
   const data = readData();
-  // Retorna apenas entradas do dia solicitado, ordenadas: Vitoriosos primeiro (menor tentativa e mais recente), depois Derrotas
-  const filtered = data.entries.filter((entry) => entry.dateString === todayDateStr);
-  
+  return Boolean(data.postedNotifications?.[dateString]);
+}
+
+export function markNotificationPosted(dateString: string): void {
+  const data = readData();
+  data.postedNotifications = data.postedNotifications || {};
+  data.postedNotifications[dateString] = true;
+  writeData(data);
+}
+
+export function getTodayLeaderboard(todayDateStr: string, guildId: string = "global"): LeaderboardEntry[] {
+  const data = readData();
+  const targetGuild = guildId || "global";
+
+  const filtered = data.entries.filter((entry) => {
+    const entryGuild = entry.guildId || "global";
+    return entry.dateString === todayDateStr && entryGuild === targetGuild;
+  });
+
   return filtered.sort((a, b) => {
     if (a.gameStatus === "WON" && b.gameStatus !== "WON") return -1;
     if (a.gameStatus !== "WON" && b.gameStatus === "WON") return 1;
     if (a.gameStatus === "WON" && b.gameStatus === "WON") {
       if (a.attempts !== b.attempts) {
-        return a.attempts - b.attempts; // Menos tentativas primeiro
+        return a.attempts - b.attempts;
       }
     }
     return new Date(a.completedAt).getTime() - new Date(b.completedAt).getTime();
   });
 }
 
-export function addOrUpdateLeaderboardEntry(entryData: Omit<LeaderboardEntry, "id" | "completedAt">): LeaderboardEntry[] {
+export function addOrUpdateLeaderboardEntry(
+  entryData: Omit<LeaderboardEntry, "id" | "completedAt">
+): LeaderboardEntry[] {
   const data = readData();
   const todayDateStr = entryData.dateString;
+  const targetGuild = entryData.guildId || "global";
 
-  const entryId = `${todayDateStr}_${entryData.user.id}`;
-  
-  const existingIndex = data.entries.findIndex(
-    (item) => item.dateString === todayDateStr && item.user.id === entryData.user.id
-  );
+  const entryId = `${todayDateStr}_${targetGuild}_${entryData.user.id}`;
+
+  const existingIndex = data.entries.findIndex((item) => {
+    const itemGuild = item.guildId || "global";
+    return (
+      item.dateString === todayDateStr &&
+      itemGuild === targetGuild &&
+      item.user.id === entryData.user.id
+    );
+  });
 
   const newEntry: LeaderboardEntry = {
     ...entryData,
+    guildId: targetGuild,
     id: entryId,
     completedAt: new Date().toISOString(),
   };
 
   if (existingIndex >= 0) {
-    // Atualiza a entrada existente se for o mesmo usuário no mesmo dia
     data.entries[existingIndex] = newEntry;
   } else {
     data.entries.push(newEntry);
   }
 
-  // Opcional: Limpar registros com mais de 7 dias para evitar crescimento desmedido do JSON
   const sevenDaysAgo = new Date();
   sevenDaysAgo.setDate(sevenDaysAgo.getDate() - 7);
   const cutoffStr = sevenDaysAgo.toISOString().slice(0, 10);
@@ -103,5 +140,20 @@ export function addOrUpdateLeaderboardEntry(entryData: Omit<LeaderboardEntry, "i
 
   writeData(data);
 
-  return getTodayLeaderboard(todayDateStr);
+  return getTodayLeaderboard(todayDateStr, targetGuild);
+}
+
+export function getAllLeaderboardsForDate(todayDateStr: string): Record<string, LeaderboardEntry[]> {
+  const data = readData();
+  const entriesForDate = data.entries.filter((entry) => entry.dateString === todayDateStr);
+
+  const grouped: Record<string, LeaderboardEntry[]> = {};
+  for (const entry of entriesForDate) {
+    const gId = entry.guildId || "global";
+    if (!grouped[gId]) {
+      grouped[gId] = [];
+    }
+    grouped[gId].push(entry);
+  }
+  return grouped;
 }

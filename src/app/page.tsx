@@ -22,7 +22,7 @@ import {
 } from "@/lib/storage";
 
 export default function Home() {
-  const { user } = useDiscord();
+  const { user, guildId, channelId } = useDiscord();
   
   // Palavra determinística inicial para a sessão
   const [dailyInfo, setDailyInfo] = useState<DailyWordInfo>(() =>
@@ -59,6 +59,8 @@ export default function Home() {
           dateString: dailyInfo.dateString,
           guesses: finalGuesses,
           gameStatus: status,
+          guildId: guildId || "global",
+          channelId: channelId || undefined,
         }),
       });
     } catch (e) {
@@ -88,7 +90,7 @@ export default function Home() {
     if (user && gameStatus !== "IN_PROGRESS" && guesses.length > 0) {
       submitGameToLeaderboard(guesses, gameStatus);
     }
-  }, [user, gameStatus]);
+  }, [user, gameStatus, guildId, channelId]);
 
   // Botão 🔄 do Dev Mode para sortear uma nova palavra voluntariamente
   const handleResetDevWord = () => {
@@ -273,6 +275,7 @@ export default function Home() {
         solution={dailyInfo.wordEntry.normalized}
         dayNumber={dailyInfo.dayNumber}
         currentUserId={user?.id}
+        guildId={guildId}
       />
 
       <HelpModal isOpen={isHelpOpen} onClose={() => setIsHelpOpen(false)} />

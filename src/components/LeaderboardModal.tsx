@@ -1,8 +1,7 @@
 "use client";
 
 import React, { useEffect, useState } from "react";
-import { X, Trophy, ChevronDown, ChevronUp, User } from "lucide-react";
-import { getLetterStatuses } from "@/lib/gameLogic";
+import { X, Trophy, ChevronDown, ChevronUp, User, Server } from "lucide-react";
 
 export interface LeaderboardEntry {
   id: string;
@@ -17,6 +16,7 @@ export interface LeaderboardEntry {
   gameStatus: "WON" | "LOST";
   attempts: number;
   completedAt: string;
+  guildId?: string;
 }
 
 interface LeaderboardModalProps {
@@ -25,6 +25,7 @@ interface LeaderboardModalProps {
   solution: string;
   dayNumber: number;
   currentUserId?: string;
+  guildId?: string | null;
 }
 
 const MiniGridRow: React.FC<{ guess: string; solution: string }> = ({ guess, solution }) => {
@@ -82,6 +83,7 @@ export const LeaderboardModal: React.FC<LeaderboardModalProps> = ({
   solution,
   dayNumber,
   currentUserId,
+  guildId,
 }) => {
   const [entries, setEntries] = useState<LeaderboardEntry[]>([]);
   const [loading, setLoading] = useState(false);
@@ -90,7 +92,8 @@ export const LeaderboardModal: React.FC<LeaderboardModalProps> = ({
   const fetchLeaderboard = async () => {
     setLoading(true);
     try {
-      const res = await fetch("/api/leaderboard");
+      const targetGuild = guildId || "global";
+      const res = await fetch(`/api/leaderboard?guildId=${encodeURIComponent(targetGuild)}`);
       if (res.ok) {
         const data = await res.json();
         setEntries(data.leaderboard || []);
@@ -106,13 +109,15 @@ export const LeaderboardModal: React.FC<LeaderboardModalProps> = ({
     if (isOpen) {
       fetchLeaderboard();
     }
-  }, [isOpen]);
+  }, [isOpen, guildId]);
 
   if (!isOpen) return null;
 
   const toggleExpand = (id: string) => {
     setExpandedId((prev) => (prev === id ? null : id));
   };
+
+  const isServerSpecific = guildId && guildId !== "global";
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/70 backdrop-blur-sm animate-fadeIn">
@@ -121,7 +126,18 @@ export const LeaderboardModal: React.FC<LeaderboardModalProps> = ({
         <div className="flex items-center justify-between p-4 border-b border-[#35363c] bg-[#2b2d31]">
           <div className="flex items-center gap-2">
             <Trophy size={22} className="text-[#f0b232]" />
-            <h2 className="text-lg font-black tracking-wide">Placar do Dia #{dayNumber}</h2>
+            <div className="flex flex-col">
+              <h2 className="text-lg font-black tracking-wide">Placar do Dia #{dayNumber}</h2>
+              {isServerSpecific ? (
+                <span className="text-[10px] text-[#5865f2] font-bold flex items-center gap-1">
+                  <Server size={11} /> Placar deste Servidor
+                </span>
+              ) : (
+                <span className="text-[10px] text-[#949ba4] font-bold">
+                  Placar Geral Web
+                </span>
+              )}
+            </div>
           </div>
           <button
             onClick={onClose}
@@ -146,11 +162,13 @@ export const LeaderboardModal: React.FC<LeaderboardModalProps> = ({
         <div className="p-4 overflow-y-auto space-y-3 flex-1">
           {loading && entries.length === 0 ? (
             <div className="text-center py-8 text-[#949ba4] text-sm animate-pulse">
-              Carregando o placar...
+              Carregando o placar do servidor...
             </div>
           ) : entries.length === 0 ? (
             <div className="text-center py-8 text-[#949ba4] text-sm">
-              Nenhum jogador concluiu a palavra do dia ainda. Seja o primeiro! 🚀
+              {isServerSpecific
+                ? "Nenhum membro deste servidor concluiu a palavra de hoje ainda! 🚀"
+                : "Nenhum jogador concluiu a palavra do dia ainda. Seja o primeiro! 🚀"}
             </div>
           ) : (
             entries.map((entry, index) => {

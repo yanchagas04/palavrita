@@ -37,6 +37,8 @@ export function useDiscord() {
   const [isReady, setIsReady] = useState(false);
   const [inDiscord, setInDiscord] = useState(false);
   const [user, setUser] = useState<DiscordUser | null>(null);
+  const [guildId, setGuildId] = useState<string | null>(null);
+  const [channelId, setChannelId] = useState<string | null>(null);
 
   useEffect(() => {
     let isMounted = true;
@@ -48,6 +50,7 @@ export function useDiscord() {
       if (!clientId) {
         if (isMounted) {
           setUser(fallbackUser);
+          setGuildId("global");
           setIsReady(true);
         }
         return;
@@ -59,6 +62,8 @@ export function useDiscord() {
 
         if (isMounted) {
           setInDiscord(true);
+          setGuildId(discordSdk.guildId || "global");
+          setChannelId(discordSdk.channelId || null);
           setUser({
             id: "discord_temp",
             username: "Jogador Discord",
@@ -98,6 +103,7 @@ export function useDiscord() {
         console.log("Executando fora do cliente do Discord:", err);
         if (isMounted) {
           setUser(fallbackUser);
+          setGuildId("global");
           setIsReady(true);
         }
       }
@@ -110,5 +116,5 @@ export function useDiscord() {
     };
   }, []);
 
-  return { isReady, inDiscord, user };
+  return { isReady, inDiscord, user, guildId, channelId };
 }
