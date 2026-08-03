@@ -68,7 +68,7 @@ export async function processDailyNotification(dateParam: string): Promise<{
   }
 
   const dailyInfo = getDailyWord(dateParam);
-  const allGuildLeaderboards = getAllLeaderboardsForDate(dateParam);
+  const allGuildLeaderboards = await getAllLeaderboardsForDate(dateParam);
   const results: Array<{ channel: string; status: string }> = [];
 
   // Coleta os canais únicos onde a Activity foi jogada hoje
@@ -105,7 +105,7 @@ export async function processDailyNotification(dateParam: string): Promise<{
   }
 
   const anySuccess = results.some((r) => r.status === "SUCCESS");
-  if (anySuccess) markNotificationPosted(dateParam);
+  if (anySuccess) await markNotificationPosted(dateParam);
 
   return { success: true, results };
 }
