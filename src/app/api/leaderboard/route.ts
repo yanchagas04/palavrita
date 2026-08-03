@@ -5,13 +5,15 @@ import {
 } from "@/lib/server/leaderboardStore";
 import { getTodayDateString } from "@/lib/dailyWord";
 
+export const dynamic = "force-dynamic";
+
 export async function GET(request: Request) {
   try {
     const { searchParams } = new URL(request.url);
     const dateParam = searchParams.get("date") || getTodayDateString();
     const guildIdParam = searchParams.get("guildId") || "global";
 
-    const leaderboard = getTodayLeaderboard(dateParam, guildIdParam);
+    const leaderboard = await getTodayLeaderboard(dateParam, guildIdParam);
     return NextResponse.json({ dateString: dateParam, guildId: guildIdParam, leaderboard });
   } catch (error) {
     console.error("Erro ao buscar leaderboard:", error);
@@ -31,7 +33,7 @@ export async function POST(request: Request) {
       );
     }
 
-    const updatedLeaderboard = addOrUpdateLeaderboardEntry({
+    const updatedLeaderboard = await addOrUpdateLeaderboardEntry({
       user: {
         id: user.id,
         username: user.username || "Jogador",

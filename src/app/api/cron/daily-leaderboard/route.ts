@@ -3,6 +3,8 @@ import { getTodayDateString } from "@/lib/dailyWord";
 import { processDailyNotification } from "@/lib/server/notifyUtils";
 import { isNotificationPosted } from "@/lib/server/leaderboardStore";
 
+export const dynamic = "force-dynamic";
+
 // Este endpoint é chamado pelo Vercel Cron Jobs às 02:59 UTC (23:59 BRT)
 // Protegido com CRON_SECRET para evitar chamadas não autorizadas
 export async function GET(request: Request) {
@@ -17,7 +19,7 @@ export async function GET(request: Request) {
   const today = getTodayDateString();
 
   // Evita enviar duplicado se já foi postado hoje
-  if (isNotificationPosted(today)) {
+  if (await isNotificationPosted(today)) {
     return NextResponse.json({
       success: true,
       message: "Placar já enviado hoje.",
