@@ -45,7 +45,7 @@ async function postToChannel(botToken: string, channelId: string, embed: object)
     if (res.ok) return { success: true };
     const errText = await res.text();
     console.error(`Erro ao postar no chat do canal ${channelId}:`, errText);
-    return { success: false, error: errText };
+    return { success: false, error: `HTTP ${res.status}: ${errText}` };
   } catch (e: any) {
     console.error(`Erro de rede ao postar no chat do canal ${channelId}:`, e);
     return { success: false, error: e?.message || "Erro de rede" };
@@ -55,28 +55,29 @@ async function postToChannel(botToken: string, channelId: string, embed: object)
 export async function processDailyNotification(dateParam: string): Promise<{
   success: boolean;
   error?: string;
+  debugInfo: {
+    botTokenConfigured: boolean;
+    totalEntriesInSupabase: number;
+    entriesWithChannelId: number;
+    uniqueChannelsFound: string[];
+  };
   results: Array<{ channel: string; status: string; error?: string }>;
 }> {
   const botToken = process.env.DISCORD_BOT_TOKEN;
 
-  if (!botToken) {
-    return {
-      success: false,
-      error: "DISCORD_BOT_TOKEN não está configurado nas variáveis de ambiente.",
-      results: [],
-    };
-  }
-
-  const dailyInfo = getDailyWord(dateParam);
   const allGuildLeaderboards = await getAllLeaderboardsForDate(dateParam);
   const results: Array<{ channel: string; status: string; error?: string }> = [];
 
-  // Mapeia os chats únicos das partidas
+  // Diagnóstico
+  let totalEntriesInSupabase = 0;
+  let entriesWithChannelId = 0;
   const channelToEntriesMap = new Map<string, LeaderboardEntry[]>();
 
   for (const [guildId, entries] of Object.entries(allGuildLeaderboards)) {
+    totalEntriesInSupabase += entries.length;
     for (const entry of entries) {
       if (entry.channelId) {
+        entriesWithChannelId++;
         if (!channelToEntriesMap.has(entry.channelId)) {
           channelToEntriesMap.set(entry.channelId, []);
         }
@@ -84,6 +85,24 @@ export async function processDailyNotification(dateParam: string): Promise<{
       }
     }
   }
+
+  const debugInfo = {
+    botTokenConfigured: !!botToken,
+    totalEntriesInSupabase,
+    entriesWithChannelId,
+    uniqueChannelsFound: Array.from(channelToEntriesMap.keys()),
+  };
+
+  if (!botToken) {
+    return {
+      success: false,
+      error: "DISCORD_BOT_TOKEN não está configurado nas variáveis de ambiente da Vercel.",
+      debugInfo,
+      results: [],
+    };
+  }
+
+  const dailyInfo = getDailyWord(dateParam);
 
   // Envia a mensagem do placar para cada chat onde a Activity foi iniciada
   for (const [channelId, entries] of channelToEntriesMap.entries()) {
@@ -99,7 +118,8 @@ export async function processDailyNotification(dateParam: string): Promise<{
   if (results.length === 0) {
     return {
       success: false,
-      error: "Nenhuma partida registrada hoje com canal/chat identificado.",
+      error: "Nenhuma partida registrada hoje possui o ID do canal (channelId). Certifique-se de que os jogadores concluíram a partida dentro do Discord.",
+      debugInfo,
       results: [],
     };
   }
@@ -109,5 +129,5 @@ export async function processDailyNotification(dateParam: string): Promise<{
     await markNotificationPosted(dateParam);
   }
 
-  return { success: anySuccess, results };
+  return { success: anySuccess, debugInfo, results };
 }
