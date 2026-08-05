@@ -20,12 +20,12 @@ function buildLeaderboardEmbed(dayNumber: number, wordDisplay: string, entries: 
 
   return {
     title: `🏆 Placar do Dia #${dayNumber} — Palavrita`,
-    description: `A palavra de hoje foi **${wordDisplay.toUpperCase()}**!\n\nConfira os resultados de quem jogou hoje:`,
+    description: `A palavra secreta do Dia #${dayNumber} foi **${wordDisplay.toUpperCase()}**!\n\nConfira os resultados dos jogadores:\n\n✨ **A nova palavra do dia já está disponível!** Inicie a Atividade no Discord e tente adivinhar a palavra de hoje! 🎮`,
     color: 0x5865f2,
     fields:
       fields.length > 0
         ? fields
-        : [{ name: "Palavrita", value: "Nenhuma partida registrada hoje. 😔", inline: false }],
+        : [{ name: "Palavrita", value: "Nenhuma partida registrada neste dia. 😔", inline: false }],
     footer: { text: "Palavrita • Jogo diário de palavras em PT-BR" },
     timestamp: new Date().toISOString(),
   };
