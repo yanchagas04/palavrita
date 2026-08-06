@@ -451,22 +451,34 @@ export const LeaderboardModal: React.FC<LeaderboardModalProps> = ({
                           <td className="py-2.5 px-3 font-bold text-[#949ba4] text-center w-8">
                             {rankBadge}
                           </td>
-                          <td className="py-2.5 px-3 flex items-center gap-2">
-                            {player.user.avatarUrl ? (
-                              <img
-                                src={player.user.avatarUrl}
-                                alt={player.user.username}
-                                className="w-6 h-6 rounded-full border border-[#4e5058] object-cover flex-shrink-0"
-                              />
-                            ) : (
-                              <div className="w-6 h-6 rounded-full bg-[#5865f2] flex items-center justify-center text-white font-bold text-[10px] flex-shrink-0">
-                                <User size={12} />
+                          <td className="py-2.5 px-3">
+                            <div className="relative group inline-block">
+                              {player.user.avatarUrl ? (
+                                <img
+                                  src={player.user.avatarUrl}
+                                  alt={player.user.username}
+                                  className="w-10 h-10 rounded-full border-2 border-[#5865f2] object-cover flex-shrink-0 cursor-pointer shadow-md transition-transform transform group-hover:scale-110"
+                                />
+                              ) : (
+                                <div className="w-10 h-10 rounded-full bg-[#5865f2] border-2 border-[#5865f2] flex items-center justify-center text-white font-bold text-sm flex-shrink-0 cursor-pointer shadow-md transition-transform transform group-hover:scale-110">
+                                  <User size={18} />
+                                </div>
+                              )}
+
+                              {/* Tooltip / Popup no Hover */}
+                              <div className="absolute left-full top-1/2 -translate-y-1/2 ml-3 hidden group-hover:flex flex-col bg-[#111214] text-white text-xs px-3 py-1.5 rounded-xl border border-[#35363c] shadow-2xl z-50 whitespace-nowrap pointer-events-none animate-fadeIn">
+                                <span className="font-extrabold flex items-center gap-1">
+                                  {player.user.globalName || player.user.username}
+                                  {isCurrentUser && (
+                                    <span className="text-[9px] bg-[#5865f2] text-white px-1.5 py-0.2 rounded-full font-normal">
+                                      Você
+                                    </span>
+                                  )}
+                                </span>
+                                <span className="text-[10px] text-[#949ba4]">@{player.user.username}</span>
+                                {/* Triângulo indicador do popup */}
+                                <div className="absolute right-full top-1/2 -translate-y-1/2 border-4 border-transparent border-r-[#111214]"></div>
                               </div>
-                            )}
-                            <div className="flex flex-col min-w-0">
-                              <span className="truncate text-white font-bold max-w-[90px] sm:max-w-[120px]">
-                                {player.user.globalName || player.user.username}
-                              </span>
                             </div>
                           </td>
                           <td className="py-2.5 px-2 text-center font-black text-[#f0b232]">
