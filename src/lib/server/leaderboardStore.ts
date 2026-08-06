@@ -19,6 +19,16 @@ export interface LeaderboardEntry {
   channelId?: string;
 }
 
+export interface ServerPlayerStats {
+  user: LeaderboardUser;
+  gamesPlayed: number;
+  gamesWon: number;
+  winRate: number;
+  avgAttempts: number;
+  currentStreak: number;
+  maxStreak: number;
+}
+
 interface RawLeaderboardRow {
   id: string;
   user_id: string;
@@ -221,5 +231,78 @@ export async function getAllLeaderboardsForDate(
   } catch (err) {
     console.error("Erro de conexão com Supabase (getAllLeaderboardsForDate):", err);
     return {};
+  }
+}
+
+/**
+ * Calcula estatísticas globais acumuladas por jogador em um servidor
+ */
+export async function getServerPlayerStats(guildId: string = "global"): Promise<ServerPlayerStats[]> {
+  const targetGuild = guildId || "global";
+
+  try {
+    const { data, error } = await supabase
+      .from("leaderboard_entries")
+      .select("*")
+      .eq("guild_id", targetGuild)
+      .neq("game_status", "IN_PROGRESS");
+
+    if (error || !data) {
+      console.error("Erro ao buscar estatísticas do servidor no Supabase:", error);
+      return [];
+    }
+
+    const rows = data as RawLeaderboardRow[];
+    const userMap = new Map<string, { user: LeaderboardUser; entries: LeaderboardEntry[] }>();
+
+    for (const row of rows) {
+      const entry = mapRowToEntry(row);
+      if (!userMap.has(entry.user.id)) {
+        userMap.set(entry.user.id, { user: entry.user, entries: [] });
+      }
+      userMap.get(entry.user.id)!.entries.push(entry);
+    }
+
+    const statsList: ServerPlayerStats[] = [];
+
+    for (const [userId, { user, entries }] of userMap.entries()) {
+      // Ordena por data
+      entries.sort((a, b) => a.dateString.localeCompare(b.dateString));
+
+      const gamesPlayed = entries.length;
+      const wonEntries = entries.filter((e) => e.gameStatus === "WON");
+      const gamesWon = wonEntries.length;
+      const winRate = gamesPlayed > 0 ? Math.round((gamesWon / gamesPlayed) * 100) : 0;
+
+      const totalAttemptsInWins = wonEntries.reduce((acc, e) => acc + e.attempts, 0);
+      const avgAttempts = gamesWon > 0 ? Number((totalAttemptsInWins / gamesWon).toFixed(1)) : 99;
+
+      let currentStreak = 0;
+      let maxStreak = 0;
+
+      for (const e of entries) {
+        if (e.gameStatus === "WON") {
+          currentStreak++;
+          maxStreak = Math.max(maxStreak, currentStreak);
+        } else {
+          currentStreak = 0;
+        }
+      }
+
+      statsList.push({
+        user,
+        gamesPlayed,
+        gamesWon,
+        winRate,
+        avgAttempts,
+        currentStreak,
+        maxStreak,
+      });
+    }
+
+    return statsList;
+  } catch (err) {
+    console.error("Erro ao calcular estatísticas do servidor (getServerPlayerStats):", err);
+    return [];
   }
 }
