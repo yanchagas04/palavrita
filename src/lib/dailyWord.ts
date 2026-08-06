@@ -8,6 +8,19 @@ export interface DailyWordInfo {
   dateString: string;
 }
 
+/**
+ * Gerador pseudo-aleatório (Seeded PRNG) baseado no número do dia.
+ * Garante que a palavra seja aleatória e imprevisível a cada dia,
+ * mas IGUAL para todos os jogadores que jogarem no mesmo dia.
+ */
+function getSeededIndex(seed: number, max: number): number {
+  let t = (seed + 0x6d2b79f5) | 0;
+  t = Math.imul(t ^ (t >>> 15), t | 1);
+  t ^= t + Math.imul(t ^ (t >>> 7), t | 61);
+  const randomValue = ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+  return Math.floor(randomValue * max);
+}
+
 export function getTodayDateString(): string {
   const now = new Date();
   const brtDate = new Date(now.toLocaleString("en-US", { timeZone: "America/Sao_Paulo" }));
@@ -21,7 +34,7 @@ export function getDailyWord(
   dateStr: string = getTodayDateString(),
   forceRandom: boolean = false
 ): DailyWordInfo {
-  // Sorteia palavra aleatória APENAS quando solicitado explicitamente
+  // Sorteia palavra totalmente aleatória no modo dev ao clicar no botão de reset
   if (forceRandom) {
     const randomIndex = Math.floor(Math.random() * DAILY_SECRET_WORDS.length);
     return {
@@ -35,7 +48,8 @@ export function getDailyWord(
   const diffTime = targetDate.getTime() - START_DATE.getTime();
   const dayIndex = Math.max(0, Math.floor(diffTime / (1000 * 60 * 60 * 24)));
   
-  const wordIndex = dayIndex % DAILY_SECRET_WORDS.length;
+  // Utiliza a semente determinística do dia para sortear uma palavra aleatória da lista
+  const wordIndex = getSeededIndex(dayIndex, DAILY_SECRET_WORDS.length);
   
   return {
     wordEntry: DAILY_SECRET_WORDS[wordIndex],
