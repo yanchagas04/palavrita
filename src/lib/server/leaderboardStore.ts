@@ -12,7 +12,7 @@ export interface LeaderboardEntry {
   user: LeaderboardUser;
   dateString: string;
   guesses: string[];
-  gameStatus: "WON" | "LOST";
+  gameStatus: "IN_PROGRESS" | "WON" | "LOST";
   attempts: number;
   completedAt: string;
   guildId?: string;
@@ -27,7 +27,7 @@ interface RawLeaderboardRow {
   avatar_url: string | null;
   date_string: string;
   guesses: string[];
-  game_status: "WON" | "LOST";
+  game_status: "IN_PROGRESS" | "WON" | "LOST";
   attempts: number;
   completed_at: string;
   guild_id: string;
@@ -98,6 +98,32 @@ export async function markNotificationPosted(dateString: string): Promise<void> 
     }
   } catch (err) {
     console.error("Erro ao conectar no Supabase (markNotificationPosted):", err);
+  }
+}
+
+export async function getUserGameEntry(
+  userId: string,
+  todayDateStr: string,
+  guildId: string = "global"
+): Promise<LeaderboardEntry | null> {
+  const targetGuild = guildId || "global";
+  const key = makeEntryKey(todayDateStr, targetGuild, userId);
+
+  try {
+    const { data, error } = await supabase
+      .from("leaderboard_entries")
+      .select("*")
+      .eq("id", key)
+      .maybeSingle();
+
+    if (error || !data) {
+      return null;
+    }
+
+    return mapRowToEntry(data as RawLeaderboardRow);
+  } catch (err) {
+    console.error("Erro ao buscar jogo do usuário (getUserGameEntry):", err);
+    return null;
   }
 }
 
