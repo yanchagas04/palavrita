@@ -197,14 +197,15 @@ export default function Home() {
     const isLoss = newGuesses.length >= 6 && !isWin;
 
     const isDev = process.env.NEXT_PUBLIC_DEV_MODE === "true";
+    const isPractice = isDev || dailyInfo.dateString.includes("_dev_");
 
     if (isWin) {
       setGameStatus("WON");
-      const updatedStats = recordGameFinished(true, newGuesses.length);
-      setStats(updatedStats);
-      submitGameToLeaderboard(newGuesses, "WON");
 
-      if (!isDev) {
+      if (!isPractice) {
+        const updatedStats = recordGameFinished(true, newGuesses.length);
+        setStats(updatedStats);
+        submitGameToLeaderboard(newGuesses, "WON");
         saveGameState({
           dateString: dailyInfo.dateString,
           guesses: newGuesses,
@@ -223,11 +224,11 @@ export default function Home() {
       setTimeout(() => setIsStatsOpen(true), 1500);
     } else if (isLoss) {
       setGameStatus("LOST");
-      const updatedStats = recordGameFinished(false, newGuesses.length);
-      setStats(updatedStats);
-      submitGameToLeaderboard(newGuesses, "LOST");
 
-      if (!isDev) {
+      if (!isPractice) {
+        const updatedStats = recordGameFinished(false, newGuesses.length);
+        setStats(updatedStats);
+        submitGameToLeaderboard(newGuesses, "LOST");
         saveGameState({
           dateString: dailyInfo.dateString,
           guesses: newGuesses,
@@ -237,9 +238,9 @@ export default function Home() {
 
       setTimeout(() => setIsStatsOpen(true), 1500);
     } else {
-      // Salva progresso intermediário em andamento no Supabase e LocalStorage
-      submitGameToLeaderboard(newGuesses, "IN_PROGRESS");
-      if (!isDev) {
+      // Salva progresso intermediário apenas em partidas oficiais
+      if (!isPractice) {
+        submitGameToLeaderboard(newGuesses, "IN_PROGRESS");
         saveGameState({
           dateString: dailyInfo.dateString,
           guesses: newGuesses,
