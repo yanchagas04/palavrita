@@ -9,6 +9,8 @@ interface TileProps {
   isCompleted?: boolean;
   positionIndex?: number;
   shake?: boolean;
+  isSelected?: boolean;
+  onClick?: () => void;
 }
 
 export const Tile: React.FC<TileProps> = ({
@@ -17,6 +19,8 @@ export const Tile: React.FC<TileProps> = ({
   isCompleted = false,
   positionIndex = 0,
   shake = false,
+  isSelected = false,
+  onClick,
 }) => {
   let statusStyles = "border-[#3f4147] bg-transparent text-white";
 
@@ -32,13 +36,19 @@ export const Tile: React.FC<TileProps> = ({
     statusStyles = "border-[#80848e] bg-[#2b2d31] text-white animate-pop";
   }
 
+  const selectedStyles = isSelected
+    ? "border-[#5865f2] ring-2 ring-[#5865f2] shadow-[0_0_10px_rgba(88,101,242,0.5)] scale-105"
+    : "";
+
   const animationDelay = isCompleted ? `${positionIndex * 150}ms` : "0ms";
   const flipClass = isCompleted ? "animate-flip" : "";
   const shakeClass = shake ? "animate-shake" : "";
+  const cursorClass = onClick ? "cursor-pointer" : "";
 
   return (
     <div
-      className={`w-13 h-13 sm:w-14 sm:h-14 border-2 flex items-center justify-center text-2xl font-extrabold uppercase select-none rounded-md transition-colors ${statusStyles} ${flipClass} ${shakeClass}`}
+      onClick={onClick}
+      className={`w-13 h-13 sm:w-14 sm:h-14 border-2 flex items-center justify-center text-2xl font-extrabold uppercase select-none rounded-md transition-all ${statusStyles} ${selectedStyles} ${flipClass} ${shakeClass} ${cursorClass}`}
       style={{ animationDelay }}
     >
       {letter}

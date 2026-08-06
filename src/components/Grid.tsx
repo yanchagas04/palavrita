@@ -9,6 +9,9 @@ interface GridProps {
   currentGuess: string;
   solution: string;
   isShakeRow?: boolean;
+  selectedIndex?: number;
+  onSelectTile?: (index: number) => void;
+  disabled?: boolean;
 }
 
 export const Grid: React.FC<GridProps> = ({
@@ -16,6 +19,9 @@ export const Grid: React.FC<GridProps> = ({
   currentGuess,
   solution,
   isShakeRow = false,
+  selectedIndex = 0,
+  onSelectTile,
+  disabled = false,
 }) => {
   const empties = 6 - guesses.length - 1;
 
@@ -44,7 +50,15 @@ export const Grid: React.FC<GridProps> = ({
         <div className="grid grid-cols-5 gap-1.5">
           {Array.from({ length: 5 }).map((_, i) => {
             const letter = currentGuess[i] || "";
-            return <Tile key={i} letter={letter} shake={isShakeRow} />;
+            return (
+              <Tile
+                key={i}
+                letter={letter}
+                shake={isShakeRow}
+                isSelected={!disabled && selectedIndex === i}
+                onClick={!disabled && onSelectTile ? () => onSelectTile(i) : undefined}
+              />
+            );
           })}
         </div>
       )}

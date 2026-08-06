@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { X, Trophy } from "lucide-react";
+import { X, Trophy, RefreshCw } from "lucide-react";
 import { GameStats } from "@/lib/storage";
 
 interface StatsModalProps {
@@ -13,6 +13,7 @@ interface StatsModalProps {
   solution: string;
   displaySolution: string;
   gameStatus: "IN_PROGRESS" | "WON" | "LOST";
+  onPlayPracticeMode?: () => void;
 }
 
 export const StatsModal: React.FC<StatsModalProps> = ({
@@ -22,6 +23,7 @@ export const StatsModal: React.FC<StatsModalProps> = ({
   guesses,
   displaySolution,
   gameStatus,
+  onPlayPracticeMode,
 }) => {
   if (!isOpen) return null;
 
@@ -33,7 +35,7 @@ export const StatsModal: React.FC<StatsModalProps> = ({
       <div className="w-full max-w-sm bg-[#1e1f22] border border-[#35363c] rounded-2xl p-6 shadow-2xl text-white relative">
         <button
           onClick={onClose}
-          className="absolute top-4 right-4 text-[#949ba4] hover:text-white p-1 rounded-lg hover:bg-[#2b2d31] transition-colors"
+          className="absolute top-4 right-4 text-[#949ba4] hover:text-white p-1 rounded-lg hover:bg-[#2b2d31] transition-colors cursor-pointer"
         >
           <X size={20} />
         </button>
@@ -91,11 +93,26 @@ export const StatsModal: React.FC<StatsModalProps> = ({
 
         {/* Se o jogo tiver terminado */}
         {gameStatus !== "IN_PROGRESS" && (
-          <div className="border-t border-[#35363c] pt-4 flex flex-col items-center">
-            <span className="text-xs text-[#949ba4]">Palavra secreta de hoje:</span>
-            <div className="text-xl font-black text-[#23a55a] tracking-widest uppercase mt-1">
-              {displaySolution}
+          <div className="border-t border-[#35363c] pt-4 flex flex-col items-center gap-3">
+            <div className="text-center">
+              <span className="text-xs text-[#949ba4]">Palavra secreta de hoje:</span>
+              <div className="text-xl font-black text-[#23a55a] tracking-widest uppercase mt-1">
+                {displaySolution}
+              </div>
             </div>
+
+            {onPlayPracticeMode && (
+              <button
+                onClick={() => {
+                  onClose();
+                  onPlayPracticeMode();
+                }}
+                className="w-full py-2.5 px-4 bg-[#23a55a] hover:bg-[#1db954] active:scale-95 text-white font-bold rounded-xl flex items-center justify-center gap-2 shadow-md transition-all cursor-pointer text-sm"
+              >
+                <RefreshCw size={16} />
+                <span>Continuar Jogando (Prática)</span>
+              </button>
+            )}
           </div>
         )}
       </div>

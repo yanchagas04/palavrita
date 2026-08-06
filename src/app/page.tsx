@@ -7,7 +7,7 @@ import { Grid } from "@/components/Grid";
 import { Keyboard } from "@/components/Keyboard";
 import { StatsModal } from "@/components/StatsModal";
 import { HelpModal } from "@/components/HelpModal";
-import { Trophy } from "lucide-react";
+import { Trophy, RefreshCw } from "lucide-react";
 import { LeaderboardModal } from "@/components/LeaderboardModal";
 import { useDiscord } from "@/hooks/useDiscord";
 import { getDailyWord, getTodayDateString, DailyWordInfo } from "@/lib/dailyWord";
@@ -31,6 +31,7 @@ export default function Home() {
 
   const [guesses, setGuesses] = useState<string[]>([]);
   const [currentGuess, setCurrentGuess] = useState("");
+  const [selectedTileIndex, setSelectedTileIndex] = useState(0);
   const [gameStatus, setGameStatus] = useState<"IN_PROGRESS" | "WON" | "LOST">("IN_PROGRESS");
   const [isShakeRow, setIsShakeRow] = useState(false);
   const [toastMessage, setToastMessage] = useState<string | null>(null);
@@ -47,7 +48,7 @@ export default function Home() {
 
   const submitGameToLeaderboard = async (
     finalGuesses: string[],
-    status: "WON" | "LOST"
+    status: "IN_PROGRESS" | "WON" | "LOST"
   ) => {
     if (!user) return;
     try {
@@ -68,7 +69,7 @@ export default function Home() {
     }
   };
 
-  // Carrega estado salvo se NÃO estiver no modo Dev
+  // Carrega estado salvo localmente se NÃO estiver no modo Dev
   useEffect(() => {
     const isDev = process.env.NEXT_PUBLIC_DEV_MODE === "true";
     if (!isDev) {
@@ -85,16 +86,46 @@ export default function Home() {
     }
   }, []);
 
+  // Sincroniza estado salvo no Supabase via conta do Discord do usuário entre plataformas
+  useEffect(() => {
+    if (!user?.id) return;
 
-  // Botão 🔄 do Dev Mode para sortear uma nova palavra voluntariamente
-  const handleResetDevWord = () => {
+    const syncDiscordProgress = async () => {
+      try {
+        const res = await fetch(
+          `/api/leaderboard/user?userId=${encodeURIComponent(user.id)}&date=${encodeURIComponent(
+            dailyInfo.dateString
+          )}&guildId=${encodeURIComponent(guildId || "global")}`
+        );
+
+        if (res.ok) {
+          const data = await res.json();
+          if (data.entry && Array.isArray(data.entry.guesses) && data.entry.guesses.length > 0) {
+            setGuesses(data.entry.guesses);
+            setGameStatus(data.entry.gameStatus);
+            if (data.entry.gameStatus !== "IN_PROGRESS") {
+              setIsStatsOpen(true);
+            }
+          }
+        }
+      } catch (err) {
+        console.error("Erro ao sincronizar progresso do Discord:", err);
+      }
+    };
+
+    syncDiscordProgress();
+  }, [user?.id, dailyInfo.dateString, guildId]);
+
+  // Botão de Reset Dev Mode / Modo Prática
+  const handlePlayPracticeMode = () => {
     const newWordInfo = getDailyWord(undefined, true); // forceRandom = true
     setDailyInfo(newWordInfo);
     setGuesses([]);
     setCurrentGuess("");
+    setSelectedTileIndex(0);
     setGameStatus("IN_PROGRESS");
     setIsStatsOpen(false);
-    showToast("Nova palavra sorteada!");
+    showToast("Modo Prática iniciado!");
   };
 
   const letterStatuses = getLetterStatuses(guesses, dailyInfo.wordEntry.normalized);
@@ -106,26 +137,50 @@ export default function Home() {
 
   const handleChar = (char: string) => {
     if (gameStatus !== "IN_PROGRESS") return;
-    if (currentGuess.length < 5) {
-      setCurrentGuess((prev) => prev + char.toUpperCase());
+
+    const chars = Array.from({ length: 5 }, (_, i) => currentGuess[i] || "");
+    chars[selectedTileIndex] = char.toUpperCase();
+    const updatedGuess = chars.join("");
+    setCurrentGuess(updatedGuess);
+
+    // Avança para a próxima posição vazia ou para a próxima à direita
+    let nextIndex = selectedTileIndex + 1;
+    if (nextIndex < 5 && chars[nextIndex] !== "") {
+      const firstEmpty = chars.findIndex((c, idx) => idx > selectedTileIndex && c === "");
+      if (firstEmpty !== -1) {
+        nextIndex = firstEmpty;
+      }
     }
+    setSelectedTileIndex(Math.min(4, nextIndex));
   };
 
   const handleDelete = () => {
     if (gameStatus !== "IN_PROGRESS") return;
-    setCurrentGuess((prev) => prev.slice(0, -1));
+
+    const chars = Array.from({ length: 5 }, (_, i) => currentGuess[i] || "");
+    if (chars[selectedTileIndex] !== "") {
+      chars[selectedTileIndex] = "";
+      setCurrentGuess(chars.join("").trimEnd());
+    } else if (selectedTileIndex > 0) {
+      const prevIndex = selectedTileIndex - 1;
+      chars[prevIndex] = "";
+      setCurrentGuess(chars.join("").trimEnd());
+      setSelectedTileIndex(prevIndex);
+    }
   };
 
   const handleEnter = () => {
     if (gameStatus !== "IN_PROGRESS") return;
 
-    if (currentGuess.length !== 5) {
+    const fullGuess = Array.from({ length: 5 }, (_, i) => currentGuess[i] || "").join("");
+
+    if (fullGuess.length !== 5 || fullGuess.includes(" ")) {
       showToast("Letras insuficientes");
       triggerShake();
       return;
     }
 
-    const normalizedGuess = normalizeWord(currentGuess);
+    const normalizedGuess = normalizeWord(fullGuess);
 
     if (!VALID_GUESSES_SET.has(normalizedGuess)) {
       showToast("Palavra não encontrada");
@@ -136,6 +191,7 @@ export default function Home() {
     const newGuesses = [...guesses, normalizedGuess];
     setGuesses(newGuesses);
     setCurrentGuess("");
+    setSelectedTileIndex(0);
 
     const isWin = normalizedGuess === dailyInfo.wordEntry.normalized;
     const isLoss = newGuesses.length >= 6 && !isWin;
@@ -180,12 +236,16 @@ export default function Home() {
       }
 
       setTimeout(() => setIsStatsOpen(true), 1500);
-    } else if (!isDev) {
-      saveGameState({
-        dateString: dailyInfo.dateString,
-        guesses: newGuesses,
-        gameStatus: "IN_PROGRESS",
-      });
+    } else {
+      // Salva progresso intermediário em andamento no Supabase e LocalStorage
+      submitGameToLeaderboard(newGuesses, "IN_PROGRESS");
+      if (!isDev) {
+        saveGameState({
+          dateString: dailyInfo.dateString,
+          guesses: newGuesses,
+          gameStatus: "IN_PROGRESS",
+        });
+      }
     }
   };
 
@@ -197,11 +257,15 @@ export default function Home() {
         handleEnter();
       } else if (e.key === "Backspace") {
         handleDelete();
+      } else if (e.key === "ArrowLeft") {
+        setSelectedTileIndex((prev) => Math.max(0, prev - 1));
+      } else if (e.key === "ArrowRight") {
+        setSelectedTileIndex((prev) => Math.min(4, prev + 1));
       } else if (/^[a-zA-Z]$/.test(e.key)) {
         handleChar(e.key);
       }
     },
-    [currentGuess, guesses, gameStatus, isHelpOpen, isStatsOpen, isLeaderboardOpen, dailyInfo]
+    [currentGuess, selectedTileIndex, guesses, gameStatus, isHelpOpen, isStatsOpen, isLeaderboardOpen, dailyInfo]
   );
 
   useEffect(() => {
@@ -217,11 +281,11 @@ export default function Home() {
         onOpenHelp={() => setIsHelpOpen(true)}
         onOpenStats={() => setIsStatsOpen(true)}
         onOpenLeaderboard={() => setIsLeaderboardOpen(true)}
-        onResetDevWord={handleResetDevWord}
+        onResetDevWord={handlePlayPracticeMode}
       />
 
-      {/* Botão Placar destacado logo abaixo do Header */}
-      <div className="w-full flex justify-center pt-3 pb-1">
+      {/* Botões superiores */}
+      <div className="w-full flex justify-center items-center gap-2 pt-3 pb-1">
         <button
           onClick={() => setIsLeaderboardOpen(true)}
           className="flex items-center gap-2 px-4 py-1.5 bg-[#5865f2] hover:bg-[#4752c4] active:scale-95 text-white text-xs sm:text-sm font-black rounded-full shadow-md transition-all cursor-pointer"
@@ -229,6 +293,16 @@ export default function Home() {
           <Trophy size={16} className="text-[#f0b232]" />
           <span>Placar</span>
         </button>
+
+        {gameStatus !== "IN_PROGRESS" && (
+          <button
+            onClick={handlePlayPracticeMode}
+            className="flex items-center gap-2 px-4 py-1.5 bg-[#23a55a] hover:bg-[#1db954] active:scale-95 text-white text-xs sm:text-sm font-black rounded-full shadow-md transition-all cursor-pointer animate-pop"
+          >
+            <RefreshCw size={16} />
+            <span>Jogar Novamente</span>
+          </button>
+        )}
       </div>
 
       {toastMessage && (
@@ -242,6 +316,9 @@ export default function Home() {
         currentGuess={currentGuess}
         solution={dailyInfo.wordEntry.normalized}
         isShakeRow={isShakeRow}
+        selectedIndex={selectedTileIndex}
+        onSelectTile={(index) => setSelectedTileIndex(index)}
+        disabled={gameStatus !== "IN_PROGRESS"}
       />
 
       <Keyboard
@@ -261,6 +338,7 @@ export default function Home() {
         solution={dailyInfo.wordEntry.normalized}
         displaySolution={dailyInfo.wordEntry.display}
         gameStatus={gameStatus}
+        onPlayPracticeMode={handlePlayPracticeMode}
       />
 
       <LeaderboardModal
